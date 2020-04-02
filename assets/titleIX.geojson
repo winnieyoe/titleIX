@@ -1,0 +1,4961 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BROWN UNIVERSITY",
+        "id": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4025,
+          41.8268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CORNELL UNIVERSITY",
+        "id": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4735,
+          42.4534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF NOTRE DAME",
+        "id": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2353,
+          41.7056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF ALABAMA AT BIRMINGHAM",
+        "id": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8064,
+          33.502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VANDERBILT UNIVERSITY",
+        "id": "4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8027,
+          36.1447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "COLUMBIA UNIVERSITY",
+        "id": "5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9626,
+          40.8075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DARTMOUTH COLLEGE",
+        "id": "6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2887,
+          43.7044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NORTHEASTERN UNIVERSITY",
+        "id": "7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0892,
+          42.3398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TUSKEGEE UNIVERSITY",
+        "id": "8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.7073,
+          32.4308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EASTERN WASHINGTON UNIVERSITY",
+        "id": "9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5862,
+          47.491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF MICHIGAN-ANN ARBOR",
+        "id": "10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7382,
+          42.278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MICHIGAN STATE UNIVERSITY",
+        "id": "11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4822,
+          42.7018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AMERICAN UNIVERSITY",
+        "id": "12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0888,
+          38.9375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF WISCONSIN-MADISON",
+        "id": "13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4125,
+          43.0766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF VIRGINIA-MAIN CAMPUS",
+        "id": "14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.508,
+          38.0336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF TEXAS - AUSTIN",
+        "id": "15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7341,
+          30.2849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OBERLIN COLLEGE",
+        "id": "16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2211,
+          41.2959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "COLLEGE OF WOOSTER",
+        "id": "17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9373,
+          40.8114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SUNY COLLEGE AT POTSDAM",
+        "id": "18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9761,
+          44.6643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SUNY AT ALBANY UNIVERSITY",
+        "id": "19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8248,
+          42.685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF MARYLAND-COLLEGE PARK",
+        "id": "20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9426,
+          38.9869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF MASSACHUSETTS-AMHERST",
+        "id": "21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5301,
+          42.3868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF ILLINOIS AT CHICAGO",
+        "id": "22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6496,
+          41.8698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF MIAMI",
+        "id": "23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2746,
+          25.7179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF FLORIDA",
+        "id": "24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3549,
+          29.6436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "COLLEGE OF WILLIAM AND MARY",
+        "id": "25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.7137,
+          37.2727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TEXAS TECH UNIVERSITY",
+        "id": "26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.8783,
+          33.5843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF TENNESSEE",
+        "id": "27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9295,
+          35.9544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RHODES COLLEGE",
+        "id": "28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.989,
+          35.1557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SAN JUAN BAUTISTA SCHOOL OF MEDICINE",
+        "id": "29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0511,
+          18.2198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FORTIS COLLEGE- CUYAHOGA FALLS",
+        "id": "30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4706,
+          41.1437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SKIDMORE COLLEGE",
+        "id": "31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7857,
+          43.0957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ITHACA COLLEGE",
+        "id": "32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4986,
+          42.4217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "STONEHILL COLLEGE",
+        "id": "33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0806,
+          42.059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF IDAHO",
+        "id": "34"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0126,
+          46.7288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MERCER UNIVERSITY",
+        "id": "35"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6498,
+          32.8288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ATLANTA TECHNICAL COLLEGE",
+        "id": "36"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4043,
+          33.712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF CENTRAL FLORIDA",
+        "id": "37"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2001,
+          28.6024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FLORIDA STATE UNIVERSITY",
+        "id": "38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2985,
+          30.4419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+        "id": "39"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2851,
+          34.0224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF CALIFORNIA-DAVIS",
+        "id": "40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7617,
+          38.5382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MARSHALL UNIVERSITY",
+        "id": "41"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4264,
+          38.4235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WHITWORTH UNIVERSITY",
+        "id": "42"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4179,
+          47.7549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WESTERN WASHINGTON UNIVERSITY",
+        "id": "43"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4866,
+          48.7343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GRAYS HARBOR COLLEGE",
+        "id": "44"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.8036,
+          46.9544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RANDOLPH COLLEGE",
+        "id": "45"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.172,
+          37.4372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GEORGE MASON UNIVERSITY",
+        "id": "46"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3074,
+          38.8298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF UTAH",
+        "id": "47"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8421,
+          40.7649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF NORTH TEXAS - DENTON",
+        "id": "48"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1526,
+          33.2075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SOUTHWESTERN UNIVERSITY",
+        "id": "49"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6626,
+          30.6367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BAYLOR UNIVERSITY",
+        "id": "50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1211,
+          31.5469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF TENNESSEE @ CHATTANOOGA",
+        "id": "51"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2953,
+          35.0459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SOUTHWEST TENNESSEE COMMUNITY COLLEGE",
+        "id": "52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0368,
+          35.1381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LINCOLN MEMORIAL UNIVERSITY",
+        "id": "53"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6608,
+          36.577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SWARTHMORE COLLEGE",
+        "id": "54"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3536,
+          39.9053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PENNSYLVANIA STATE UNIVERSITY",
+        "id": "55"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.8599,
+          40.7982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OKLAHOMA STATE UNIVERSITY",
+        "id": "56"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0737,
+          36.127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "THE OHIO STATE UNIVERSITY-MAIN CAMPUS",
+        "id": "57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0306,
+          40.0068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PONTIFICAL COLLEGE JOSEPHINUM",
+        "id": "58"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0185,
+          40.1201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MIAMI UNIVERSITY-OXFORD",
+        "id": "59"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7309,
+          39.5105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BOWLING GREEN STATE UNIVERSITY-MAIN CAMPUS",
+        "id": "60"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6301,
+          41.3798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF ROCHESTER",
+        "id": "61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.626,
+          43.1306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SUNY AT STONY BROOK UNIVERSITY",
+        "id": "62"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1234,
+          40.9124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ST. JOHN'S UNIVERSITY",
+        "id": "63"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7942,
+          40.7221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ROCHESTER INSTITUTE OF TECHNOLOGY",
+        "id": "64"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6749,
+          43.0845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RENSSELAER POLYTECHNIC INSTITUTE",
+        "id": "65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6789,
+          42.7298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PACE UNIVERSITY-NEW YORK",
+        "id": "66"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0048,
+          40.7111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NEW YORK UNIVERSITY SCHOOL OF MEDICINE",
+        "id": "67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9741,
+          40.7423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NEW YORK UNIVERSITY",
+        "id": "68"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9965,
+          40.7295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HAMILTON COLLEGE",
+        "id": "69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.406,
+          43.0528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CANISIUS COLLEGE",
+        "id": "70"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8515,
+          42.9248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NEW MEXICO INSTITUTE OF MINING AND TECHNOLOGY",
+        "id": "71"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.9056,
+          34.066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PRINCETON UNIVERSITY",
+        "id": "72"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.6551,
+          40.3431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "JOE KUBERT SCHOOL OF CARTOON AND GRAPHIC ART",
+        "id": "73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.5528,
+          40.8878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GUILFORD COLLEGE",
+        "id": "74"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8888,
+          36.0898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MISSOURI BAPTIST UNIVERSITY",
+        "id": "75"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.4638,
+          36.6422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "COLLEGE OF ST. SCHOLASTICA",
+        "id": "76"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1064,
+          46.8163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WAYNE STATE UNIVERSITY",
+        "id": "77"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0665,
+          42.3591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OAKLAND COMMUNITY COLLEGE",
+        "id": "78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1454,
+          42.484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF MAINE AT FORT KENT",
+        "id": "79"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5893,
+          47.2504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ST. MARY'S COLLEGE OF MARYLAND",
+        "id": "80"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.429,
+          38.1909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MORGAN STATE UNIVERSITY",
+        "id": "81"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5844,
+          39.3438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "JOHNS HOPKINS UNIVERSITY",
+        "id": "82"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6205,
+          39.3299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WESTERN NEW ENGLAND UNIVERSITY",
+        "id": "83"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5187,
+          42.115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TUFTS UNIVERSITY",
+        "id": "84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119,
+          42.4075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HARVARD COLLEGE",
+        "id": "85"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1167,
+          42.377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AMHERST COLLEGE",
+        "id": "86"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.517,
+          42.3709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF LOUISIANA AT MONROE",
+        "id": "87"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0732,
+          32.5267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SOUTHERN UNIVERSITY AND A & M COLLEGE",
+        "id": "88"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1929,
+          30.5265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LOYOLA UNIVERSITY NEW ORLEANS - SCHOOL OF LAW",
+        "id": "89"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1283,
+          29.937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CENTRE COLLEGE",
+        "id": "90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7815,
+          37.6457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KANSAS STATE UNIVERSITY",
+        "id": "91"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5847,
+          39.1974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF ILLINOIS AT URBANA-CHAMPAIGN",
+        "id": "92"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2272,
+          40.102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "COLLEGE OF IDAHO",
+        "id": "93"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.6768,
+          43.6537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "INTERDENOMINATIONAL THEOLOGICAL CENTER",
+        "id": "94"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4088,
+          33.7546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "COLUMBUS STATE UNIVERSITY",
+        "id": "95"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9404,
+          32.5026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "COLLEGE OF COASTAL GEORGIA",
+        "id": "96"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4868,
+          31.1833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CLARK ATLANTA UNIVERSITY",
+        "id": "97"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4112,
+          33.7516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF SOUTH FLORIDA",
+        "id": "98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4139,
+          28.0587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FULL SAIL UNIVERSITY",
+        "id": "99"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3013,
+          28.5966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF DENVER",
+        "id": "100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9619,
+          39.6766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "COLORADO STATE UNIVERSITY",
+        "id": "101"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0865,
+          40.5734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF CALIFORNIA-LOS ANGELES",
+        "id": "102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4452,
+          34.0689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AMERICAN BEAUTY COLLEGE",
+        "id": "103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9369,
+          34.0694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF ARKANSAS MAIN CAMPUS",
+        "id": "104"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1748,
+          36.0687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF WYOMING",
+        "id": "105"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.5666,
+          41.3149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "THE UNIVERSITY OF VERMONT",
+        "id": "106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1965,
+          44.4779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LONGWOOD UNIVERSITY",
+        "id": "107"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.3962,
+          37.2972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HAMPTON UNIVERSITY",
+        "id": "108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3344,
+          37.0228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "THE UNIVERSITY OF TEXAS AT TYLER",
+        "id": "109"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2542,
+          32.3157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TEXAS HIGHER ED COORD BOARD",
+        "id": "110"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2964,
+          29.1416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OUR LADY OF THE LAKE UNIVERSITY - SAN ANTONIO",
+        "id": "111"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5434,
+          29.4264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HOUSTON COMMUNITY COLLEGE SYSTEM",
+        "id": "112"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2558,
+          29.7816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HILL COLLEGE- GLEN ROSE",
+        "id": "113"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7463,
+          34.2407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TUSCULUM COLLEGE",
+        "id": "114"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7609,
+          36.1724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TENNESSEE STATE UNIVERSITY",
+        "id": "115"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8276,
+          36.1668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EAST TENNESSEE STATE UNIVERSITY",
+        "id": "116"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3699,
+          36.3024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF SOUTH CAROLINA AT COLUMBIA",
+        "id": "117"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0299,
+          33.9938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VALLEY FORGE MILITARY COLLEGE",
+        "id": "118"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3821,
+          40.0534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF PITTSBURGH",
+        "id": "119"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9608,
+          40.4444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF PENNSYLVANIA",
+        "id": "120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1932,
+          39.9522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PITC INSTITUTE",
+        "id": "121"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.9287,
+          32.5333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CARNEGIE MELLON UNIVERSITY",
+        "id": "122"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.943,
+          40.4427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PORTLAND STATE UNIVERSITY",
+        "id": "123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6834,
+          45.5111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PORTLAND CC",
+        "id": "124"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.731,
+          45.4384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OREGON STATE UNIVERSITY",
+        "id": "125"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2794,
+          44.5638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NORTHWEST CHRISTIAN UNIVERSITY",
+        "id": "126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0798,
+          44.0474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NORTHEASTERN STATE UNIVERSITY",
+        "id": "127"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.9659,
+          35.921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MARIETTA COLLEGE",
+        "id": "128"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4499,
+          39.4167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KENT STATE UNIVERSITY",
+        "id": "129"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3393,
+          41.1456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CLEVELAND STATE UNIVERSITY",
+        "id": "130"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6746,
+          41.5025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TOURO COLLEGE",
+        "id": "131"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0121,
+          40.7069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SUNY UNIVERSITY AT BUFFALO ",
+        "id": "132"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.789,
+          43.0008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SUNY AT CANTON",
+        "id": "133"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1835,
+          44.6024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SARAH LAWRENCE COLLEGE",
+        "id": "134"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8436,
+          40.9346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "D' YOUVILLE COLLEGE",
+        "id": "135"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8909,
+          42.9027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CUNY YORK COLLEGE",
+        "id": "136"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7961,
+          40.701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CUNY SCHOOL OF LAW",
+        "id": "137"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0563,
+          35.144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CUNY LEHMAN COLLEGE",
+        "id": "138"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8963,
+          40.8714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CUNY HUNTER COLLEGE",
+        "id": "139"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9645,
+          40.7678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF NV-LAS VEGAS",
+        "id": "140"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1432,
+          36.1085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF NEW MEXICO-MAIN CAMPUS",
+        "id": "141"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.6198,
+          35.0843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MIDDLESEX COUNTY COLLEGE",
+        "id": "142"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.3667,
+          40.5048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF NEW HAMPSHIRE-MAIN CAMPUS",
+        "id": "143"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.937,
+          43.1389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SOUTHEAST COMMUNITY COLLEGE",
+        "id": "144"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6015,
+          40.8159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "QUEENS UNIVERSITY OF CHARLOTTE",
+        "id": "145"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.833,
+          35.1888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GUILFORD TECHNICAL COMMUNITY COLLEGE",
+        "id": "146"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9167,
+          35.9993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FAYETTEVILLE STATE UNIVERSITY",
+        "id": "147"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8925,
+          35.0742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DUKE UNIVERSITY",
+        "id": "148"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9382,
+          36.0014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DAVIDSON COUNTY COMMUNITY COLLEGE",
+        "id": "149"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1805,
+          35.867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BARTON COLLEGE",
+        "id": "150"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.9188,
+          35.7342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MONTANA STATE UNIVERSITY-BOZEMAN",
+        "id": "151"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.0546,
+          45.6674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WEBSTER UNIVERSITY",
+        "id": "152"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3438,
+          38.5893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF MISSOURI-ST. LOUIS",
+        "id": "153"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3083,
+          38.7092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SAINT LOUIS UNIVERSITY",
+        "id": "154"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2341,
+          38.6347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MARYVILLE UNIVERSITY-SAINT LOUIS",
+        "id": "155"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5046,
+          38.6449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF ST THOMAS",
+        "id": "156"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1897,
+          44.9431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF MINNESOTA-TWIN CITIES",
+        "id": "157"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2277,
+          44.974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF DETROIT MERCY",
+        "id": "158"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.138,
+          42.4142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "JACKSON COLLEGE",
+        "id": "159"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4049,
+          42.1638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ALMA COLLEGE",
+        "id": "160"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6728,
+          43.3808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ADRIAN COLLEGE",
+        "id": "161"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0372,
+          41.8975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MONTGOMERY COLLEGE",
+        "id": "162"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4643,
+          30.2081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WILLIAMS COLLEGE",
+        "id": "163"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2031,
+          42.7129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+        "id": "164"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0942,
+          42.3601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MASSACHUSETTS COLLEGE OF ART & DESIGN",
+        "id": "165"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1853,
+          30.4118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HARVARD UNIVERSITY",
+        "id": "166"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1167,
+          42.377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EMERSON COLLEGE",
+        "id": "167"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0656,
+          42.3522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BRANDEIS UNIVERSITY",
+        "id": "168"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2585,
+          42.3657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BOSTON UNIVERSITY",
+        "id": "169"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1054,
+          42.3505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BARD COLLEGE AT SIMON'S ROCK",
+        "id": "170"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3255,
+          30.5697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BABSON COLLEGE",
+        "id": "171"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2657,
+          42.2964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF LOUISIANA AT LAFAYETTE",
+        "id": "172"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0204,
+          30.2114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WASHBURN UNIVERSITY",
+        "id": "173"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7016,
+          39.0334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF KANSAS",
+        "id": "174"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2558,
+          38.9543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "INDIANA UNIVERSITY-PURDUE UNIVERSITY-FORT WAYNE",
+        "id": "175"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1078,
+          41.1173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NORTHWESTERN UNIVERSITY",
+        "id": "176"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4396,
+          29.7215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KNOX COLLEGE",
+        "id": "177"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3704,
+          40.9433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF IOWA",
+        "id": "178"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.5549,
+          41.6627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "IOWA STATE UNIVERSITY",
+        "id": "179"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6465,
+          42.0266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DRAKE UNIVERSITY",
+        "id": "180"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6547,
+          41.6013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OGLETHORPE UNIVERSITY",
+        "id": "181"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3347,
+          33.8762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "STETSON UNIVERSITY",
+        "id": "182"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3032,
+          29.035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GULF COAST STATE COLLEGE",
+        "id": "183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.7288,
+          30.1853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "YALE UNIVERSITY",
+        "id": "184"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9223,
+          41.3163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "QUINNIPIAC UNIVERSITY",
+        "id": "185"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8936,
+          41.4189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "STANFORD UNIVERSITY",
+        "id": "186"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1697,
+          37.4275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SONOMA STATE UNIVERSITY",
+        "id": "187"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6744,
+          38.3396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SANTA CLARA UNIVERSITY",
+        "id": "188"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.939,
+          37.3496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DONGGUK UNIVERSITY LOS ANGELES",
+        "id": "189"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.4993,
+          31.7681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CALIFORNIA STATE UNIVERSITY-SAN MARCOS",
+        "id": "190"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1596,
+          33.1295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF ALABAMA",
+        "id": "191"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.5391,
+          33.214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ALABAMA A & M UNIVERSITY",
+        "id": "192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5686,
+          34.7827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "JAMES RUMSEY TECHNICAL INSTITUTE",
+        "id": "193"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.9796,
+          39.5329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BETHANY COLLEGE",
+        "id": "194"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5598,
+          40.2061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF WISCONSIN-STOUT",
+        "id": "195"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.9267,
+          44.8716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF WISCONSIN-LA CROSSE",
+        "id": "196"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.2312,
+          43.8174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LAWRENCE UNIVERSITY",
+        "id": "197"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3989,
+          44.2612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WHITMAN COLLEGE",
+        "id": "198"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3306,
+          46.0706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WASHINGTON STATE UNIVERSITY",
+        "id": "199"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1542,
+          46.7319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EDMONDS CC",
+        "id": "200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3272,
+          47.8167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF THE VIRGIN ISLANDS",
+        "id": "201"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9729,
+          18.3433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VIRGINIA COMMONWEALTH UNIVERSITY",
+        "id": "202"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.4527,
+          37.5483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF MARY WASHINGTON",
+        "id": "203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.4745,
+          38.3013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LIBERTY UNIVERSITY",
+        "id": "204"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.177,
+          37.353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BLUEFIELD COLLEGE",
+        "id": "205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2463,
+          37.2445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TRINITY UNIVERSITY",
+        "id": "206"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4833,
+          29.4618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "THE UNIVERSITY OF TEXAS SYSTEM OFFICE",
+        "id": "207"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.23996,
+          32.3142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "THE UNIVERSITY OF TEXAS HEALTH SCIENCE CENTER",
+        "id": "208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4032,
+          29.7032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "THE UNIVERSITY OF TEXAS AT SAN ANTONIO",
+        "id": "209"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6189,
+          29.5827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "THE UNIVERSITY OF TEXAS AT ARLINGTON",
+        "id": "210"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1121,
+          32.7291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TEXAS A AND M UNIVERSITY - MAIN CAMPUS",
+        "id": "211"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3365,
+          30.6188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RICE UNIVERSITY",
+        "id": "212"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4018,
+          29.7174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PALO ALTO COLLEGE",
+        "id": "213"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.543,
+          29.324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DEL MAR COLLEGE",
+        "id": "214"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4076,
+          27.7636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MOTLOW STATE COMMUNITY COLLEGE",
+        "id": "215"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5158,
+          35.1629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MIDDLE TENNESSEE STATE UNIVERSITY",
+        "id": "216"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3649,
+          35.8486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MEHARRY MEDICAL COLLEGE",
+        "id": "217"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8083,
+          36.1638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MARYVILLE COLLEGE",
+        "id": "218"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9642,
+          35.7514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LANE COLLEGE",
+        "id": "219"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8061,
+          35.6278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DAKOTA STATE UNIVERSITY",
+        "id": "220"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1109,
+          44.0126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WOFFORD COLLEGE",
+        "id": "221"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9345,
+          34.9581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WINTHROP UNIVERSITY",
+        "id": "222"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0321,
+          34.9395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FRANCIS MARION UNIVERSITY",
+        "id": "223"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.652,
+          34.1904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF RHODE ISLAND",
+        "id": "224"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5309,
+          41.4861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RHODE ISLAND SCHOOL OF DESIGN",
+        "id": "225"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4077,
+          41.8259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NEW ENGLAND INSTITUTE OF TECHNOLOGY",
+        "id": "226"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4448,
+          41.7152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSIDAD DE PUERTO RICO",
+        "id": "227"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0404,
+          18.3895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "URSINUS COLLEGE",
+        "id": "228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4559,
+          40.1915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MUHLENBERG COLLEGE",
+        "id": "229"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5101,
+          40.5975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LINCOLN UNIVERSITY",
+        "id": "230"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.9282,
+          39.8071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KINGS COLLEGE",
+        "id": "231"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.116,
+          51.5115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FRANKLIN AND MARSHALL COLLEGE",
+        "id": "232"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3199,
+          40.0487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EAST STROUDSBURG UNIVERSITY OF PENNSYLVANIA",
+        "id": "233"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1725,
+          40.9971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CLARION UNIVERSITY OF PENNSYLVANIA",
+        "id": "234"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3786,
+          41.2089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ALLEGHENY COLLEGE",
+        "id": "235"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1455,
+          41.6485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REED COLLEGE",
+        "id": "236"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6308,
+          45.4811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LEWIS & CLARK COLLEGE",
+        "id": "237"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6704,
+          45.4492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TULSA COMMUNITY COLLEGE",
+        "id": "238"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9378,
+          36.1935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OKLAHOMA PANHANDLE STATE UNIVERSITY",
+        "id": "239"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.64,
+          36.5932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LANGSTON UNIVERSITY",
+        "id": "240"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2629,
+          35.946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WRIGHT STATE UNIVERSITY-MAIN CAMPUS",
+        "id": "241"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0583,
+          39.7846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF TOLEDO",
+        "id": "242"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6142,
+          41.6579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF CINCINNATI-MAIN CAMPUS",
+        "id": "243"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.515,
+          39.1329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF AKRON",
+        "id": "244"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5114,
+          41.077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "THE CHRIST COLLEGE OF NURSING",
+        "id": "245"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5104,
+          39.1215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OHIO WESLEYAN UNIVERSITY",
+        "id": "246"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.067,
+          40.2966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HONDROS COLLEGE OF NURSING - TOLEDO/MAUMEE",
+        "id": "247"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6842,
+          41.5852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GODS BIBLE SCHOOL AND COLLEGE",
+        "id": "248"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5056,
+          39.1157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DENISON UNIVERSITY",
+        "id": "249"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5229,
+          40.0734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNION COLLEGE",
+        "id": "250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9296,
+          42.8177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TOURO COLLEGE OF OSTEOPATHIC MEDICINE",
+        "id": "251"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.8089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "THE NEW SCHOOL UNIVERSITY",
+        "id": "252"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9935,
+          40.7356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "THE NEW SCHOOL- PARSONS SCHOOL OF DESIGN",
+        "id": "253"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9945,
+          40.7351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SUNY MONROE COMMUNITY COLLEGE",
+        "id": "254"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6143,
+          43.1005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SUNY COLLEGE AT PLATTSBURGH",
+        "id": "255"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4669,
+          44.6926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SUNY COLLEGE AT BROCKPORT",
+        "id": "256"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.9507,
+          43.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SUNY BROOME COMMUNITY COLLEGE",
+        "id": "257"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.9089,
+          42.1349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SUNY AT DELHI",
+        "id": "258"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9245,
+          42.2707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ST LAWRENCE UNIVERSITY",
+        "id": "259"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1609,
+          44.5892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ROCKEFELLER UNIVERSITY",
+        "id": "260"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9557,
+          40.7625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "POLYTECHNIC INSTITUTE OF NEW YORK UNIVERSITY",
+        "id": "261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9866,
+          40.6942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NEW YORK COLLEGE OF HEALTH PROFESSIONS",
+        "id": "262"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9803,
+          40.7555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MARIST COLLEGE",
+        "id": "263"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9327,
+          41.7225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CUNY GRADUATE CENTER",
+        "id": "264"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984,
+          40.7486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BARNARD COLLEGE",
+        "id": "265"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9638,
+          40.809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BARD COLLEGE",
+        "id": "266"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9101,
+          42.0204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF NV-RENO",
+        "id": "267"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8164,
+          39.5442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NEW MEXICO MILITARY INSTITUTE",
+        "id": "268"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.525,
+          33.4092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "STOCKTON UNIVERSITY",
+        "id": "269"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.531,
+          39.492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SETON HALL UNIVERSITY",
+        "id": "270"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2465,
+          40.7434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MONMOUTH UNIVERSITY",
+        "id": "271"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0054,
+          40.2803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FRANKLIN PIERCE UNIVERSITY",
+        "id": "272"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0555,
+          42.779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CREIGHTON UNIVERSITY",
+        "id": "273"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9464,
+          41.2656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF NORTH CAROLINA-WILMINGTON",
+        "id": "274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.8696,
+          34.2239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF NORTH CAROLINA AT CHARLOTTE",
+        "id": "275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7324,
+          35.3036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF NORTH CAROLINA AT CHAPEL HILL",
+        "id": "276"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0469,
+          35.9049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METHODIST UNIVERSITY",
+        "id": "277"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8683,
+          35.1315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
+        "id": "278"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3335,
+          31.3299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WASHINGTON UNIVERSITY IN ST. LOUIS",
+        "id": "279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3108,
+          38.6488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NORTHWEST MISSOURI STATE UNIVERSITY",
+        "id": "280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8825,
+          40.352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MISSOURI UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+        "id": "281"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.7756,
+          37.9537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MISSOURI STATE UNIVERSITY",
+        "id": "282"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2807,
+          37.2006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METROPOLITAN COMMUNITY COLLEGE",
+        "id": "283"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9128,
+          41.309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HARRIS-STOWE STATE UNIVERSITY",
+        "id": "284"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2249,
+          38.6319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF MINNESOTA-DULUTH",
+        "id": "285"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0843,
+          46.8188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SAINT OLAF COLLEGE",
+        "id": "286"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1827,
+          44.4617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SAINT CLOUD STATE UNIVERSITY",
+        "id": "287"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1515,
+          45.5512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DAKOTA COUNTY TECHNICAL COLLEGE",
+        "id": "288"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0793,
+          44.7372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SPRING ARBOR UNIVERSITY",
+        "id": "289"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5563,
+          42.2079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SCHOOLCRAFT COLLEGE",
+        "id": "290"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4317,
+          42.4207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SAGINAW VALLEY STATE UNIVERSITY",
+        "id": "291"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9624,
+          43.5143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LAWRENCE TECHNOLOGICAL UNIVERSITY",
+        "id": "292"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2498,
+          42.4755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KETTERING UNIVERSITY",
+        "id": "293"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7129,
+          43.012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KELLOGG COMMUNITY COLLEGE",
+        "id": "294"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1777,
+          42.3349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HENRY FORD COLLEGE",
+        "id": "295"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2375,
+          42.3242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GRAND VALLEY STATE UNIVERSITY",
+        "id": "296"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.889,
+          42.9641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ANDREWS UNIVERSITY",
+        "id": "297"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7943,
+          56.3417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF NEW ENGLAND",
+        "id": "298"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.3865,
+          43.4583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SOUTHERN MAINE COMMUNITY COLLEGE",
+        "id": "299"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.2291,
+          43.647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SAINT JOSEPH'S COLLEGE",
+        "id": "300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.4829,
+          43.8267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF MARYLAND-BALTIMORE COUNTY",
+        "id": "301"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.711,
+          39.2557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF MARYLAND GLOBAL CAMPUS",
+        "id": "302"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8476,
+          38.9126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MOUNT SAINT MARY'S UNIVERSITY",
+        "id": "303"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3487,
+          39.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MCDANIEL COLLEGE",
+        "id": "304"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0023,
+          39.5819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BOWIE STATE UNIVERSITY",
+        "id": "305"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.7594,
+          39.0193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WORCESTER POLYTECHNIC INSTITUTE",
+        "id": "306"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8081,
+          42.2743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF MASSACHUSETTS-DARTMOUTH",
+        "id": "307"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0046,
+          41.6282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LESLEY UNIVERSITY",
+        "id": "308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1174,
+          42.3802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BOSTON COLLEGE",
+        "id": "309"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1685,
+          42.3355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TULANE UNIVERSITY OF LOUISIANA",
+        "id": "310"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1203,
+          29.9407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NORTHWESTERN STATE UNIVERSITY OF LOUISIANA",
+        "id": "311"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0975,
+          31.7504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LOYOLA UNIVERSITY NEW ORLEANS",
+        "id": "312"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.121,
+          29.9347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DELTA COLLEGE",
+        "id": "313"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9859,
+          43.5579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WESTERN KENTUCKY UNIVERSITY",
+        "id": "314"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4574,
+          36.9835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF KENTUCKY",
+        "id": "315"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.504,
+          38.0307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KANSAS CITY KANSAS COMMUNITY COLLEGE",
+        "id": "316"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.7485,
+          39.1222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF INDIANAPOLIS",
+        "id": "317"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1344,
+          39.7096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "INDIANA UNIVERSITY-BLOOMINGTON",
+        "id": "318"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5126,
+          39.1754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BALL STATE UNIVERSITY",
+        "id": "319"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4063,
+          40.205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ILLINOIS INSTITUTE OF TECHNOLOGY",
+        "id": "320"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.627,
+          41.8349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SPELMAN COLLEGE",
+        "id": "321"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4121,
+          33.7464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MOREHOUSE COLLEGE",
+        "id": "322"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4155,
+          33.7473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LIFE UNIVERSITY",
+        "id": "323"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5166,
+          33.932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GEORGIA STATE UNIVERSITY",
+        "id": "324"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3853,
+          33.7531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GEORGIA SOUTHERN UNIVERSITY",
+        "id": "325"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7865,
+          32.4205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GEORGIA INSTITUTE OF TECHNOLOGY-MAIN CAMPUS",
+        "id": "326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3963,
+          33.7756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GEORGIA COLLEGE AND STATE UNIVERSITY",
+        "id": "327"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2319,
+          33.0804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "COVENANT COLLEGE",
+        "id": "328"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3749,
+          34.9655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AUGUSTA TECHNICAL COLLEGE",
+        "id": "329"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0464,
+          33.4139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VALENCIA COLLEGE",
+        "id": "330"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4636,
+          28.5218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF WEST FLORIDA",
+        "id": "331"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.2186,
+          30.5491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HILLSBOROUGH COMMUNITY COLLEGE",
+        "id": "332"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1032,
+          28.0269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FLORIDA INSTITUTE OF TECHNOLOGY-MELBOURNE",
+        "id": "333"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6231,
+          28.0646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY",
+        "id": "334"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2851,
+          30.4269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FLAGLER TECHNICAL INSTITUTE",
+        "id": "335"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2098,
+          29.4787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FLAGLER COLLEGE",
+        "id": "336"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3149,
+          29.8927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AMERICAN MEDICAL ACADEMY",
+        "id": "337"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.3934,
+          25.6627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GEORGETOWN UNIVERSITY",
+        "id": "338"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0723,
+          38.9076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WESTERN CONNECTICUT STATE UNIV",
+        "id": "339"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4462,
+          41.4003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WESLEYAN UNIVERSITY",
+        "id": "340"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6569,
+          41.5566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF SAN DIEGO",
+        "id": "341"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1882,
+          32.7719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF CALIFORNIA-SANTA CRUZ",
+        "id": "342"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0582,
+          36.9881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF CALIFORNIA-SAN DIEGO",
+        "id": "343"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.234,
+          32.8801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF CALIFORNIA-BERKELEY",
+        "id": "344"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2585,
+          37.8719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SAN JOSE STATE UNIVERSITY",
+        "id": "345"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8811,
+          37.3352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MENLO COLLEGE",
+        "id": "346"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1921,
+          37.4561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LOYOLA MARYMOUNT UNIVERSITY",
+        "id": "347"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4166,
+          33.9702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HUMBOLDT STATE UNIVERSITY",
+        "id": "348"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.0789,
+          40.8747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CALIFORNIA STATE UNIVERSITY - MARITIME ACADEMY",
+        "id": "349"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2303,
+          38.0692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF ARKANSAS AT LITTLE ROCK",
+        "id": "350"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.3389,
+          34.7241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF SOUTH ALABAMA",
+        "id": "351"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1842,
+          30.6959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AUBURN UNIVERSITY MAIN CAMPUS",
+        "id": "352"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4952,
+          32.5934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSITY OF ALASKA - FAIRBANKS",
+        "id": "353"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8335,
+          64.8558
+        ]
+      }
+    }
+  ]
+}

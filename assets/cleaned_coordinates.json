@@ -1,0 +1,2834 @@
+{
+  "0": {
+    "name": "BROWN UNIVERSITY",
+    "coordinate": "41.8268° N, 71.4025° W",
+    "dd": [
+      -71.4025,
+      41.8268
+    ]
+  },
+  "1": {
+    "name": "CORNELL UNIVERSITY",
+    "coordinate": "42.4534° N, 76.4735° W",
+    "dd": [
+      -76.4735,
+      42.4534
+    ]
+  },
+  "2": {
+    "name": "UNIVERSITY OF NOTRE DAME",
+    "coordinate": "41.7056° N, 86.2353° W",
+    "dd": [
+      -86.2353,
+      41.7056
+    ]
+  },
+  "3": {
+    "name": "UNIVERSITY OF ALABAMA AT BIRMINGHAM",
+    "coordinate": "33.5020° N, 86.8064° W",
+    "dd": [
+      -86.8064,
+      33.502
+    ]
+  },
+  "4": {
+    "name": "VANDERBILT UNIVERSITY",
+    "coordinate": "36.1447° N, 86.8027° W",
+    "dd": [
+      -86.8027,
+      36.1447
+    ]
+  },
+  "5": {
+    "name": "COLUMBIA UNIVERSITY",
+    "coordinate": "40.8075° N, 73.9626° W",
+    "dd": [
+      -73.9626,
+      40.8075
+    ]
+  },
+  "6": {
+    "name": "DARTMOUTH COLLEGE",
+    "coordinate": "43.7044° N, 72.2887° W",
+    "dd": [
+      -72.2887,
+      43.7044
+    ]
+  },
+  "7": {
+    "name": "NORTHEASTERN UNIVERSITY",
+    "coordinate": "42.3398° N, 71.0892° W",
+    "dd": [
+      -71.0892,
+      42.3398
+    ]
+  },
+  "8": {
+    "name": "TUSKEGEE UNIVERSITY",
+    "coordinate": "32.4308° N, 85.7073° W",
+    "dd": [
+      -85.7073,
+      32.4308
+    ]
+  },
+  "9": {
+    "name": "EASTERN WASHINGTON UNIVERSITY",
+    "coordinate": "47.4910° N, 117.5862° W",
+    "dd": [
+      -117.5862,
+      47.491
+    ]
+  },
+  "10": {
+    "name": "UNIVERSITY OF MICHIGAN-ANN ARBOR",
+    "coordinate": "42.2780° N, 83.7382° W",
+    "dd": [
+      -83.7382,
+      42.278
+    ]
+  },
+  "11": {
+    "name": "MICHIGAN STATE UNIVERSITY",
+    "coordinate": "42.7018° N, 84.4822° W",
+    "dd": [
+      -84.4822,
+      42.7018
+    ]
+  },
+  "12": {
+    "name": "AMERICAN UNIVERSITY",
+    "coordinate": "38.9375° N, 77.0888° W",
+    "dd": [
+      -77.0888,
+      38.9375
+    ]
+  },
+  "13": {
+    "name": "UNIVERSITY OF WISCONSIN-MADISON",
+    "coordinate": "43.0766° N, 89.4125° W",
+    "dd": [
+      -89.4125,
+      43.0766
+    ]
+  },
+  "14": {
+    "name": "UNIVERSITY OF VIRGINIA-MAIN CAMPUS",
+    "coordinate": "38.0336° N, 78.5080° W",
+    "dd": [
+      -78.508,
+      38.0336
+    ]
+  },
+  "15": {
+    "name": "UNIVERSITY OF TEXAS - AUSTIN",
+    "coordinate": "30.2849° N, 97.7341° W",
+    "dd": [
+      -97.7341,
+      30.2849
+    ]
+  },
+  "16": {
+    "name": "OBERLIN COLLEGE",
+    "coordinate": "41.2959° N, 82.2211° W",
+    "dd": [
+      -82.2211,
+      41.2959
+    ]
+  },
+  "17": {
+    "name": "COLLEGE OF WOOSTER",
+    "coordinate": "40.8114° N, 81.9373° W",
+    "dd": [
+      -81.9373,
+      40.8114
+    ]
+  },
+  "18": {
+    "name": "SUNY COLLEGE AT POTSDAM",
+    "coordinate": "44.6643° N, 74.9761° W",
+    "dd": [
+      -74.9761,
+      44.6643
+    ]
+  },
+  "19": {
+    "name": "SUNY AT ALBANY UNIVERSITY",
+    "coordinate": "42.6850° N, 73.8248° W",
+    "dd": [
+      -73.8248,
+      42.685
+    ]
+  },
+  "20": {
+    "name": "UNIVERSITY OF MARYLAND-COLLEGE PARK",
+    "coordinate": "38.9869° N, 76.9426° W",
+    "dd": [
+      -76.9426,
+      38.9869
+    ]
+  },
+  "21": {
+    "name": "UNIVERSITY OF MASSACHUSETTS-AMHERST",
+    "coordinate": "42.3868° N, 72.5301° W",
+    "dd": [
+      -72.5301,
+      42.3868
+    ]
+  },
+  "22": {
+    "name": "UNIVERSITY OF ILLINOIS AT CHICAGO",
+    "coordinate": "41.8698° N, 87.6496° W",
+    "dd": [
+      -87.6496,
+      41.8698
+    ]
+  },
+  "23": {
+    "name": "UNIVERSITY OF MIAMI",
+    "coordinate": "25.7179° N, 80.2746° W",
+    "dd": [
+      -80.2746,
+      25.7179
+    ]
+  },
+  "24": {
+    "name": "UNIVERSITY OF FLORIDA",
+    "coordinate": "29.6436° N, 82.3549° W",
+    "dd": [
+      -82.3549,
+      29.6436
+    ]
+  },
+  "25": {
+    "name": "COLLEGE OF WILLIAM AND MARY",
+    "coordinate": "37.2727° N, 76.7137° W",
+    "dd": [
+      -76.7137,
+      37.2727
+    ]
+  },
+  "26": {
+    "name": "TEXAS TECH UNIVERSITY",
+    "coordinate": "33.5843° N, 101.8783° W",
+    "dd": [
+      -101.8783,
+      33.5843
+    ]
+  },
+  "27": {
+    "name": "UNIVERSITY OF TENNESSEE",
+    "coordinate": "35.9544° N, 83.9295° W",
+    "dd": [
+      -83.9295,
+      35.9544
+    ]
+  },
+  "28": {
+    "name": "RHODES COLLEGE",
+    "coordinate": "35.1557° N, 89.9890° W",
+    "dd": [
+      -89.989,
+      35.1557
+    ]
+  },
+  "29": {
+    "name": "SAN JUAN BAUTISTA SCHOOL OF MEDICINE",
+    "coordinate": "18.2198° N, 66.0511° W",
+    "dd": [
+      -66.0511,
+      18.2198
+    ]
+  },
+  "30": {
+    "name": "FORTIS COLLEGE- CUYAHOGA FALLS",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "31": {
+    "name": "SKIDMORE COLLEGE",
+    "coordinate": "43.0957° N, 73.7857° W",
+    "dd": [
+      -73.7857,
+      43.0957
+    ]
+  },
+  "32": {
+    "name": "ITHACA COLLEGE",
+    "coordinate": "42.4217° N, 76.4986° W",
+    "dd": [
+      -76.4986,
+      42.4217
+    ]
+  },
+  "33": {
+    "name": "STONEHILL COLLEGE",
+    "coordinate": "42.0590° N, 71.0806° W",
+    "dd": [
+      -71.0806,
+      42.059
+    ]
+  },
+  "34": {
+    "name": "UNIVERSITY OF IDAHO",
+    "coordinate": "46.7288° N, 117.0126° W",
+    "dd": [
+      -117.0126,
+      46.7288
+    ]
+  },
+  "35": {
+    "name": "MERCER UNIVERSITY",
+    "coordinate": "32.8288° N, 83.6498° W",
+    "dd": [
+      -83.6498,
+      32.8288
+    ]
+  },
+  "36": {
+    "name": "ATLANTA TECHNICAL COLLEGE",
+    "coordinate": "33.7120° N, 84.4043° W",
+    "dd": [
+      -84.4043,
+      33.712
+    ]
+  },
+  "37": {
+    "name": "UNIVERSITY OF CENTRAL FLORIDA",
+    "coordinate": "28.6024° N, 81.2001° W",
+    "dd": [
+      -81.2001,
+      28.6024
+    ]
+  },
+  "38": {
+    "name": "FLORIDA STATE UNIVERSITY",
+    "coordinate": "30.4419° N, 84.2985° W",
+    "dd": [
+      -84.2985,
+      30.4419
+    ]
+  },
+  "39": {
+    "name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+    "coordinate": "34.0224° N, 118.2851° W",
+    "dd": [
+      -118.2851,
+      34.0224
+    ]
+  },
+  "40": {
+    "name": "UNIVERSITY OF CALIFORNIA-DAVIS",
+    "coordinate": "38.5382° N, 121.7617° W",
+    "dd": [
+      -121.7617,
+      38.5382
+    ]
+  },
+  "41": {
+    "name": "MARSHALL UNIVERSITY",
+    "coordinate": "38.4235° N, 82.4264° W",
+    "dd": [
+      -82.4264,
+      38.4235
+    ]
+  },
+  "42": {
+    "name": "WHITWORTH UNIVERSITY",
+    "coordinate": "47.7549° N, 117.4179° W",
+    "dd": [
+      -117.4179,
+      47.7549
+    ]
+  },
+  "43": {
+    "name": "WESTERN WASHINGTON UNIVERSITY",
+    "coordinate": "48.7343° N, 122.4866° W",
+    "dd": [
+      -122.4866,
+      48.7343
+    ]
+  },
+  "44": {
+    "name": "GRAYS HARBOR COLLEGE",
+    "coordinate": "46.9544° N, 123.8036° W",
+    "dd": [
+      -123.8036,
+      46.9544
+    ]
+  },
+  "45": {
+    "name": "RANDOLPH COLLEGE",
+    "coordinate": "37.4372° N, 79.1720° W",
+    "dd": [
+      -79.172,
+      37.4372
+    ]
+  },
+  "46": {
+    "name": "GEORGE MASON UNIVERSITY",
+    "coordinate": "38.8298° N, 77.3074° W",
+    "dd": [
+      -77.3074,
+      38.8298
+    ]
+  },
+  "47": {
+    "name": "UNIVERSITY OF UTAH",
+    "coordinate": "40.7649° N, 111.8421° W",
+    "dd": [
+      -111.8421,
+      40.7649
+    ]
+  },
+  "48": {
+    "name": "UNIVERSITY OF NORTH TEXAS - DENTON",
+    "coordinate": "33.2075° N, 97.1526° W",
+    "dd": [
+      -97.1526,
+      33.2075
+    ]
+  },
+  "49": {
+    "name": "SOUTHWESTERN UNIVERSITY",
+    "coordinate": "30.6367° N, 97.6626° W",
+    "dd": [
+      -97.6626,
+      30.6367
+    ]
+  },
+  "50": {
+    "name": "BAYLOR UNIVERSITY",
+    "coordinate": "31.5469° N, 97.1211° W",
+    "dd": [
+      -97.1211,
+      31.5469
+    ]
+  },
+  "51": {
+    "name": "UNIVERSITY OF TENNESSEE @ CHATTANOOGA",
+    "coordinate": "35.0459° N, 85.2953° W",
+    "dd": [
+      -85.2953,
+      35.0459
+    ]
+  },
+  "52": {
+    "name": "SOUTHWEST TENNESSEE COMMUNITY COLLEGE",
+    "coordinate": "35.1381° N, 90.0368° W",
+    "dd": [
+      -90.0368,
+      35.1381
+    ]
+  },
+  "53": {
+    "name": "LINCOLN MEMORIAL UNIVERSITY",
+    "coordinate": "36.5770° N, 83.6608° W",
+    "dd": [
+      -83.6608,
+      36.577
+    ]
+  },
+  "54": {
+    "name": "SWARTHMORE COLLEGE",
+    "coordinate": "39.9053° N, 75.3536° W",
+    "dd": [
+      -75.3536,
+      39.9053
+    ]
+  },
+  "55": {
+    "name": "PENNSYLVANIA STATE UNIVERSITY",
+    "coordinate": "40.7982° N, 77.8599° W",
+    "dd": [
+      -77.8599,
+      40.7982
+    ]
+  },
+  "56": {
+    "name": "OKLAHOMA STATE UNIVERSITY",
+    "coordinate": "36.1270° N, 97.0737° W",
+    "dd": [
+      -97.0737,
+      36.127
+    ]
+  },
+  "57": {
+    "name": "THE OHIO STATE UNIVERSITY-MAIN CAMPUS",
+    "coordinate": "40.0068° N, 83.0306° W",
+    "dd": [
+      -83.0306,
+      40.0068
+    ]
+  },
+  "58": {
+    "name": "PONTIFICAL COLLEGE JOSEPHINUM",
+    "coordinate": "40.1201° N, 83.0185° W",
+    "dd": [
+      -83.0185,
+      40.1201
+    ]
+  },
+  "59": {
+    "name": "MIAMI UNIVERSITY-OXFORD",
+    "coordinate": "39.5105° N, 84.7309° W",
+    "dd": [
+      -84.7309,
+      39.5105
+    ]
+  },
+  "60": {
+    "name": "BOWLING GREEN STATE UNIVERSITY-MAIN CAMPUS",
+    "coordinate": "41.3798° N, 83.6301° W",
+    "dd": [
+      -83.6301,
+      41.3798
+    ]
+  },
+  "61": {
+    "name": "UNIVERSITY OF ROCHESTER",
+    "coordinate": "43.1306° N, 77.6260° W",
+    "dd": [
+      -77.626,
+      43.1306
+    ]
+  },
+  "62": {
+    "name": "SUNY AT STONY BROOK UNIVERSITY",
+    "coordinate": "40.9124° N, 73.1234° W",
+    "dd": [
+      -73.1234,
+      40.9124
+    ]
+  },
+  "63": {
+    "name": "ST. JOHN'S UNIVERSITY",
+    "coordinate": "40.7221° N, 73.7942° W",
+    "dd": [
+      -73.7942,
+      40.7221
+    ]
+  },
+  "64": {
+    "name": "ROCHESTER INSTITUTE OF TECHNOLOGY",
+    "coordinate": "43.0845° N, 77.6749° W",
+    "dd": [
+      -77.6749,
+      43.0845
+    ]
+  },
+  "65": {
+    "name": "RENSSELAER POLYTECHNIC INSTITUTE",
+    "coordinate": "42.7298° N, 73.6789° W",
+    "dd": [
+      -73.6789,
+      42.7298
+    ]
+  },
+  "66": {
+    "name": "PACE UNIVERSITY-NEW YORK",
+    "coordinate": "40.7111° N, 74.0048° W",
+    "dd": [
+      -74.0048,
+      40.7111
+    ]
+  },
+  "67": {
+    "name": "NEW YORK UNIVERSITY SCHOOL OF MEDICINE",
+    "coordinate": "40.7423° N, 73.9741° W",
+    "dd": [
+      -73.9741,
+      40.7423
+    ]
+  },
+  "68": {
+    "name": "NEW YORK UNIVERSITY",
+    "coordinate": "40.7295° N, 73.9965° W",
+    "dd": [
+      -73.9965,
+      40.7295
+    ]
+  },
+  "69": {
+    "name": "HAMILTON COLLEGE",
+    "coordinate": "43.0528° N, 75.4060° W",
+    "dd": [
+      -75.406,
+      43.0528
+    ]
+  },
+  "70": {
+    "name": "CANISIUS COLLEGE",
+    "coordinate": "42.9248° N, 78.8515° W",
+    "dd": [
+      -78.8515,
+      42.9248
+    ]
+  },
+  "71": {
+    "name": "NEW MEXICO INSTITUTE OF MINING AND TECHNOLOGY",
+    "coordinate": "34.0660° N, 106.9056° W",
+    "dd": [
+      -106.9056,
+      34.066
+    ]
+  },
+  "72": {
+    "name": "PRINCETON UNIVERSITY",
+    "coordinate": "40.3431° N, 74.6551° W",
+    "dd": [
+      -74.6551,
+      40.3431
+    ]
+  },
+  "73": {
+    "name": "JOE KUBERT SCHOOL OF CARTOON AND GRAPHIC ART",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "74": {
+    "name": "GUILFORD COLLEGE",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "75": {
+    "name": "MISSOURI BAPTIST UNIVERSITY",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "76": {
+    "name": "COLLEGE OF ST. SCHOLASTICA",
+    "coordinate": "46.8163° N, 92.1064° W",
+    "dd": [
+      -92.1064,
+      46.8163
+    ]
+  },
+  "77": {
+    "name": "WAYNE STATE UNIVERSITY",
+    "coordinate": "42.3591° N, 83.0665° W",
+    "dd": [
+      -83.0665,
+      42.3591
+    ]
+  },
+  "78": {
+    "name": "OAKLAND COMMUNITY COLLEGE",
+    "coordinate": "",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "79": {
+    "name": "UNIVERSITY OF MAINE AT FORT KENT",
+    "coordinate": "47.2504° N, 68.5893° W",
+    "dd": [
+      -68.5893,
+      47.2504
+    ]
+  },
+  "80": {
+    "name": "ST. MARY'S COLLEGE OF MARYLAND",
+    "coordinate": "38.1909° N, 76.4290° W",
+    "dd": [
+      -76.429,
+      38.1909
+    ]
+  },
+  "81": {
+    "name": "MORGAN STATE UNIVERSITY",
+    "coordinate": "39.3438° N, 76.5844° W",
+    "dd": [
+      -76.5844,
+      39.3438
+    ]
+  },
+  "82": {
+    "name": "JOHNS HOPKINS UNIVERSITY",
+    "coordinate": "39.3299° N, 76.6205° W",
+    "dd": [
+      -76.6205,
+      39.3299
+    ]
+  },
+  "83": {
+    "name": "WESTERN NEW ENGLAND UNIVERSITY",
+    "coordinate": "42.1150° N, 72.5187° W",
+    "dd": [
+      -72.5187,
+      42.115
+    ]
+  },
+  "84": {
+    "name": "TUFTS UNIVERSITY",
+    "coordinate": "42.4075° N, 71.1190° W",
+    "dd": [
+      -71.119,
+      42.4075
+    ]
+  },
+  "85": {
+    "name": "HARVARD COLLEGE",
+    "coordinate": "42.3770° N, 71.1167° W",
+    "dd": [
+      -71.1167,
+      42.377
+    ]
+  },
+  "86": {
+    "name": "AMHERST COLLEGE",
+    "coordinate": "42.3709° N, 72.5170° W",
+    "dd": [
+      -72.517,
+      42.3709
+    ]
+  },
+  "87": {
+    "name": "UNIVERSITY OF LOUISIANA AT MONROE",
+    "coordinate": "32.5267° N, 92.0732° W",
+    "dd": [
+      -92.0732,
+      32.5267
+    ]
+  },
+  "88": {
+    "name": "SOUTHERN UNIVERSITY AND A & M COLLEGE",
+    "coordinate": "30.5265° N, 91.1929° W",
+    "dd": [
+      -91.1929,
+      30.5265
+    ]
+  },
+  "89": {
+    "name": "LOYOLA UNIVERSITY NEW ORLEANS - SCHOOL OF LAW",
+    "coordinate": "29.9370° N, 90.1283° W",
+    "dd": [
+      -90.1283,
+      29.937
+    ]
+  },
+  "90": {
+    "name": "CENTRE COLLEGE",
+    "coordinate": "37.6457° N, 84.7815° W",
+    "dd": [
+      -84.7815,
+      37.6457
+    ]
+  },
+  "91": {
+    "name": "KANSAS STATE UNIVERSITY",
+    "coordinate": "39.1974° N, 96.5847° W",
+    "dd": [
+      -96.5847,
+      39.1974
+    ]
+  },
+  "92": {
+    "name": "UNIVERSITY OF ILLINOIS AT URBANA-CHAMPAIGN",
+    "coordinate": "40.1020° N, 88.2272° W",
+    "dd": [
+      -88.2272,
+      40.102
+    ]
+  },
+  "93": {
+    "name": "COLLEGE OF IDAHO",
+    "coordinate": "43.6537° N, 116.6768° W",
+    "dd": [
+      -116.6768,
+      43.6537
+    ]
+  },
+  "94": {
+    "name": "INTERDENOMINATIONAL THEOLOGICAL CENTER",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "95": {
+    "name": "COLUMBUS STATE UNIVERSITY",
+    "coordinate": "32.5026° N, 84.9404° W",
+    "dd": [
+      -84.9404,
+      32.5026
+    ]
+  },
+  "96": {
+    "name": "COLLEGE OF COASTAL GEORGIA",
+    "coordinate": "31.1833° N, 81.4868° W",
+    "dd": [
+      -81.4868,
+      31.1833
+    ]
+  },
+  "97": {
+    "name": "CLARK ATLANTA UNIVERSITY",
+    "coordinate": "33.7516° N, 84.4112° W",
+    "dd": [
+      -84.4112,
+      33.7516
+    ]
+  },
+  "98": {
+    "name": "UNIVERSITY OF SOUTH FLORIDA",
+    "coordinate": "28.0587° N, 82.4139° W",
+    "dd": [
+      -82.4139,
+      28.0587
+    ]
+  },
+  "99": {
+    "name": "FULL SAIL UNIVERSITY",
+    "coordinate": "28.5966° N, 81.3013° W",
+    "dd": [
+      -81.3013,
+      28.5966
+    ]
+  },
+  "100": {
+    "name": "UNIVERSITY OF DENVER",
+    "coordinate": "39.6766° N, 104.9619° W",
+    "dd": [
+      -104.9619,
+      39.6766
+    ]
+  },
+  "101": {
+    "name": "COLORADO STATE UNIVERSITY",
+    "coordinate": "40.5734° N, 105.0865° W",
+    "dd": [
+      -105.0865,
+      40.5734
+    ]
+  },
+  "102": {
+    "name": "UNIVERSITY OF CALIFORNIA-LOS ANGELES",
+    "coordinate": "34.0689° N, 118.4452° W",
+    "dd": [
+      -118.4452,
+      34.0689
+    ]
+  },
+  "103": {
+    "name": "AMERICAN BEAUTY COLLEGE",
+    "coordinate": "34.0694° N, 117.9369° W",
+    "dd": [
+      -117.9369,
+      34.0694
+    ]
+  },
+  "104": {
+    "name": "UNIVERSITY OF ARKANSAS MAIN CAMPUS",
+    "coordinate": "36.0687° N, 94.1748° W",
+    "dd": [
+      -94.1748,
+      36.0687
+    ]
+  },
+  "105": {
+    "name": "UNIVERSITY OF WYOMING",
+    "coordinate": "41.3149° N, 105.5666° W",
+    "dd": [
+      -105.5666,
+      41.3149
+    ]
+  },
+  "106": {
+    "name": "THE UNIVERSITY OF VERMONT",
+    "coordinate": "44.4779° N, 73.1965° W",
+    "dd": [
+      -73.1965,
+      44.4779
+    ]
+  },
+  "107": {
+    "name": "LONGWOOD UNIVERSITY",
+    "coordinate": "37.2972° N, 78.3962° W",
+    "dd": [
+      -78.3962,
+      37.2972
+    ]
+  },
+  "108": {
+    "name": "HAMPTON UNIVERSITY",
+    "coordinate": "37.0228° N, 76.3344° W",
+    "dd": [
+      -76.3344,
+      37.0228
+    ]
+  },
+  "109": {
+    "name": "THE UNIVERSITY OF TEXAS AT TYLER",
+    "coordinate": "32.3157° N, 95.2542° W",
+    "dd": [
+      -95.2542,
+      32.3157
+    ]
+  },
+  "110": {
+    "name": "TEXAS HIGHER ED COORD BOARD",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "111": {
+    "name": "OUR LADY OF THE LAKE UNIVERSITY - SAN ANTONIO",
+    "coordinate": "29.4264° N, 98.5434° W",
+    "dd": [
+      -98.5434,
+      29.4264
+    ]
+  },
+  "112": {
+    "name": "HOUSTON COMMUNITY COLLEGE SYSTEM",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "113": {
+    "name": "HILL COLLEGE- GLEN ROSE",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "114": {
+    "name": "TUSCULUM COLLEGE",
+    "coordinate": "36.1724° N, 82.7609° W",
+    "dd": [
+      -82.7609,
+      36.1724
+    ]
+  },
+  "115": {
+    "name": "TENNESSEE STATE UNIVERSITY",
+    "coordinate": "36.1668° N, 86.8276° W",
+    "dd": [
+      -86.8276,
+      36.1668
+    ]
+  },
+  "116": {
+    "name": "EAST TENNESSEE STATE UNIVERSITY",
+    "coordinate": "36.3024° N, 82.3699° W",
+    "dd": [
+      -82.3699,
+      36.3024
+    ]
+  },
+  "117": {
+    "name": "UNIVERSITY OF SOUTH CAROLINA AT COLUMBIA",
+    "coordinate": "33.9938° N, 81.0299° W",
+    "dd": [
+      -81.0299,
+      33.9938
+    ]
+  },
+  "118": {
+    "name": "VALLEY FORGE MILITARY COLLEGE",
+    "coordinate": "40.0534° N, 75.3821° W",
+    "dd": [
+      -75.3821,
+      40.0534
+    ]
+  },
+  "119": {
+    "name": "UNIVERSITY OF PITTSBURGH",
+    "coordinate": "40.4444° N, 79.9608° W",
+    "dd": [
+      -79.9608,
+      40.4444
+    ]
+  },
+  "120": {
+    "name": "UNIVERSITY OF PENNSYLVANIA",
+    "coordinate": "39.9522° N, 75.1932° W",
+    "dd": [
+      -75.1932,
+      39.9522
+    ]
+  },
+  "121": {
+    "name": "PITC INSTITUTE",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "122": {
+    "name": "CARNEGIE MELLON UNIVERSITY",
+    "coordinate": "40.4427° N, 79.9430° W",
+    "dd": [
+      -79.943,
+      40.4427
+    ]
+  },
+  "123": {
+    "name": "PORTLAND STATE UNIVERSITY",
+    "coordinate": "45.5111° N, 122.6834° W",
+    "dd": [
+      -122.6834,
+      45.5111
+    ]
+  },
+  "124": {
+    "name": "PORTLAND CC",
+    "coordinate": "45.4384° N, 122.7310° W",
+    "dd": [
+      -122.731,
+      45.4384
+    ]
+  },
+  "125": {
+    "name": "OREGON STATE UNIVERSITY",
+    "coordinate": "44.5638° N, 123.2794° W",
+    "dd": [
+      -123.2794,
+      44.5638
+    ]
+  },
+  "126": {
+    "name": "NORTHWEST CHRISTIAN UNIVERSITY",
+    "coordinate": "44.0474° N, 123.0798° W",
+    "dd": [
+      -123.0798,
+      44.0474
+    ]
+  },
+  "127": {
+    "name": "NORTHEASTERN STATE UNIVERSITY",
+    "coordinate": "35.9210° N, 94.9659° W",
+    "dd": [
+      -94.9659,
+      35.921
+    ]
+  },
+  "128": {
+    "name": "MARIETTA COLLEGE",
+    "coordinate": "39.4167° N, 81.4499° W",
+    "dd": [
+      -81.4499,
+      39.4167
+    ]
+  },
+  "129": {
+    "name": "KENT STATE UNIVERSITY",
+    "coordinate": "41.1456° N, 81.3393° W",
+    "dd": [
+      -81.3393,
+      41.1456
+    ]
+  },
+  "130": {
+    "name": "CLEVELAND STATE UNIVERSITY",
+    "coordinate": "41.5025° N, 81.6746° W",
+    "dd": [
+      -81.6746,
+      41.5025
+    ]
+  },
+  "131": {
+    "name": "TOURO COLLEGE",
+    "coordinate": "40.7069° N, 74.0121° W",
+    "dd": [
+      -74.0121,
+      40.7069
+    ]
+  },
+  "132": {
+    "name": "SUNY UNIVERSITY AT BUFFALO ",
+    "coordinate": "43.0008° N, 78.7890° W",
+    "dd": [
+      -78.789,
+      43.0008
+    ]
+  },
+  "133": {
+    "name": "SUNY AT CANTON",
+    "coordinate": "44.6024° N, 75.1835° W",
+    "dd": [
+      -75.1835,
+      44.6024
+    ]
+  },
+  "134": {
+    "name": "SARAH LAWRENCE COLLEGE",
+    "coordinate": "40.9346° N, 73.8436° W",
+    "dd": [
+      -73.8436,
+      40.9346
+    ]
+  },
+  "135": {
+    "name": "D' YOUVILLE COLLEGE",
+    "coordinate": "42.9027° N, 78.8909° W",
+    "dd": [
+      -78.8909,
+      42.9027
+    ]
+  },
+  "136": {
+    "name": "CUNY YORK COLLEGE",
+    "coordinate": "40.7010° N, 73.7961° W",
+    "dd": [
+      -73.7961,
+      40.701
+    ]
+  },
+  "137": {
+    "name": "CUNY SCHOOL OF LAW ",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "138": {
+    "name": "CUNY LEHMAN COLLEGE",
+    "coordinate": "40.8714° N, 73.8963° W",
+    "dd": [
+      -73.8963,
+      40.8714
+    ]
+  },
+  "139": {
+    "name": "CUNY HUNTER COLLEGE",
+    "coordinate": "40.7678° N, 73.9645° W",
+    "dd": [
+      -73.9645,
+      40.7678
+    ]
+  },
+  "140": {
+    "name": "UNIVERSITY OF NV-LAS VEGAS",
+    "coordinate": "36.1085° N, 115.1432° W",
+    "dd": [
+      -115.1432,
+      36.1085
+    ]
+  },
+  "141": {
+    "name": "UNIVERSITY OF NEW MEXICO-MAIN CAMPUS",
+    "coordinate": "35.0843° N, 106.6198° W",
+    "dd": [
+      -106.6198,
+      35.0843
+    ]
+  },
+  "142": {
+    "name": "MIDDLESEX COUNTY COLLEGE",
+    "coordinate": "40.5048° N, 74.3667° W",
+    "dd": [
+      -74.3667,
+      40.5048
+    ]
+  },
+  "143": {
+    "name": "UNIVERSITY OF NEW HAMPSHIRE-MAIN CAMPUS",
+    "coordinate": "43.1389° N, 70.9370° W",
+    "dd": [
+      -70.937,
+      43.1389
+    ]
+  },
+  "144": {
+    "name": "SOUTHEAST COMMUNITY COLLEGE",
+    "coordinate": "40.8159° N, 96.6015° W",
+    "dd": [
+      -96.6015,
+      40.8159
+    ]
+  },
+  "145": {
+    "name": "QUEENS UNIVERSITY OF CHARLOTTE",
+    "coordinate": "35.1888° N, 80.8330° W",
+    "dd": [
+      -80.833,
+      35.1888
+    ]
+  },
+  "146": {
+    "name": "GUILFORD TECHNICAL COMMUNITY COLLEGE",
+    "coordinate": "35.9993° N, 79.9167° W",
+    "dd": [
+      -79.9167,
+      35.9993
+    ]
+  },
+  "147": {
+    "name": "FAYETTEVILLE STATE UNIVERSITY",
+    "coordinate": "35.0742° N, 78.8925° W",
+    "dd": [
+      -78.8925,
+      35.0742
+    ]
+  },
+  "148": {
+    "name": "DUKE UNIVERSITY",
+    "coordinate": "36.0014° N, 78.9382° W",
+    "dd": [
+      -78.9382,
+      36.0014
+    ]
+  },
+  "149": {
+    "name": "DAVIDSON COUNTY COMMUNITY COLLEGE",
+    "coordinate": "35.8670° N, 80.1805° W",
+    "dd": [
+      -80.1805,
+      35.867
+    ]
+  },
+  "150": {
+    "name": "BARTON COLLEGE",
+    "coordinate": "35.7342° N, 77.9188° W",
+    "dd": [
+      -77.9188,
+      35.7342
+    ]
+  },
+  "151": {
+    "name": "MONTANA STATE UNIVERSITY-BOZEMAN",
+    "coordinate": "45.6674° N, 111.0546° W",
+    "dd": [
+      -111.0546,
+      45.6674
+    ]
+  },
+  "152": {
+    "name": "WEBSTER UNIVERSITY",
+    "coordinate": "38.5893° N, 90.3438° W",
+    "dd": [
+      -90.3438,
+      38.5893
+    ]
+  },
+  "153": {
+    "name": "UNIVERSITY OF MISSOURI-ST. LOUIS",
+    "coordinate": "38.7092° N, 90.3083° W",
+    "dd": [
+      -90.3083,
+      38.7092
+    ]
+  },
+  "154": {
+    "name": "SAINT LOUIS UNIVERSITY",
+    "coordinate": "38.6347° N, 90.2341° W",
+    "dd": [
+      -90.2341,
+      38.6347
+    ]
+  },
+  "155": {
+    "name": "MARYVILLE UNIVERSITY-SAINT LOUIS",
+    "coordinate": "38.6449° N, 90.5046° W",
+    "dd": [
+      -90.5046,
+      38.6449
+    ]
+  },
+  "156": {
+    "name": "UNIVERSITY OF ST THOMAS",
+    "coordinate": "44.9431° N, 93.1897° W",
+    "dd": [
+      -93.1897,
+      44.9431
+    ]
+  },
+  "157": {
+    "name": "UNIVERSITY OF MINNESOTA-TWIN CITIES",
+    "coordinate": "44.9740° N, 93.2277° W",
+    "dd": [
+      -93.2277,
+      44.974
+    ]
+  },
+  "158": {
+    "name": "UNIVERSITY OF DETROIT MERCY",
+    "coordinate": "42.4142° N, 83.1380° W",
+    "dd": [
+      -83.138,
+      42.4142
+    ]
+  },
+  "159": {
+    "name": "JACKSON COLLEGE",
+    "coordinate": "42.1638° N, 84.4049° W",
+    "dd": [
+      -84.4049,
+      42.1638
+    ]
+  },
+  "160": {
+    "name": "ALMA COLLEGE",
+    "coordinate": "43.3808° N, 84.6728° W",
+    "dd": [
+      -84.6728,
+      43.3808
+    ]
+  },
+  "161": {
+    "name": "ADRIAN COLLEGE",
+    "coordinate": "41.8975° N, 84.0372° W",
+    "dd": [
+      -84.0372,
+      41.8975
+    ]
+  },
+  "162": {
+    "name": "MONTGOMERY COLLEGE",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "163": {
+    "name": "WILLIAMS COLLEGE",
+    "coordinate": "42.7129° N, 73.2031° W",
+    "dd": [
+      -73.2031,
+      42.7129
+    ]
+  },
+  "164": {
+    "name": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+    "coordinate": "42.3601° N, 71.0942° W",
+    "dd": [
+      -71.0942,
+      42.3601
+    ]
+  },
+  "165": {
+    "name": "MASSACHUSETTS COLLEGE OF ART & DESIGN",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "166": {
+    "name": "HARVARD UNIVERSITY",
+    "coordinate": "42.3770° N, 71.1167° W",
+    "dd": [
+      -71.1167,
+      42.377
+    ]
+  },
+  "167": {
+    "name": "EMERSON COLLEGE",
+    "coordinate": "42.3522° N, 71.0656° W",
+    "dd": [
+      -71.0656,
+      42.3522
+    ]
+  },
+  "168": {
+    "name": "BRANDEIS UNIVERSITY",
+    "coordinate": "42.3657° N, 71.2585° W",
+    "dd": [
+      -71.2585,
+      42.3657
+    ]
+  },
+  "169": {
+    "name": "BOSTON UNIVERSITY",
+    "coordinate": "42.3505° N, 71.1054° W",
+    "dd": [
+      -71.1054,
+      42.3505
+    ]
+  },
+  "170": {
+    "name": "BARD COLLEGE AT SIMON'S ROCK",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "171": {
+    "name": "BABSON COLLEGE",
+    "coordinate": "42.2964° N, 71.2657° W",
+    "dd": [
+      -71.2657,
+      42.2964
+    ]
+  },
+  "172": {
+    "name": "UNIVERSITY OF LOUISIANA AT LAFAYETTE",
+    "coordinate": "30.2114° N, 92.0204° W",
+    "dd": [
+      -92.0204,
+      30.2114
+    ]
+  },
+  "173": {
+    "name": "WASHBURN UNIVERSITY",
+    "coordinate": "39.0334° N, 95.7016° W",
+    "dd": [
+      -95.7016,
+      39.0334
+    ]
+  },
+  "174": {
+    "name": "UNIVERSITY OF KANSAS",
+    "coordinate": "38.9543° N, 95.2558° W",
+    "dd": [
+      -95.2558,
+      38.9543
+    ]
+  },
+  "175": {
+    "name": "INDIANA UNIVERSITY-PURDUE UNIVERSITY-FORT WAYNE",
+    "coordinate": "41.1173° N, 85.1078° W",
+    "dd": [
+      -85.1078,
+      41.1173
+    ]
+  },
+  "176": {
+    "name": "NORTHWESTERN UNIVERSITY",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "177": {
+    "name": "KNOX COLLEGE",
+    "coordinate": "40.9433° N, 90.3704° W",
+    "dd": [
+      -90.3704,
+      40.9433
+    ]
+  },
+  "178": {
+    "name": "UNIVERSITY OF IOWA",
+    "coordinate": "41.6627° N, 91.5549° W",
+    "dd": [
+      -91.5549,
+      41.6627
+    ]
+  },
+  "179": {
+    "name": "IOWA STATE UNIVERSITY",
+    "coordinate": "42.0266° N, 93.6465° W",
+    "dd": [
+      -93.6465,
+      42.0266
+    ]
+  },
+  "180": {
+    "name": "DRAKE UNIVERSITY",
+    "coordinate": "41.6013° N, 93.6547° W",
+    "dd": [
+      -93.6547,
+      41.6013
+    ]
+  },
+  "181": {
+    "name": "OGLETHORPE UNIVERSITY",
+    "coordinate": "33.8762° N, 84.3347° W",
+    "dd": [
+      -84.3347,
+      33.8762
+    ]
+  },
+  "182": {
+    "name": "STETSON UNIVERSITY",
+    "coordinate": "29.0350° N, 81.3032° W",
+    "dd": [
+      -81.3032,
+      29.035
+    ]
+  },
+  "183": {
+    "name": "GULF COAST STATE COLLEGE",
+    "coordinate": "30.1853° N, 85.7288° W",
+    "dd": [
+      -85.7288,
+      30.1853
+    ]
+  },
+  "184": {
+    "name": "YALE UNIVERSITY",
+    "coordinate": "41.3163° N, 72.9223° W",
+    "dd": [
+      -72.9223,
+      41.3163
+    ]
+  },
+  "185": {
+    "name": "QUINNIPIAC UNIVERSITY",
+    "coordinate": "41.4189° N, 72.8936° W",
+    "dd": [
+      -72.8936,
+      41.4189
+    ]
+  },
+  "186": {
+    "name": "STANFORD UNIVERSITY",
+    "coordinate": "37.4275° N, 122.1697° W",
+    "dd": [
+      -122.1697,
+      37.4275
+    ]
+  },
+  "187": {
+    "name": "SONOMA STATE UNIVERSITY",
+    "coordinate": "38.3396° N, 122.6744° W",
+    "dd": [
+      -122.6744,
+      38.3396
+    ]
+  },
+  "188": {
+    "name": "SANTA CLARA UNIVERSITY",
+    "coordinate": "37.3496° N, 121.9390° W",
+    "dd": [
+      -121.939,
+      37.3496
+    ]
+  },
+  "189": {
+    "name": "DONGGUK UNIVERSITY LOS ANGELES",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "190": {
+    "name": "CALIFORNIA STATE UNIVERSITY-SAN MARCOS",
+    "coordinate": "33.1295° N, 117.1596° W",
+    "dd": [
+      -117.1596,
+      33.1295
+    ]
+  },
+  "191": {
+    "name": "UNIVERSITY OF ALABAMA",
+    "coordinate": "33.2140° N, 87.5391° W",
+    "dd": [
+      -87.5391,
+      33.214
+    ]
+  },
+  "192": {
+    "name": "ALABAMA A & M UNIVERSITY",
+    "coordinate": "34.7827° N, 86.5686° W",
+    "dd": [
+      -86.5686,
+      34.7827
+    ]
+  },
+  "193": {
+    "name": "JAMES RUMSEY TECHNICAL INSTITUTE",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "194": {
+    "name": "BETHANY COLLEGE",
+    "coordinate": "40.2061° N, 80.5598° W",
+    "dd": [
+      -80.5598,
+      40.2061
+    ]
+  },
+  "195": {
+    "name": "UNIVERSITY OF WISCONSIN-STOUT",
+    "coordinate": "44.8716° N, 91.9267° W",
+    "dd": [
+      -91.9267,
+      44.8716
+    ]
+  },
+  "196": {
+    "name": "UNIVERSITY OF WISCONSIN-LA CROSSE",
+    "coordinate": "43.8174° N, 91.2312° W",
+    "dd": [
+      -91.2312,
+      43.8174
+    ]
+  },
+  "197": {
+    "name": "LAWRENCE UNIVERSITY",
+    "coordinate": "44.2612° N, 88.3989° W",
+    "dd": [
+      -88.3989,
+      44.2612
+    ]
+  },
+  "198": {
+    "name": "WHITMAN COLLEGE",
+    "coordinate": "46.0706° N, 118.3306° W",
+    "dd": [
+      -118.3306,
+      46.0706
+    ]
+  },
+  "199": {
+    "name": "WASHINGTON STATE UNIVERSITY",
+    "coordinate": "46.7319° N, 117.1542° W",
+    "dd": [
+      -117.1542,
+      46.7319
+    ]
+  },
+  "200": {
+    "name": "EDMONDS CC",
+    "coordinate": "47.8167° N, 122.3272° W",
+    "dd": [
+      -122.3272,
+      47.8167
+    ]
+  },
+  "201": {
+    "name": "UNIVERSITY OF THE VIRGIN ISLANDS",
+    "coordinate": "18.3433° N, 64.9729° W",
+    "dd": [
+      -64.9729,
+      18.3433
+    ]
+  },
+  "202": {
+    "name": "VIRGINIA COMMONWEALTH UNIVERSITY",
+    "coordinate": "37.5483° N, 77.4527° W",
+    "dd": [
+      -77.4527,
+      37.5483
+    ]
+  },
+  "203": {
+    "name": "UNIVERSITY OF MARY WASHINGTON",
+    "coordinate": "38.3013° N, 77.4745° W",
+    "dd": [
+      -77.4745,
+      38.3013
+    ]
+  },
+  "204": {
+    "name": "LIBERTY UNIVERSITY",
+    "coordinate": "37.3530° N, 79.1770° W",
+    "dd": [
+      -79.177,
+      37.353
+    ]
+  },
+  "205": {
+    "name": "BLUEFIELD COLLEGE",
+    "coordinate": "37.2445° N, 81.2463° W",
+    "dd": [
+      -81.2463,
+      37.2445
+    ]
+  },
+  "206": {
+    "name": "TRINITY UNIVERSITY",
+    "coordinate": "29.4618° N, 98.4833° W",
+    "dd": [
+      -98.4833,
+      29.4618
+    ]
+  },
+  "207": {
+    "name": "THE UNIVERSITY OF TEXAS SYSTEM OFFICE",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "208": {
+    "name": "THE UNIVERSITY OF TEXAS HEALTH SCIENCE CENTER",
+    "coordinate": "29.7032° N, 95.4032° W",
+    "dd": [
+      -95.4032,
+      29.7032
+    ]
+  },
+  "209": {
+    "name": "THE UNIVERSITY OF TEXAS AT SAN ANTONIO",
+    "coordinate": "29.5827° N, 98.6189° W",
+    "dd": [
+      -98.6189,
+      29.5827
+    ]
+  },
+  "210": {
+    "name": "THE UNIVERSITY OF TEXAS AT ARLINGTON",
+    "coordinate": "32.7291° N, 97.1121° W",
+    "dd": [
+      -97.1121,
+      32.7291
+    ]
+  },
+  "211": {
+    "name": "TEXAS A AND M UNIVERSITY - MAIN CAMPUS",
+    "coordinate": "30.6188° N, 96.3365° W",
+    "dd": [
+      -96.3365,
+      30.6188
+    ]
+  },
+  "212": {
+    "name": "RICE UNIVERSITY",
+    "coordinate": "29.7174° N, 95.4018° W",
+    "dd": [
+      -95.4018,
+      29.7174
+    ]
+  },
+  "213": {
+    "name": "PALO ALTO COLLEGE",
+    "coordinate": "29.3240° N, 98.5430° W",
+    "dd": [
+      -98.543,
+      29.324
+    ]
+  },
+  "214": {
+    "name": "DEL MAR COLLEGE",
+    "coordinate": "27.7636° N, 97.4076° W",
+    "dd": [
+      -97.4076,
+      27.7636
+    ]
+  },
+  "215": {
+    "name": "MOTLOW STATE COMMUNITY COLLEGE",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "216": {
+    "name": "MIDDLE TENNESSEE STATE UNIVERSITY",
+    "coordinate": "35.8486° N, 86.3649° W",
+    "dd": [
+      -86.3649,
+      35.8486
+    ]
+  },
+  "217": {
+    "name": "MEHARRY MEDICAL COLLEGE",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "218": {
+    "name": "MARYVILLE COLLEGE",
+    "coordinate": "35.7514° N, 83.9642° W",
+    "dd": [
+      -83.9642,
+      35.7514
+    ]
+  },
+  "219": {
+    "name": "LANE COLLEGE",
+    "coordinate": "35.6278° N, 88.8061° W",
+    "dd": [
+      -88.8061,
+      35.6278
+    ]
+  },
+  "220": {
+    "name": "DAKOTA STATE UNIVERSITY",
+    "coordinate": "44.0126° N, 97.1109° W",
+    "dd": [
+      -97.1109,
+      44.0126
+    ]
+  },
+  "221": {
+    "name": "WOFFORD COLLEGE",
+    "coordinate": "34.9581° N, 81.9345° W",
+    "dd": [
+      -81.9345,
+      34.9581
+    ]
+  },
+  "222": {
+    "name": "WINTHROP UNIVERSITY",
+    "coordinate": "34.9395° N, 81.0321° W",
+    "dd": [
+      -81.0321,
+      34.9395
+    ]
+  },
+  "223": {
+    "name": "FRANCIS MARION UNIVERSITY",
+    "coordinate": "34.1904° N, 79.6520° W",
+    "dd": [
+      -79.652,
+      34.1904
+    ]
+  },
+  "224": {
+    "name": "UNIVERSITY OF RHODE ISLAND",
+    "coordinate": "41.4861° N, 71.5309° W",
+    "dd": [
+      -71.5309,
+      41.4861
+    ]
+  },
+  "225": {
+    "name": "RHODE ISLAND SCHOOL OF DESIGN",
+    "coordinate": "41.8259° N, 71.4077° W",
+    "dd": [
+      -71.4077,
+      41.8259
+    ]
+  },
+  "226": {
+    "name": "NEW ENGLAND INSTITUTE OF TECHNOLOGY",
+    "coordinate": "41.7152° N, 71.4448° W",
+    "dd": [
+      -71.4448,
+      41.7152
+    ]
+  },
+  "227": {
+    "name": "UNIVERSIDAD DE PUERTO RICO",
+    "coordinate": "18.3895° N, 66.0404° W",
+    "dd": [
+      -66.0404,
+      18.3895
+    ]
+  },
+  "228": {
+    "name": "URSINUS COLLEGE",
+    "coordinate": "40.1915° N, 75.4559° W",
+    "dd": [
+      -75.4559,
+      40.1915
+    ]
+  },
+  "229": {
+    "name": "MUHLENBERG COLLEGE",
+    "coordinate": "40.5975° N, 75.5101° W",
+    "dd": [
+      -75.5101,
+      40.5975
+    ]
+  },
+  "230": {
+    "name": "LINCOLN UNIVERSITY",
+    "coordinate": "39.8071° N, 75.9282° W",
+    "dd": [
+      -75.9282,
+      39.8071
+    ]
+  },
+  "231": {
+    "name": "KINGS COLLEGE",
+    "coordinate": "51.5115° N, 0.1160° W",
+    "dd": [
+      -0.116,
+      51.5115
+    ]
+  },
+  "232": {
+    "name": "FRANKLIN AND MARSHALL COLLEGE",
+    "coordinate": "40.0487° N, 76.3199° W",
+    "dd": [
+      -76.3199,
+      40.0487
+    ]
+  },
+  "233": {
+    "name": "EAST STROUDSBURG UNIVERSITY OF PENNSYLVANIA",
+    "coordinate": "40.9971° N, 75.1725° W",
+    "dd": [
+      -75.1725,
+      40.9971
+    ]
+  },
+  "234": {
+    "name": "CLARION UNIVERSITY OF PENNSYLVANIA",
+    "coordinate": "41.2089° N, 79.3786° W",
+    "dd": [
+      -79.3786,
+      41.2089
+    ]
+  },
+  "235": {
+    "name": "ALLEGHENY COLLEGE",
+    "coordinate": "41.6485° N, 80.1455° W",
+    "dd": [
+      -80.1455,
+      41.6485
+    ]
+  },
+  "236": {
+    "name": "REED COLLEGE",
+    "coordinate": "45.4811° N, 122.6308° W",
+    "dd": [
+      -122.6308,
+      45.4811
+    ]
+  },
+  "237": {
+    "name": "LEWIS & CLARK COLLEGE",
+    "coordinate": "45.4492° N, 122.6704° W",
+    "dd": [
+      -122.6704,
+      45.4492
+    ]
+  },
+  "238": {
+    "name": "TULSA COMMUNITY COLLEGE",
+    "coordinate": "36.1935° N, 95.9378° W",
+    "dd": [
+      -95.9378,
+      36.1935
+    ]
+  },
+  "239": {
+    "name": "OKLAHOMA PANHANDLE STATE UNIVERSITY",
+    "coordinate": "36.5932° N, 101.6400° W",
+    "dd": [
+      -101.64,
+      36.5932
+    ]
+  },
+  "240": {
+    "name": "LANGSTON UNIVERSITY",
+    "coordinate": "35.9460° N, 97.2629° W",
+    "dd": [
+      -97.2629,
+      35.946
+    ]
+  },
+  "241": {
+    "name": "WRIGHT STATE UNIVERSITY-MAIN CAMPUS",
+    "coordinate": "39.7846° N, 84.0583° W",
+    "dd": [
+      -84.0583,
+      39.7846
+    ]
+  },
+  "242": {
+    "name": "UNIVERSITY OF TOLEDO",
+    "coordinate": "41.6579° N, 83.6142° W",
+    "dd": [
+      -83.6142,
+      41.6579
+    ]
+  },
+  "243": {
+    "name": "UNIVERSITY OF CINCINNATI-MAIN CAMPUS",
+    "coordinate": "39.1329° N, 84.5150° W",
+    "dd": [
+      -84.515,
+      39.1329
+    ]
+  },
+  "244": {
+    "name": "UNIVERSITY OF AKRON",
+    "coordinate": "41.0770° N, 81.5114° W",
+    "dd": [
+      -81.5114,
+      41.077
+    ]
+  },
+  "245": {
+    "name": "THE CHRIST COLLEGE OF NURSING",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "246": {
+    "name": "OHIO WESLEYAN UNIVERSITY",
+    "coordinate": "40.2966° N, 83.0670° W",
+    "dd": [
+      -83.067,
+      40.2966
+    ]
+  },
+  "247": {
+    "name": "HONDROS COLLEGE OF NURSING - TOLEDO/MAUMEE",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "248": {
+    "name": "GODS BIBLE SCHOOL AND COLLEGE",
+    "coordinate": "39.1157° N, 84.5056° W",
+    "dd": [
+      -84.5056,
+      39.1157
+    ]
+  },
+  "249": {
+    "name": "DENISON UNIVERSITY",
+    "coordinate": "40.0734° N, 82.5229° W",
+    "dd": [
+      -82.5229,
+      40.0734
+    ]
+  },
+  "250": {
+    "name": "UNION COLLEGE",
+    "coordinate": "42.8177° N, 73.9296° W",
+    "dd": [
+      -73.9296,
+      42.8177
+    ]
+  },
+  "251": {
+    "name": "TOURO COLLEGE OF OSTEOPATHIC MEDICINE",
+    "coordinate": "40.8089° N, 73.9500° W",
+    "dd": [
+      -73.95,
+      40.8089
+    ]
+  },
+  "252": {
+    "name": "THE NEW SCHOOL UNIVERSITY",
+    "coordinate": "40.7356° N, 73.9935° W",
+    "dd": [
+      -73.9935,
+      40.7356
+    ]
+  },
+  "253": {
+    "name": "THE NEW SCHOOL- PARSONS SCHOOL OF DESIGN",
+    "coordinate": "40.7351° N, 73.9945° W",
+    "dd": [
+      -73.9945,
+      40.7351
+    ]
+  },
+  "254": {
+    "name": "SUNY MONROE COMMUNITY COLLEGE",
+    "coordinate": "",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "255": {
+    "name": "SUNY COLLEGE AT PLATTSBURGH",
+    "coordinate": "44.6926° N, 73.4669° W",
+    "dd": [
+      -73.4669,
+      44.6926
+    ]
+  },
+  "256": {
+    "name": "SUNY COLLEGE AT BROCKPORT",
+    "coordinate": "43.2100° N, 77.9507° W",
+    "dd": [
+      -77.9507,
+      43.21
+    ]
+  },
+  "257": {
+    "name": "SUNY BROOME COMMUNITY COLLEGE",
+    "coordinate": "42.1349° N, 75.9089° W",
+    "dd": [
+      -75.9089,
+      42.1349
+    ]
+  },
+  "258": {
+    "name": "SUNY AT DELHI",
+    "coordinate": "42.2707° N, 74.9245° W",
+    "dd": [
+      -74.9245,
+      42.2707
+    ]
+  },
+  "259": {
+    "name": "ST LAWRENCE UNIVERSITY",
+    "coordinate": "44.5892° N, 75.1609° W",
+    "dd": [
+      -75.1609,
+      44.5892
+    ]
+  },
+  "260": {
+    "name": "ROCKEFELLER UNIVERSITY",
+    "coordinate": "40.7625° N, 73.9557° W",
+    "dd": [
+      -73.9557,
+      40.7625
+    ]
+  },
+  "261": {
+    "name": "POLYTECHNIC INSTITUTE OF NEW YORK UNIVERSITY",
+    "coordinate": "40.6942° N, 73.9866° W",
+    "dd": [
+      -73.9866,
+      40.6942
+    ]
+  },
+  "262": {
+    "name": "NEW YORK COLLEGE OF HEALTH PROFESSIONS",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "263": {
+    "name": "MARIST COLLEGE",
+    "coordinate": "41.7225° N, 73.9327° W",
+    "dd": [
+      -73.9327,
+      41.7225
+    ]
+  },
+  "264": {
+    "name": "CUNY GRADUATE CENTER",
+    "coordinate": "40.7486° N, 73.9840° W",
+    "dd": [
+      -73.984,
+      40.7486
+    ]
+  },
+  "265": {
+    "name": "BARNARD COLLEGE",
+    "coordinate": "40.8090° N, 73.9638° W",
+    "dd": [
+      -73.9638,
+      40.809
+    ]
+  },
+  "266": {
+    "name": "BARD COLLEGE",
+    "coordinate": "42.0204° N, 73.9101° W",
+    "dd": [
+      -73.9101,
+      42.0204
+    ]
+  },
+  "267": {
+    "name": "UNIVERSITY OF NV-RENO",
+    "coordinate": "39.5442° N, 119.8164° W",
+    "dd": [
+      -119.8164,
+      39.5442
+    ]
+  },
+  "268": {
+    "name": "NEW MEXICO MILITARY INSTITUTE",
+    "coordinate": "33.4092° N, 104.5250° W",
+    "dd": [
+      -104.525,
+      33.4092
+    ]
+  },
+  "269": {
+    "name": "STOCKTON UNIVERSITY",
+    "coordinate": "39.4920° N, 74.5310° W",
+    "dd": [
+      -74.531,
+      39.492
+    ]
+  },
+  "270": {
+    "name": "SETON HALL UNIVERSITY",
+    "coordinate": "40.7434° N, 74.2465° W",
+    "dd": [
+      -74.2465,
+      40.7434
+    ]
+  },
+  "271": {
+    "name": "MONMOUTH UNIVERSITY",
+    "coordinate": "40.2803° N, 74.0054° W",
+    "dd": [
+      -74.0054,
+      40.2803
+    ]
+  },
+  "272": {
+    "name": "FRANKLIN PIERCE UNIVERSITY",
+    "coordinate": "42.7790° N, 72.0555° W",
+    "dd": [
+      -72.0555,
+      42.779
+    ]
+  },
+  "273": {
+    "name": "CREIGHTON UNIVERSITY",
+    "coordinate": "41.2656° N, 95.9464° W",
+    "dd": [
+      -95.9464,
+      41.2656
+    ]
+  },
+  "274": {
+    "name": "UNIVERSITY OF NORTH CAROLINA-WILMINGTON",
+    "coordinate": "34.2239° N, 77.8696° W",
+    "dd": [
+      -77.8696,
+      34.2239
+    ]
+  },
+  "275": {
+    "name": "UNIVERSITY OF NORTH CAROLINA AT CHARLOTTE",
+    "coordinate": "",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "276": {
+    "name": "UNIVERSITY OF NORTH CAROLINA AT CHAPEL HILL",
+    "coordinate": "35.9049° N, 79.0469° W",
+    "dd": [
+      -79.0469,
+      35.9049
+    ]
+  },
+  "277": {
+    "name": "METHODIST UNIVERSITY",
+    "coordinate": "35.1315° N, 78.8683° W",
+    "dd": [
+      -78.8683,
+      35.1315
+    ]
+  },
+  "278": {
+    "name": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
+    "coordinate": "31.3299° N, 89.3335° W",
+    "dd": [
+      -89.3335,
+      31.3299
+    ]
+  },
+  "279": {
+    "name": "WASHINGTON UNIVERSITY IN ST. LOUIS",
+    "coordinate": "38.6488° N, 90.3108° W",
+    "dd": [
+      -90.3108,
+      38.6488
+    ]
+  },
+  "280": {
+    "name": "NORTHWEST MISSOURI STATE UNIVERSITY",
+    "coordinate": "40.3520° N, 94.8825° W",
+    "dd": [
+      -94.8825,
+      40.352
+    ]
+  },
+  "281": {
+    "name": "MISSOURI UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+    "coordinate": "37.9537° N, 91.7756° W",
+    "dd": [
+      -91.7756,
+      37.9537
+    ]
+  },
+  "282": {
+    "name": "MISSOURI STATE UNIVERSITY",
+    "coordinate": "37.2006° N, 93.2807° W",
+    "dd": [
+      -93.2807,
+      37.2006
+    ]
+  },
+  "283": {
+    "name": "METROPOLITAN COMMUNITY COLLEGE",
+    "coordinate": "41.3090° N, 95.9128° W",
+    "dd": [
+      -95.9128,
+      41.309
+    ]
+  },
+  "284": {
+    "name": "HARRIS-STOWE STATE UNIVERSITY",
+    "coordinate": "38.6319° N, 90.2249° W",
+    "dd": [
+      -90.2249,
+      38.6319
+    ]
+  },
+  "285": {
+    "name": "UNIVERSITY OF MINNESOTA-DULUTH",
+    "coordinate": "46.8188° N, 92.0843° W",
+    "dd": [
+      -92.0843,
+      46.8188
+    ]
+  },
+  "286": {
+    "name": "SAINT OLAF COLLEGE",
+    "coordinate": "44.4617° N, 93.1827° W",
+    "dd": [
+      -93.1827,
+      44.4617
+    ]
+  },
+  "287": {
+    "name": "SAINT CLOUD STATE UNIVERSITY",
+    "coordinate": "45.5512° N, 94.1515° W",
+    "dd": [
+      -94.1515,
+      45.5512
+    ]
+  },
+  "288": {
+    "name": "DAKOTA COUNTY TECHNICAL COLLEGE",
+    "coordinate": "44.7372° N, 93.0793° W",
+    "dd": [
+      -93.0793,
+      44.7372
+    ]
+  },
+  "289": {
+    "name": "SPRING ARBOR UNIVERSITY",
+    "coordinate": "42.2079° N, 84.5563° W",
+    "dd": [
+      -84.5563,
+      42.2079
+    ]
+  },
+  "290": {
+    "name": "SCHOOLCRAFT COLLEGE",
+    "coordinate": "42.4207° N, 83.4317° W",
+    "dd": [
+      -83.4317,
+      42.4207
+    ]
+  },
+  "291": {
+    "name": "SAGINAW VALLEY STATE UNIVERSITY",
+    "coordinate": "43.5143° N, 83.9624° W",
+    "dd": [
+      -83.9624,
+      43.5143
+    ]
+  },
+  "292": {
+    "name": "LAWRENCE TECHNOLOGICAL UNIVERSITY",
+    "coordinate": "42.4755° N, 83.2498° W",
+    "dd": [
+      -83.2498,
+      42.4755
+    ]
+  },
+  "293": {
+    "name": "KETTERING UNIVERSITY",
+    "coordinate": "43.0120° N, 83.7129° W",
+    "dd": [
+      -83.7129,
+      43.012
+    ]
+  },
+  "294": {
+    "name": "KELLOGG COMMUNITY COLLEGE",
+    "coordinate": "42.3349° N, 85.1777° W",
+    "dd": [
+      -85.1777,
+      42.3349
+    ]
+  },
+  "295": {
+    "name": "HENRY FORD COLLEGE",
+    "coordinate": "42.3242° N, 83.2375° W",
+    "dd": [
+      -83.2375,
+      42.3242
+    ]
+  },
+  "296": {
+    "name": "GRAND VALLEY STATE UNIVERSITY",
+    "coordinate": "42.9641° N, 85.8890° W",
+    "dd": [
+      -85.889,
+      42.9641
+    ]
+  },
+  "297": {
+    "name": "ANDREWS UNIVERSITY",
+    "coordinate": "56.3417° N, 2.7943° W",
+    "dd": [
+      -2.7943,
+      56.3417
+    ]
+  },
+  "298": {
+    "name": "UNIVERSITY OF NEW ENGLAND",
+    "coordinate": "43.4583° N, 70.3865° W",
+    "dd": [
+      -70.3865,
+      43.4583
+    ]
+  },
+  "299": {
+    "name": "SOUTHERN MAINE COMMUNITY COLLEGE",
+    "coordinate": "43.6470° N, 70.2291° W",
+    "dd": [
+      -70.2291,
+      43.647
+    ]
+  },
+  "300": {
+    "name": "SAINT JOSEPH'S COLLEGE",
+    "coordinate": "43.8267° N, 70.4829° W",
+    "dd": [
+      -70.4829,
+      43.8267
+    ]
+  },
+  "301": {
+    "name": "UNIVERSITY OF MARYLAND-BALTIMORE COUNTY",
+    "coordinate": "39.2557° N, 76.7110° W",
+    "dd": [
+      -76.711,
+      39.2557
+    ]
+  },
+  "302": {
+    "name": "UNIVERSITY OF MARYLAND GLOBAL CAMPUS",
+    "coordinate": "38.9126° N, 76.8476° W",
+    "dd": [
+      -76.8476,
+      38.9126
+    ]
+  },
+  "303": {
+    "name": "MOUNT SAINT MARY'S UNIVERSITY",
+    "coordinate": "39.6800° N, 77.3487° W",
+    "dd": [
+      -77.3487,
+      39.68
+    ]
+  },
+  "304": {
+    "name": "MCDANIEL COLLEGE",
+    "coordinate": "39.5819° N, 77.0023° W",
+    "dd": [
+      -77.0023,
+      39.5819
+    ]
+  },
+  "305": {
+    "name": "BOWIE STATE UNIVERSITY",
+    "coordinate": "39.0193° N, 76.7594° W",
+    "dd": [
+      -76.7594,
+      39.0193
+    ]
+  },
+  "306": {
+    "name": "WORCESTER POLYTECHNIC INSTITUTE",
+    "coordinate": "42.2743° N, 71.8081° W",
+    "dd": [
+      -71.8081,
+      42.2743
+    ]
+  },
+  "307": {
+    "name": "UNIVERSITY OF MASSACHUSETTS-DARTMOUTH",
+    "coordinate": "41.6282° N, 71.0046° W",
+    "dd": [
+      -71.0046,
+      41.6282
+    ]
+  },
+  "308": {
+    "name": "LESLEY UNIVERSITY",
+    "coordinate": "42.3802° N, 71.1174° W",
+    "dd": [
+      -71.1174,
+      42.3802
+    ]
+  },
+  "309": {
+    "name": "BOSTON COLLEGE",
+    "coordinate": "42.3355° N, 71.1685° W",
+    "dd": [
+      -71.1685,
+      42.3355
+    ]
+  },
+  "310": {
+    "name": "TULANE UNIVERSITY OF LOUISIANA",
+    "coordinate": "29.9407° N, 90.1203° W",
+    "dd": [
+      -90.1203,
+      29.9407
+    ]
+  },
+  "311": {
+    "name": "NORTHWESTERN STATE UNIVERSITY OF LOUISIANA",
+    "coordinate": "31.7504° N, 93.0975° W",
+    "dd": [
+      -93.0975,
+      31.7504
+    ]
+  },
+  "312": {
+    "name": "LOYOLA UNIVERSITY NEW ORLEANS",
+    "coordinate": "29.9347° N, 90.1210° W",
+    "dd": [
+      -90.121,
+      29.9347
+    ]
+  },
+  "313": {
+    "name": "DELTA COLLEGE",
+    "coordinate": "43.5579° N, 83.9859° W",
+    "dd": [
+      -83.9859,
+      43.5579
+    ]
+  },
+  "314": {
+    "name": "WESTERN KENTUCKY UNIVERSITY",
+    "coordinate": "36.9835° N, 86.4574° W",
+    "dd": [
+      -86.4574,
+      36.9835
+    ]
+  },
+  "315": {
+    "name": "UNIVERSITY OF KENTUCKY",
+    "coordinate": "38.0307° N, 84.5040° W",
+    "dd": [
+      -84.504,
+      38.0307
+    ]
+  },
+  "316": {
+    "name": "KANSAS CITY KANSAS COMMUNITY COLLEGE",
+    "coordinate": "39.1222° N, 94.7485° W",
+    "dd": [
+      -94.7485,
+      39.1222
+    ]
+  },
+  "317": {
+    "name": "UNIVERSITY OF INDIANAPOLIS",
+    "coordinate": "39.7096° N, 86.1344° W",
+    "dd": [
+      -86.1344,
+      39.7096
+    ]
+  },
+  "318": {
+    "name": "INDIANA UNIVERSITY-BLOOMINGTON",
+    "coordinate": "39.1754° N, 86.5126° W",
+    "dd": [
+      -86.5126,
+      39.1754
+    ]
+  },
+  "319": {
+    "name": "BALL STATE UNIVERSITY",
+    "coordinate": "40.2050° N, 85.4063° W",
+    "dd": [
+      -85.4063,
+      40.205
+    ]
+  },
+  "320": {
+    "name": "ILLINOIS INSTITUTE OF TECHNOLOGY",
+    "coordinate": "41.8349° N, 87.6270° W",
+    "dd": [
+      -87.627,
+      41.8349
+    ]
+  },
+  "321": {
+    "name": "SPELMAN COLLEGE",
+    "coordinate": "33.7464° N, 84.4121° W",
+    "dd": [
+      -84.4121,
+      33.7464
+    ]
+  },
+  "322": {
+    "name": "MOREHOUSE COLLEGE",
+    "coordinate": "33.7473° N, 84.4155° W",
+    "dd": [
+      -84.4155,
+      33.7473
+    ]
+  },
+  "323": {
+    "name": "LIFE UNIVERSITY",
+    "coordinate": "33.9320° N, 84.5166° W",
+    "dd": [
+      -84.5166,
+      33.932
+    ]
+  },
+  "324": {
+    "name": "GEORGIA STATE UNIVERSITY",
+    "coordinate": "33.7531° N, 84.3853° W",
+    "dd": [
+      -84.3853,
+      33.7531
+    ]
+  },
+  "325": {
+    "name": "GEORGIA SOUTHERN UNIVERSITY",
+    "coordinate": "32.4205° N, 81.7865° W",
+    "dd": [
+      -81.7865,
+      32.4205
+    ]
+  },
+  "326": {
+    "name": "GEORGIA INSTITUTE OF TECHNOLOGY-MAIN CAMPUS",
+    "coordinate": "33.7756° N, 84.3963° W",
+    "dd": [
+      -84.3963,
+      33.7756
+    ]
+  },
+  "327": {
+    "name": "GEORGIA COLLEGE AND STATE UNIVERSITY",
+    "coordinate": "33.0804° N, 83.2319° W",
+    "dd": [
+      -83.2319,
+      33.0804
+    ]
+  },
+  "328": {
+    "name": "COVENANT COLLEGE",
+    "coordinate": "34.9655° N, 85.3749° W",
+    "dd": [
+      -85.3749,
+      34.9655
+    ]
+  },
+  "329": {
+    "name": "AUGUSTA TECHNICAL COLLEGE",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "330": {
+    "name": "VALENCIA COLLEGE",
+    "coordinate": "28.5218° N, 81.4636° W",
+    "dd": [
+      -81.4636,
+      28.5218
+    ]
+  },
+  "331": {
+    "name": "UNIVERSITY OF WEST FLORIDA",
+    "coordinate": "30.5491° N, 87.2186° W",
+    "dd": [
+      -87.2186,
+      30.5491
+    ]
+  },
+  "332": {
+    "name": "HILLSBOROUGH COMMUNITY COLLEGE",
+    "coordinate": "28.0269° N, 82.1032° W",
+    "dd": [
+      -82.1032,
+      28.0269
+    ]
+  },
+  "333": {
+    "name": "FLORIDA INSTITUTE OF TECHNOLOGY-MELBOURNE",
+    "coordinate": "28.0646° N, 80.6231° W",
+    "dd": [
+      -80.6231,
+      28.0646
+    ]
+  },
+  "334": {
+    "name": "FLORIDA AGRICULTURAL AND MECHANICAL UNIVERSITY",
+    "coordinate": "30.4269° N, 84.2851° W",
+    "dd": [
+      -84.2851,
+      30.4269
+    ]
+  },
+  "335": {
+    "name": "FLAGLER TECHNICAL INSTITUTE",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "336": {
+    "name": "FLAGLER COLLEGE",
+    "coordinate": "29.8927° N, 81.3149° W",
+    "dd": [
+      -81.3149,
+      29.8927
+    ]
+  },
+  "337": {
+    "name": "AMERICAN MEDICAL ACADEMY",
+    "coordinate": "NA",
+    "dd": [
+      null,
+      null
+    ]
+  },
+  "338": {
+    "name": "GEORGETOWN UNIVERSITY",
+    "coordinate": "38.9076° N, 77.0723° W",
+    "dd": [
+      -77.0723,
+      38.9076
+    ]
+  },
+  "339": {
+    "name": "WESTERN CONNECTICUT STATE UNIV",
+    "coordinate": "41.4003° N, 73.4462° W",
+    "dd": [
+      -73.4462,
+      41.4003
+    ]
+  },
+  "340": {
+    "name": "WESLEYAN UNIVERSITY",
+    "coordinate": "41.5566° N, 72.6569° W",
+    "dd": [
+      -72.6569,
+      41.5566
+    ]
+  },
+  "341": {
+    "name": "UNIVERSITY OF SAN DIEGO",
+    "coordinate": "32.7719° N, 117.1882° W",
+    "dd": [
+      -117.1882,
+      32.7719
+    ]
+  },
+  "342": {
+    "name": "UNIVERSITY OF CALIFORNIA-SANTA CRUZ",
+    "coordinate": "36.9881° N, 122.0582° W",
+    "dd": [
+      -122.0582,
+      36.9881
+    ]
+  },
+  "343": {
+    "name": "UNIVERSITY OF CALIFORNIA-SAN DIEGO",
+    "coordinate": "32.8801° N, 117.2340° W",
+    "dd": [
+      -117.234,
+      32.8801
+    ]
+  },
+  "344": {
+    "name": "UNIVERSITY OF CALIFORNIA-BERKELEY",
+    "coordinate": "37.8719° N, 122.2585° W",
+    "dd": [
+      -122.2585,
+      37.8719
+    ]
+  },
+  "345": {
+    "name": "SAN JOSE STATE UNIVERSITY",
+    "coordinate": "37.3352° N, 121.8811° W",
+    "dd": [
+      -121.8811,
+      37.3352
+    ]
+  },
+  "346": {
+    "name": "MENLO COLLEGE",
+    "coordinate": "37.4561° N, 122.1921° W",
+    "dd": [
+      -122.1921,
+      37.4561
+    ]
+  },
+  "347": {
+    "name": "LOYOLA MARYMOUNT UNIVERSITY",
+    "coordinate": "33.9702° N, 118.4166° W",
+    "dd": [
+      -118.4166,
+      33.9702
+    ]
+  },
+  "348": {
+    "name": "HUMBOLDT STATE UNIVERSITY",
+    "coordinate": "40.8747° N, 124.0789° W",
+    "dd": [
+      -124.0789,
+      40.8747
+    ]
+  },
+  "349": {
+    "name": "CALIFORNIA STATE UNIVERSITY - MARITIME ACADEMY",
+    "coordinate": "38.0692° N, 122.2303° W",
+    "dd": [
+      -122.2303,
+      38.0692
+    ]
+  },
+  "350": {
+    "name": "UNIVERSITY OF ARKANSAS AT LITTLE ROCK",
+    "coordinate": "34.7241° N, 92.3389° W",
+    "dd": [
+      -92.3389,
+      34.7241
+    ]
+  },
+  "351": {
+    "name": "UNIVERSITY OF SOUTH ALABAMA",
+    "coordinate": "30.6959° N, 88.1842° W",
+    "dd": [
+      -88.1842,
+      30.6959
+    ]
+  },
+  "352": {
+    "name": "AUBURN UNIVERSITY MAIN CAMPUS",
+    "coordinate": "32.5934° N, 85.4952° W",
+    "dd": [
+      -85.4952,
+      32.5934
+    ]
+  },
+  "353": {
+    "name": "UNIVERSITY OF ALASKA - FAIRBANKS",
+    "coordinate": "64.8558° N, 147.8335° W",
+    "dd": [
+      -147.8335,
+      64.8558
+    ]
+  }
+}
