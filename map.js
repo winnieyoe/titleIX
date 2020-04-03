@@ -15,51 +15,80 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1Ijoid2lueW9lIiwiYSI6ImNrOGV3cndubjAxMjMzZHFxMDR2Y2lkOTkifQ.zXvUx8Z4O7EinbqWiY315g'
 }).addTo(mymap);
 
+///Add custom zoom bar
 var zoomBar = L.easyBar([
   L.easyButton( '<big>+</big>',  function(control, mymap){mymap.setZoom(mymap.getZoom()+1);}),
   L.easyButton( '<big>-</big>',  function(control, mymap){mymap.setZoom(mymap.getZoom()-1);}),
   L.easyButton( 'fa-home fa-sm', function(control, mymap){mymap.setView([int_lat, int_lng], zoom);}),
 ]);
-// add it to the map
 zoomBar.addTo(mymap);
 
-$.getJSON("assets/titleIX_L.geojson", function(data){
-  L.geoJson(data, {
-    pointToLayer: function (feature, latlng){
-      return L.circleMarker(latlng, {
-        fillColor: "#000",
-        fillOpacity: 0.9,
-        radius: 12,
-        color:"#FFF",
-        weight:2,
-      })
-    },
-    onEachFeature: function (feature, layer){
-      layer.on("mouseover", function(){
-        this.bindPopup(feature.properties.name).openPopup();
-      });
-      layer.on("mouseout", function(){
-        this.closePopup();
-      })
-    }
-  }).addTo(mymap);
-});
+// $.getJSON("assets/titleIX_L.geojson", function(data){
+//   L.geoJson(data, {
+//     pointToLayer: function (feature, latlng){
+//       return new L.circleMarker([latlng.lat, latlng.lng], {
+//         fillColor: "#000",
+//         fillOpacity: 1,
+//         radius: 12,
+//         color:"#FFF",
+//         weight:2,
+//       })
+//     },
+//     onEachFeature: function (feature, layer){
+//       var text = L.tooltip({
+//         permanent: true,
+//         direction: "center",
+//         className: "text",
+//       }).setContent("1")
+//         .setLatLng(layer.getLatLng());
+//         text.addTo(mymap);
+//       layer.on("mouseover", function(){
+//         this.bindPopup(feature.properties.name).openPopup();
+//       });
+//       layer.on("mouseout", function(){
+//         this.closePopup();
+//       })
+//     }
+//   }).addTo(mymap);
+// });
 
-(function() {
-	var control = new L.Control({position:'topright'});
-	control.onAdd = function(map) {
-			var azoom = L.DomUtil.create('a','resetzoom');
-			azoom.innerHTML = "[Reset Zoom]";
-			L.DomEvent
-				.disableClickPropagation(azoom)
-				.addListener(azoom, 'click', function() {
-					mymap.setView([int_lat, int_lng], zoom);
-				},azoom);
-			return azoom;
-		};
-	return control;
-}())
-.addTo(mymap);
+///Add custom markers
+$.getJSON("assets/titleIX_L.geojson", function(geojson){
+  var options = {
+          isAlphaNumericIcon: true,
+          text: 10,
+          borderColor: '#00ABDC',
+          textColor: '#00ABDC'
+  };
+
+  $.each(geojson.features, function(k, v){
+    console.log(k, v)
+    let lat = geojson.features[k].properties.lat;
+    let lng = geojson.features[k].properties.long;
+    let markerLocation = new L.LatLng(lat, lng)
+
+    marker = new L.marker(markerLocation, {
+      icon: L.BeautifyIcon.icon(options)
+    }).addTo(mymap)
+  })
+    // console.log(geojson.features[i].properties.lat;)
+})
+
+// (function() {
+// 	var control = new L.Control({position:'topright'});
+// 	control.onAdd = function(map) {
+// 			var azoom = L.DomUtil.create('a','resetzoom');
+// 			azoom.innerHTML = "[Reset Zoom]";
+// 			L.DomEvent
+// 				.disableClickPropagation(azoom)
+// 				.addListener(azoom, 'click', function() {
+// 					mymap.setView([int_lat, int_lng], zoom);
+// 				},azoom);
+// 			return azoom;
+// 		};
+// 	return control;
+// }())
+// .addTo(mymap);
 
 // $( "#zoom-button" ).click(function() {
 //   mymap.setView([int_lat, int_lng], zoom);

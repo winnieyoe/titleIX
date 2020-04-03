@@ -26,6 +26,16 @@ body {
 .leaflet-popup-close-button {
    display: none;
 }
+
+.leaflet-tooltip-pane .text {
+  color: #FFF;
+  background: transparent;
+  border:0;
+  box-shadow: none;
+}
+/* .text{
+  background: #000;
+} */
 /* #map {
   position: absolute;
   top: 0;
