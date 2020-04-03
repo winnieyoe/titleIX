@@ -39,13 +39,14 @@ map.on("load", function() {
     }
   })
 
-  ////Popup on Hover, Show School Name
+  //Popup on Hover, Show School Name
   var popup = new mapboxgl.Popup({
     closeButton: false,
     closeOnClick: false
   });
 
-  map.on('mouseenter', 'titleIX_data', function(e) {
+//Mouseevents on mapbox > The second item has to refer to the right layer
+  map.on('mouseenter', 'points', function(e) {
     // Change the cursor style as a UI indicator.
     map.getCanvas().style.cursor = 'pointer';
 
@@ -66,7 +67,7 @@ map.on("load", function() {
       .addTo(map);
   });
 
-  map.on('mouseleave', 'titleIX_data', function() {
+  map.on('mouseleave', 'points', function() {
     map.getCanvas().style.cursor = '';
     popup.remove();
   });

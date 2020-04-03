@@ -37,7 +37,9 @@ function setup(){
       "type": "Feature",
       "properties":{
         "name": data[i].name,
-        "id": i.toString(),
+        "id": "grid" + i.toString(),
+        "lat": lat,
+        "long": lng,
       },
       "geometry": {
         "type": "Point",
@@ -54,7 +56,7 @@ function setup(){
 }
 
 function mousePressed() {
-  saveJSON(geojson, 'titleIX.geojson');
+  saveJSON(geojson, 'titleIX_L.geojson');
 }
 
 // function formatDD(input) {

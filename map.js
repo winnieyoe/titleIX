@@ -1,3 +1,41 @@
+///////MAP COMPONENTS//////
+let int_lat = 30;
+let int_lng = -95;
+let zoom= 4;
+var mymap = L.map('leaflet').setView([int_lat, int_lng], zoom);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1,
+    accessToken: 'pk.eyJ1Ijoid2lueW9lIiwiYSI6ImNrOGV3cndubjAxMjMzZHFxMDR2Y2lkOTkifQ.zXvUx8Z4O7EinbqWiY315g'
+}).addTo(mymap);
+
+$.getJSON("assets/titleIX_L.geojson", function(data){
+  L.geoJson(data, {
+    pointToLayer: function (feature, latlng){
+      return L.circleMarker(latlng, {
+        fillColor: "#000",
+        fillOpacity: 0.9,
+        radius: 12,
+        color:"#FFF",
+        weight:2,
+      })
+    },
+    onEachFeature: function (feature, layer){
+      layer.on("mouseover", function(){
+        this.bindPopup(feature.properties.name).openPopup();
+      });
+      layer.on("mouseout", function(){
+        this.closePopup();
+      })
+    }
+  }).addTo(mymap);
+});
+
+///////TABLE COMPONENTS//////
 let data;
 let grid = document.getElementById("grid");
 let popup = document.getElementById("popup");
@@ -21,20 +59,12 @@ function draw(){
 }
 
 $(document).ready(function(){
-  // $("#grid").on("click", ".grid-item", function(){
-  //   console.log(this.id)
-  // })
-
   $("#grid").on("click", ".grid-item", function(){
     thisID = $(this).attr("id");
     displayCases(thisID);
+    clickZoom(thisID);
     $(this).addClass("overlay");
   })
-
-  // $("#grid").on("mouseleave", ".grid-item", function(){
-  //   console.log(this.id)
-  //   $(this).removeClass("overlay");
-  // })
 })
 
 function makeRows(rows, cols) {
@@ -89,4 +119,18 @@ function displayCases(thisID){
     // caseList += "<tr><td>" + data[i].incidents[j].date + "</td><td>" + data[i].incidents[j].complaint + "</td></tr>";
   }
   popup.innerHTML = caseList;
+}
+
+
+function clickZoom(thisID){
+  let newLat;
+  let newLng;
+  $.getJSON("assets/titleIX_L.geojson", function(geojson){
+    newLat = geojson.features[thisID].properties.lat;
+    newLng = geojson.features[thisID].properties.long
+    newZoom = 16;
+    console.log(thisID, newLat, newLng)
+    mymap.setView([newLat, newLng], newZoom)
+  })
+
 }

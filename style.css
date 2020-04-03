@@ -3,34 +3,65 @@ body {
   padding: 0;
 }
 
+#container{
+  display: flex;
+  flex-direction: row;
+}
+
+.row{
+  flex:1;
+}
+
 /* Map */
-#map {
+#leaflet{
+  width: 100%;
+  height: 1200px;
+}
+
+.leaflet-popup-close-button {
+   display: none;
+}
+/* #map {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 100%;
+  width: 50%;
 }
 
 .mapboxgl-popup {
   max-width: 500px;
   font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-}
+} */
 
 /* List of Schools */
-:root {
+/* :root {
   --grid-cols: 1;
   --grid-rows: 1;
-}
+} */
 
 #grid {
   display: grid;
   grid-gap: 1em;
-    grid-template-rows: repeat(var(--grid-rows), 1fr);
-    grid-template-columns: repeat(var(--grid-cols), 1fr);
+  grid-template-columns: auto auto;
+  /* grid-template-columns: 200px 200px; */
+    /* grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr); */
 }
 
 .grid-item {
+  position: relative;
   padding: 1em;
   border: 1px solid #ddd;
   text-align: center;
+}
+
+.overlay{
+  top: 0;
+  left: 0;
+  opacity: 1;
+  background-color: #666;
+}
+
+.grid-item:hover .overlay {
+  opacity: 1;
 }
