@@ -33,6 +33,11 @@ body {
   border:0;
   box-shadow: none;
 }
+
+.marker-cluster div{
+  border-radius: 0px;
+}
+
 /* .text{
   background: #000;
 } */

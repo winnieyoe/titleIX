@@ -2,9 +2,8 @@
 let int_lat = 30;
 let int_lng = -95;
 let zoom= 4;
-var mymap = L.map('leaflet', {zoomControl: false})
 
-mymap.setView([int_lat, int_lng], zoom);
+var mymap = L.map('leaflet', {zoomControl: false}).setView([int_lat, int_lng], zoom);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -13,7 +12,22 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     tileSize: 512,
     zoomOffset: -1,
     accessToken: 'pk.eyJ1Ijoid2lueW9lIiwiYSI6ImNrOGV3cndubjAxMjMzZHFxMDR2Y2lkOTkifQ.zXvUx8Z4O7EinbqWiY315g'
-}).addTo(mymap);
+}).addTo(mymap)
+
+let cluster = L.markerClusterGroup({
+  chunkedLoading: true,
+  spiderfyOnMaxZoom: false
+});
+
+
+// L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+//     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+//     maxZoom: 18,
+//     id: 'mapbox/streets-v11',
+//     tileSize: 512,
+//     zoomOffset: -1,
+//     accessToken: 'pk.eyJ1Ijoid2lueW9lIiwiYSI6ImNrOGV3cndubjAxMjMzZHFxMDR2Y2lkOTkifQ.zXvUx8Z4O7EinbqWiY315g'
+// }).addTo(mymap);
 
 ///Add custom zoom bar
 var zoomBar = L.easyBar([
@@ -111,6 +125,7 @@ let popup = document.getElementById("popup");
 
 function preload(){
   data = loadJSON("assets/allData.json")
+  geojson = loadJSON("assets/titleIX_L.geojson")
 }
 
 function setup(){
@@ -174,35 +189,66 @@ function makeRows(rows, cols) {
     school.appendChild(name);
   };
 
-  ///Add custom markers
-  $.getJSON("assets/titleIX_L.geojson", function(geojson){
-    $.each(geojson.features, function(k, v){
-      let spanID = "count" + k;
-      var options = {
-              isAlphaNumericIcon: true,
-              text: document.getElementById(spanID).innerHTML,
-              borderColor: '#000',
-              textColor: '#000',
-              iconSize: [30, 30],
-      };
 
-      let lat = geojson.features[k].properties.lat;
-      let lng = geojson.features[k].properties.long;
-      let markerLocation = new L.LatLng(lat, lng)
+  /////Add custom markers
+  for (let k=0; k<354; ++k){
+    let lat = geojson.features[k].properties.lat;
+    let lng = geojson.features[k].properties.long;
+    let markerLocation = new L.LatLng(lat, lng);
+    let name = geojson.features[k].properties.name;
 
-      marker = new L.marker(markerLocation, {
-        icon: L.BeautifyIcon.icon(options)
-      }).addTo(mymap)
+    let spanID = "count" + k;
+    var options = {
+      isAlphaNumericIcon: true,
+      text: document.getElementById(spanID).innerHTML,
+      borderColor: '#000',
+      textColor: '#000',
+      iconSize: [30, 30],
+    };
 
-      marker.bindPopup(geojson.features[k].properties.name)
-      marker.on("mouseover", function(){
-        this.openPopup();
-      });
-      marker.on("mouseout", function(){
-        this.closePopup();
-      })
-    })
-  })
+    let marker = L.marker(markerLocation, {
+       icon: L.BeautifyIcon.icon(options)
+    });
+    marker.bindPopup(geojson.features[k].properties.name)
+        marker.on("mouseover", function(){
+          this.openPopup();
+        });
+        marker.on("mouseout", function(){
+          this.closePopup();
+        })
+
+  cluster.addLayer(marker);
+  }
+  mymap.addLayer(cluster)
+  // $.getJSON("assets/titleIX_L.geojson", function(geojson){
+  //   $.each(geojson.features, function(k, v){
+  //     //Create individual markers
+  //     let spanID = "count" + k;
+  //     var options = {
+  //       isAlphaNumericIcon: true,
+  //       text: document.getElementById(spanID).innerHTML,
+  //       borderColor: '#000',
+  //       textColor: '#000',
+  //       iconSize: [30, 30],
+  //     };
+  //
+  //     let lat = geojson.features[k].properties.lat;
+  //     let lng = geojson.features[k].properties.long;
+  //     let markerLocation = new L.LatLng(lat, lng)
+  //
+  //     marker = new L.marker(markerLocation, {
+  //       icon: L.BeautifyIcon.icon(options)
+  //     }).addTo(mymap)
+  //
+  //     marker.bindPopup(geojson.features[k].properties.name)
+  //     marker.on("mouseover", function(){
+  //       this.openPopup();
+  //     });
+  //     marker.on("mouseout", function(){
+  //       this.closePopup();
+  //     })
+  //   })
+  // })
 };
 
 function displayCases(thisID){
