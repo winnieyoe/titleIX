@@ -52,27 +52,37 @@ zoomBar.addTo(mymap);
 //   }).addTo(mymap);
 // });
 
-///Add custom markers
-$.getJSON("assets/titleIX_L.geojson", function(geojson){
-  var options = {
-          isAlphaNumericIcon: true,
-          text: 10,
-          borderColor: '#00ABDC',
-          textColor: '#00ABDC'
-  };
 
-  $.each(geojson.features, function(k, v){
-    console.log(k, v)
-    let lat = geojson.features[k].properties.lat;
-    let lng = geojson.features[k].properties.long;
-    let markerLocation = new L.LatLng(lat, lng)
-
-    marker = new L.marker(markerLocation, {
-      icon: L.BeautifyIcon.icon(options)
-    }).addTo(mymap)
-  })
-    // console.log(geojson.features[i].properties.lat;)
-})
+// ///Add custom markers
+// $.getJSON("assets/titleIX_L.geojson", function(geojson){
+//   $.each(geojson.features, function(k, v){
+//     let spanID = "count" + k;
+//     console.log(spanID, document.getElementById("count0"))
+//     var options = {
+//             isAlphaNumericIcon: true,
+//             text: k,
+//             borderColor: '#000',
+//             textColor: '#000',
+//             iconSize: [30, 30],
+//     };
+//
+//     let lat = geojson.features[k].properties.lat;
+//     let lng = geojson.features[k].properties.long;
+//     let markerLocation = new L.LatLng(lat, lng)
+//
+//     marker = new L.marker(markerLocation, {
+//       icon: L.BeautifyIcon.icon(options)
+//     }).addTo(mymap)
+//
+//     marker.bindPopup(geojson.features[k].properties.name)
+//     marker.on("mouseover", function(){
+//       this.openPopup();
+//     });
+//     marker.on("mouseout", function(){
+//       this.closePopup();
+//     })
+//   })
+// })
 
 // (function() {
 // 	var control = new L.Control({position:'topright'});
@@ -113,10 +123,6 @@ function setup(){
   makeRows(rows, 2);
 }
 
-function draw(){
-
-}
-
 $(document).ready(function(){
   $("#grid").on("click", ".grid-item", function(){
     thisID = $(this).attr("id");
@@ -154,7 +160,7 @@ function makeRows(rows, cols) {
         count.innerText = ranking++;
       }
     }
-      school.appendChild(count);
+      school.appendChild(count).id = "count" + i;
 
     //Creating div for images
     let image = document.createElement("div");
@@ -167,6 +173,36 @@ function makeRows(rows, cols) {
     name.className = "grid-title"
     school.appendChild(name);
   };
+
+  ///Add custom markers
+  $.getJSON("assets/titleIX_L.geojson", function(geojson){
+    $.each(geojson.features, function(k, v){
+      let spanID = "count" + k;
+      var options = {
+              isAlphaNumericIcon: true,
+              text: document.getElementById(spanID).innerHTML,
+              borderColor: '#000',
+              textColor: '#000',
+              iconSize: [30, 30],
+      };
+
+      let lat = geojson.features[k].properties.lat;
+      let lng = geojson.features[k].properties.long;
+      let markerLocation = new L.LatLng(lat, lng)
+
+      marker = new L.marker(markerLocation, {
+        icon: L.BeautifyIcon.icon(options)
+      }).addTo(mymap)
+
+      marker.bindPopup(geojson.features[k].properties.name)
+      marker.on("mouseover", function(){
+        this.openPopup();
+      });
+      marker.on("mouseout", function(){
+        this.closePopup();
+      })
+    })
+  })
 };
 
 function displayCases(thisID){
@@ -191,5 +227,4 @@ function clickZoom(thisID){
     // console.log(thisID, newLat, newLng)
     mymap.setView([newLat, newLng], newZoom)
   })
-
 }
