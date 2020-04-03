@@ -2,7 +2,9 @@
 let int_lat = 30;
 let int_lng = -95;
 let zoom= 4;
-var mymap = L.map('leaflet').setView([int_lat, int_lng], zoom);
+var mymap = L.map('leaflet', {zoomControl: false})
+
+mymap.setView([int_lat, int_lng], zoom);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -12,6 +14,14 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     zoomOffset: -1,
     accessToken: 'pk.eyJ1Ijoid2lueW9lIiwiYSI6ImNrOGV3cndubjAxMjMzZHFxMDR2Y2lkOTkifQ.zXvUx8Z4O7EinbqWiY315g'
 }).addTo(mymap);
+
+var zoomBar = L.easyBar([
+  L.easyButton( '<big>+</big>',  function(control, mymap){mymap.setZoom(mymap.getZoom()+1);}),
+  L.easyButton( '<big>-</big>',  function(control, mymap){mymap.setZoom(mymap.getZoom()-1);}),
+  L.easyButton( 'fa-home fa-sm', function(control, mymap){mymap.setView([int_lat, int_lng], zoom);}),
+]);
+// add it to the map
+zoomBar.addTo(mymap);
 
 $.getJSON("assets/titleIX_L.geojson", function(data){
   L.geoJson(data, {
@@ -35,9 +45,25 @@ $.getJSON("assets/titleIX_L.geojson", function(data){
   }).addTo(mymap);
 });
 
-$( "#zoom-button" ).click(function() {
-  mymap.setView([int_lat, int_lng], zoom);
-});
+(function() {
+	var control = new L.Control({position:'topright'});
+	control.onAdd = function(map) {
+			var azoom = L.DomUtil.create('a','resetzoom');
+			azoom.innerHTML = "[Reset Zoom]";
+			L.DomEvent
+				.disableClickPropagation(azoom)
+				.addListener(azoom, 'click', function() {
+					mymap.setView([int_lat, int_lng], zoom);
+				},azoom);
+			return azoom;
+		};
+	return control;
+}())
+.addTo(mymap);
+
+// $( "#zoom-button" ).click(function() {
+//   mymap.setView([int_lat, int_lng], zoom);
+// });
 
 ///////TABLE COMPONENTS//////
 let data;
