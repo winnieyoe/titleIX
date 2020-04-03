@@ -35,6 +35,10 @@ $.getJSON("assets/titleIX_L.geojson", function(data){
   }).addTo(mymap);
 });
 
+$( "#zoom-button" ).click(function() {
+  mymap.setView([int_lat, int_lng], zoom);
+});
+
 ///////TABLE COMPONENTS//////
 let data;
 let grid = document.getElementById("grid");
@@ -129,7 +133,7 @@ function clickZoom(thisID){
     newLat = geojson.features[thisID].properties.lat;
     newLng = geojson.features[thisID].properties.long
     newZoom = 16;
-    console.log(thisID, newLat, newLng)
+    // console.log(thisID, newLat, newLng)
     mymap.setView([newLat, newLng], newZoom)
   })
 
