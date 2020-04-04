@@ -7071,8 +7071,8 @@
         "name": "KINGS COLLEGE",
         "id": "grid231",
         "state": "PA",
-        "lat": 51.5115,
-        "long": -0.116,
+        "lat": 41.2866,
+        "long": -75.8498,
         "tuition": "37,226 USD",
         "incidents": [
           {
@@ -7084,8 +7084,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.116,
-          51.5115
+          -75.8498,
+          41.2866
         ]
       }
     },
@@ -8655,8 +8655,8 @@
         "name": "ANDREWS UNIVERSITY",
         "id": "grid297",
         "state": "MI",
-        "lat": 56.3417,
-        "long": -2.7943,
+        "lat": 41.9476,
+        "long": -86.3275,
         "tuition": "29,288 USD",
         "incidents": [
           {
@@ -8668,8 +8668,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.7943,
-          56.3417
+          -86.3275,
+          41.9476
         ]
       }
     },
