@@ -119,22 +119,23 @@ zoomBar.addTo(mymap);
 // });
 
 ///////TABLE COMPONENTS//////
-let data;
+// let data;
 let grid = document.getElementById("grid");
 let popup = document.getElementById("popup");
 
 function preload(){
-  data = loadJSON("assets/allData.json")
+  // data = loadJSON("assets/allData.json")
   geojson = loadJSON("assets/titleIX_L.geojson")
 }
 
 function setup(){
-  data = data.mydata;
+  // data = data.mydata;
+  geojson = geojson.features;
   // console.log(list.mydata.sort((a, b) => (b.totalNum > a.totalNum) ? 1 : -1))
   // .length only works on array
   // size of objexy, Object.keys(myobj) returns array
   // Map
-  let rows = data.length/2;
+  let rows = geojson.length/2;
   makeRows(rows, 2);
 }
 
@@ -152,7 +153,7 @@ function makeRows(rows, cols) {
   grid.style.setProperty('--grid-cols', cols);
   let ranking = 1;
 
-  for (let i = 0; i < data.length; i++) {
+  for (let i = 0; i < geojson.length; i++) {
     //Creating containers for each school
     let school = document.createElement("div");
     // school.setAttribute("onclick", "msg")
@@ -161,15 +162,15 @@ function makeRows(rows, cols) {
 
     //Creating the ranking number
     let count = document.createElement("span");
-    if (i+1 < data.length){
-      if (data[i+1].incidents.length == data[i].incidents.length){
+    if (i+1 < geojson.length){
+      if (geojson[i+1].properties.incidents.length == geojson[i].properties.incidents.length){
         count.innerText = ranking;
       } else {
         count.innerText = ranking++;
       }
     }
-    if (i == data.length-1){
-      if(data[i].incidents.length == data[i-1].incidents.length){
+    if (i == geojson.length-1){
+      if(geojson[i].properties.incidents.length == geojson[i-1].properties.incidents.length){
         count.innerText = ranking;
       } else {
         count.innerText = ranking++;
@@ -184,18 +185,18 @@ function makeRows(rows, cols) {
 
     //Creating div for school names
     let name = document.createElement("div");
-    name.innerText = data[i].name;
+    name.innerText = geojson[i].properties.name;
     name.className = "grid-title"
     school.appendChild(name);
   };
 
 
   /////Add custom markers
-  for (let k=0; k<354; ++k){
-    let lat = geojson.features[k].properties.lat;
-    let lng = geojson.features[k].properties.long;
+  for (let k=0; k< geojson.length; ++k){
+    let lat = geojson[k].properties.lat;
+    let lng = geojson[k].properties.long;
     let markerLocation = new L.LatLng(lat, lng);
-    let name = geojson.features[k].properties.name;
+    let name = geojson[k].properties.name;
 
     let spanID = "count" + k;
     var options = {
@@ -209,7 +210,7 @@ function makeRows(rows, cols) {
     let marker = L.marker(markerLocation, {
        icon: L.BeautifyIcon.icon(options)
     });
-    marker.bindPopup(geojson.features[k].properties.name)
+    marker.bindPopup(geojson[k].properties.name)
         marker.on("mouseover", function(){
           this.openPopup();
         });
@@ -254,9 +255,8 @@ function makeRows(rows, cols) {
 function displayCases(thisID){
   let caseList = "";
 
-  for(let j=0; j<data[thisID].incidents.length; j++){
-    caseList += "<div class='one-case'>" + data[thisID].incidents[j].date + " " + data[thisID].incidents[j].complaint + "</div>";
-    console.log(data[thisID].incidents[j].date)
+  for(let j=0; j<geojson[thisID].properties.incidents.length; j++){
+    caseList += "<div class='one-case'>" + geojson[thisID].properties.incidents[j].date + " " + geojson[thisID].properties.incidents[j].complaint + "</div>";
     // caseList += "<tr><td>" + data[i].incidents[j].date + "</td><td>" + data[i].incidents[j].complaint + "</td></tr>";
   }
   popup.innerHTML = caseList;
@@ -266,11 +266,18 @@ function displayCases(thisID){
 function clickZoom(thisID){
   let newLat;
   let newLng;
-  $.getJSON("assets/titleIX_L.geojson", function(geojson){
-    newLat = geojson.features[thisID].properties.lat;
-    newLng = geojson.features[thisID].properties.long
-    newZoom = 16;
-    // console.log(thisID, newLat, newLng)
-    mymap.setView([newLat, newLng], newZoom)
-  })
+
+  newLat = geojson[thisID].properties.lat;
+  newLng = geojson[thisID].properties.long
+  newZoom = 16;
+  mymap.setView([newLat, newLng], newZoom)
+
+  // $.getJSON("assets/titleIX_L.geojson", function(geojson){
+  //   newLat = geojson.features[thisID].properties.lat;
+  //   newLng = geojson.features[thisID].properties.long
+  //   newZoom = 16;
+  //   console.log(thisID, newLat, newLng)
+  //   // console.log(thisID, newLat, newLng)
+  //   mymap.setView([newLat, newLng], newZoom)
+  // })
 }

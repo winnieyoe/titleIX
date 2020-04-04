@@ -1,4 +1,5 @@
 let data;
+let merged;
 let geojson = {
   type: "FeatureCollection",
   features: [],
@@ -6,13 +7,21 @@ let geojson = {
 
 function preload(){
   data = loadJSON("assets/coordinates.json")
+  schools = loadJSON("assets/allData.json")
 }
 
 function setup(){
-  //Read the JSON file and format the coordinates into decimal degree for mapbox plotting
-  for (let i=0; i<354; i++){
-    // data[i].dd = formatDD(data[i].coordinate);
-    var parts = data[i].coordinate.split(/[^\d\w\.]+/);
+  /// Schools and data are wrapped in {"mydata:[{}],[{}]"}, access the object array this way
+  schools = schools.mydata;
+  data = data.mydata;
+
+  /// Merge data and school JSON files under same school name, their sequences are different
+  merged = mergeObjects(schools, data);
+
+  console.log("1", merged)
+  /// Read the JSON file and format the coordinates into decimal degree for mapbox plotting
+  for (let i=0; i<merged.length; i++){
+    var parts = merged[i].coordinate.split(/[^\d\w\.]+/);
     var lat = parts[0];
     var lat_d = parts[1];
     var lng = parts[2];
@@ -28,53 +37,54 @@ function setup(){
     lat = parseFloat(lat);
     lng = parseFloat(lng);
 
-    // data[i].lat = lat;
-    // data[i].lng = lng;
-    data[i].coordinates = [lng, lat]
+    merged[i].coordinates = [lng, lat]
 
-    //Create geoJSON format
+    /// Create geojson object in correct format
     geojson.features.push({
       "type": "Feature",
       "properties":{
-        "name": data[i].name,
+        "name": merged[i].name,
         "id": "grid" + i.toString(),
+        "state": merged[i].state,
         "lat": lat,
         "long": lng,
+        "tuition": merged[i].tuition,
+        "incidents": merged[i].incidents
       },
       "geometry": {
         "type": "Point",
-        "coordinates": data[i].coordinates
+        "coordinates": merged[i].coordinates
       }
     })
   }
-  console.log(geojson)
-  // GeoJSON.parse(data, {Point: ['lat', 'lng']}, function(geojson) {
-  //   newdata = JSON.stringify(geojson);
-  // });
-
-  // console.log(newdata)
+    console.log("2", geojson)
 }
 
-function mousePressed() {
-  saveJSON(geojson, 'titleIX_L.geojson');
+/// Function to merge schools and data object
+function mergeObjects(){
+  let idMap = {};
+  for(var i = 0; i < arguments.length; i++) {
+    /// Iterate over individual argument arrays (aka json1, json2)
+    for(var j = 0; j < arguments[i].length; j++) {
+       var currentID = arguments[i][j]['name'];
+       if(!idMap[currentID]) {
+          idMap[currentID] = {};
+        }
+       /// Iterate over properties of objects in arrays (aka id, name, etc.)
+      for(key in arguments[i][j]) {
+          idMap[currentID][key] = arguments[i][j][key];
+      }
+    }
+  }
+
+  let newArray = [];
+  for(property in idMap) {
+    newArray.push(idMap[property]);
+  }
+  return newArray;
 }
 
-// function formatDD(input) {
-//     var parts = input.split(/[^\d\w\.]+/);
-//     var lat = parts[0];
-//     var lat_d = parts[1];
-//     var lng = parts[2];
-//     var lng_d = parts[3];
-//
-//     if(lat_d == "S" || lat_d == "W"){
-//       lat = lat * -1;
-//     }
-//
-//     if(lng_d == "S" || lng_d == "W"){
-//       lng = lng * -1;
-//     }
-//
-//     return{
-//       dd: lng + "," + lat
-//     }
+/// Download json file
+// function mousePressed() {
+//   saveJSON(geojson, 'titleIX_L.geojson');
 // }
