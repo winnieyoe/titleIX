@@ -104,6 +104,7 @@ function makeRows(rows, cols) {
     spiderfyOnMaxZoom: false
   });
 
+  /// Add individual markers 
   for (let k = 0; k < geojson.length; ++k) {
     let lat = geojson[k].properties.lat;
     let lng = geojson[k].properties.long;
