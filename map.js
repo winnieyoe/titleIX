@@ -104,7 +104,7 @@ function makeRows(rows, cols) {
     spiderfyOnMaxZoom: false
   });
 
-  /// Add individual markers 
+  /// Add individual markers
   for (let k = 0; k < geojson.length; ++k) {
     let lat = geojson[k].properties.lat;
     let lng = geojson[k].properties.long;
@@ -124,7 +124,8 @@ function makeRows(rows, cols) {
     };
 
     let marker = L.marker(markerLocation, {
-      icon: L.BeautifyIcon.icon(options)
+      icon: L.BeautifyIcon.icon(options),
+      myCustomID: "marker" + k,
     });
 
     /// Create popup of school name on hover, if want popups to be shown on click, add .bindPopup after let marker...
