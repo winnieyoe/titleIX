@@ -2,6 +2,7 @@
 let int_lat = 30;
 let int_lng = -95;
 let zoom = 4;
+let newList;
 
 var mymap = L.map('map', {zoomControl: false}).setView([int_lat, int_lng], zoom);
 
@@ -31,6 +32,8 @@ zoomBar.addTo(mymap);
 /// data component
 let grid = document.getElementById("grid");
 let caseListPopup = document.getElementById("popup");
+var slideIndex = [];
+var slideId = [];
 
 function preload() {
   geojson = loadJSON("assets/titleIX_L.geojson")
@@ -45,7 +48,7 @@ function setup() {
 }
 
 $(document).ready(function() {
-  $("#grid").on("click", ".grid-item", function() {
+  $("#grid").on("click", ".grid-title", function() {
     /// Get the id of the clicked school
     thisID = $(this).attr("id");
     /// Pass selected school's id, show case list, zoom to school location
@@ -61,6 +64,12 @@ function makeRows(rows, cols) {
 
   /// Calculate ranking
   let ranking = 1;
+
+  /// Sort geojson based on total number of incidents
+  for (let i=0; i < geojson.length; i++){
+    geojson = geojson.sort((a, b) => (b.properties.incidents.length > a.properties.incidents.length) ? 1 : -1);
+  }
+  // console.log(geojson)
 
   for (let i = 0; i < geojson.length; i++) {
     /// Creating containers for each school
@@ -87,9 +96,35 @@ function makeRows(rows, cols) {
     school.appendChild(count).id = "count" + i;
 
     /// Creating div for images
-    let image = document.createElement("div");
-    image.className = "grid-image"
-    school.appendChild(image);
+    let imgDiv = document.createElement("div");
+
+    let sliderL = document.createElement("button");
+    let iconL = document.createElement("i")
+    let sliderR = document.createElement("button");
+    let iconR = document.createElement("i");
+
+    slideId.push("grid-image" + i);
+    slideIndex.push(1);
+
+    for(let u=0; u < geojson[i].properties.urls.length; u++){
+      let img = document.createElement("img");
+      img.src = geojson[i].properties.urls[u];
+      imgDiv.appendChild(img).className = "grid-image grid-image" + i
+      school.appendChild(imgDiv);
+    }
+
+      //Create Slider Buttons with Custom Icon, append them the main box
+      iconL.className = "fas fa-caret-left"
+      iconR.className = "fas fa-caret-right"
+      sliderL.appendChild(iconL);
+      sliderR.appendChild(iconR);
+      school.appendChild(sliderL).className = "sliderL";
+      school.appendChild(sliderR).className = "sliderR";
+      //
+      sliderL.onclick = function(){plusDivs(-1, i)};
+      sliderR.onclick = function(){plusDivs(1, i)};
+
+      showDivs(1, i)
 
     /// Creating div for school names
     let name = document.createElement("div");
@@ -161,4 +196,21 @@ function clickZoom(thisID) {
   newLng = geojson[thisID].properties.long;
   newZoom = 16;
   mymap.setView([newLat, newLng], newZoom);
+}
+
+// / Slider functions, click for next image
+function plusDivs(n, no) {
+  console.log(n, no)
+  showDivs(slideIndex[no] += n, no);
+}
+
+function showDivs(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex[no]-1].style.display = "block";
 }

@@ -7,7 +7,7 @@ let geojson = {
 
 function preload(){
   data = loadJSON("assets/coordinates.json")
-  schools = loadJSON("assets/allData.json")
+  schools = loadJSON("assets/allData_URLs.json")
 }
 
 function setup(){
@@ -49,7 +49,8 @@ function setup(){
         "lat": lat,
         "long": lng,
         "tuition": merged[i].tuition,
-        "incidents": merged[i].incidents
+        "incidents": merged[i].incidents,
+        "urls": merged[i].urls,
       },
       "geometry": {
         "type": "Point",
@@ -85,6 +86,6 @@ function mergeObjects(){
 }
 
 /// Download json file
-// function mousePressed() {
-//   saveJSON(geojson, 'titleIX_L.geojson');
-// }
+function mousePressed() {
+  saveJSON(geojson, 'titleIX_L.geojson');
+}
