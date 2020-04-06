@@ -103,6 +103,7 @@ function makeRows(rows, cols) {
     let sliderR = document.createElement("button");
     let iconR = document.createElement("i");
 
+    /// Generate arrays that are needed for the image slideshows
     slideId.push("grid-image" + i);
     slideIndex.push(1);
 
@@ -113,17 +114,17 @@ function makeRows(rows, cols) {
       school.appendChild(imgDiv);
     }
 
-      //Create Slider Buttons with Custom Icon, append them the main box
+      // Create Slider Buttons with Custom Icon, append them the main box
       iconL.className = "fas fa-caret-left"
       iconR.className = "fas fa-caret-right"
       sliderL.appendChild(iconL);
       sliderR.appendChild(iconR);
       school.appendChild(sliderL).className = "sliderL";
       school.appendChild(sliderR).className = "sliderR";
-      //
+
+      /// Add functions for image sliders to button, need to wrap in function(){}
       sliderL.onclick = function(){plusDivs(-1, i)};
       sliderR.onclick = function(){plusDivs(1, i)};
-
       showDivs(1, i)
 
     /// Creating div for school names
@@ -198,9 +199,8 @@ function clickZoom(thisID) {
   mymap.setView([newLat, newLng], newZoom);
 }
 
-// / Slider functions, click for next image
+/// Image slider function click for next image
 function plusDivs(n, no) {
-  console.log(n, no)
   showDivs(slideIndex[no] += n, no);
 }
 
