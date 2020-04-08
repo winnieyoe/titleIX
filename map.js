@@ -100,6 +100,7 @@ function makeRows(rows, cols) {
       }
     }
     school.appendChild(count).id = "count" + i;
+    count.className = "count"
 
     /// Creating div for images
     let imgDiv = document.createElement("div");

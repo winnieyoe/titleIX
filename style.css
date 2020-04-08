@@ -18,6 +18,16 @@ body {
 }
 
 /* Navbar */
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 .navbar {
   border-bottom: 2px solid #000;
   background-color: #c2c2c2;
@@ -112,10 +122,10 @@ body {
 
 /* Map */
 #map {
-  width: 100%;
+  width: 50%;
   /* height: 1200px; */
   min-height: 100vh;
-  position: relative;
+  position: fixed;
 }
 
 .leaflet-popup-close-button {
@@ -155,14 +165,13 @@ body {
 }
 
 #table-container{
-  margin: 2%;
+  padding: 2%;
 }
 
 .grid-item {
   position: relative;
   padding: 1em;
   border: 2px solid #000;
-  text-align: center;
 }
 
 .overlay{
@@ -174,4 +183,20 @@ body {
 
 .grid-item:hover .overlay {
   opacity: 1;
+}
+
+.count{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: calc(3rem - 2px);
+  height: calc(3rem - 2px);
+  border-width: 2px;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  background-color: #fff;
 }
