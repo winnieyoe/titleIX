@@ -11,6 +11,10 @@ h2{
   font-size: 1.25em;
 }
 
+#defaultCanvas0 {
+  display: none;
+}
+
 #container{
   display: flex;
   flex-direction: row;
@@ -150,6 +154,14 @@ h2{
   border-radius: 0px;
 }
 
+.leaflet-left{
+  margin-left: 90%;
+}
+
+.leaflet-top{
+  margin-top: 2%;
+}
+
 /* List of Schools */
 /* :root {
   --grid-cols: 1;
@@ -206,7 +218,7 @@ h2{
 #table-title {
   display: flex;
   flex-direction: row;
-  margin: auto 5%;
+  margin:4% 5% 2% 5%;
   justify-content: space-between;
 }
 

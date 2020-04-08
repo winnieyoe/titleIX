@@ -1,7 +1,7 @@
 /// Initiate leaflet map
 let int_lat = 35;
-let int_lng = -95;
-let zoom = 4;
+let int_lng = -97;
+let zoom = 3.5;
 let newList;
 
 var mymap = L.map('map', {zoomControl: false}).setView([int_lat, int_lng], zoom);
