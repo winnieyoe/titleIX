@@ -117,8 +117,11 @@ function makeRows(rows, cols) {
     slideIndex.push(1);
 
     for(let u=0; u < geojson[i].properties.urls.length; u++){
-      let img = document.createElement("img");
-      img.src = geojson[i].properties.urls[0];
+      let img = document.createElement("div");
+      img.style = "background-image:url(" + geojson[i].properties.urls[0] + ")";
+
+      // let img = document.createElement("img");
+      // img.src = geojson[i].properties.urls[0];
       imgDiv.appendChild(img).className = "grid-image grid-image" + i
       school.appendChild(imgDiv).className = "images";
     }
