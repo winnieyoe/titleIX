@@ -1,19 +1,25 @@
 /// Initiate leaflet map
-let int_lat = 30;
+let int_lat = 35;
 let int_lng = -95;
 let zoom = 4;
 let newList;
 
 var mymap = L.map('map', {zoomControl: false}).setView([int_lat, int_lng], zoom);
 
-L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-  maxZoom: 18,
-  id: 'mapbox/streets-v11',
-  tileSize: 512,
-  zoomOffset: -1,
-  accessToken: 'pk.eyJ1Ijoid2lueW9lIiwiYSI6ImNrOGV3cndubjAxMjMzZHFxMDR2Y2lkOTkifQ.zXvUx8Z4O7EinbqWiY315g'
-}).addTo(mymap)
+// L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+//   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+//   maxZoom: 18,
+//   id: 'mapbox/streets-v11',
+//   tileSize: 512,
+//   zoomOffset: -1,
+//   accessToken: 'pk.eyJ1Ijoid2lueW9lIiwiYSI6ImNrOGV3cndubjAxMjMzZHFxMDR2Y2lkOTkifQ.zXvUx8Z4O7EinbqWiY315g'
+// }).addTo(mymap)
+L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
+	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	minZoom: 0,
+	maxZoom: 18,
+	ext: 'png',
+}).addTo(mymap);
 
 /// Add custom zoom bar with reset button with easy-button.js
 var zoomBar = L.easyBar([
@@ -75,7 +81,7 @@ function makeRows(rows, cols) {
     /// Creating containers for each school
     let school = document.createElement("div");
     grid.appendChild(school).className = "grid-item";
-    grid.appendChild(school).id = i;
+    grid.appendChild(school).id = geojson[i].properties.name;;
 
     /// Creating the ranking number
     let count = document.createElement("span");
@@ -109,7 +115,7 @@ function makeRows(rows, cols) {
 
     for(let u=0; u < geojson[i].properties.urls.length; u++){
       let img = document.createElement("img");
-      img.src = geojson[i].properties.urls[u];
+      img.src = geojson[i].properties.urls[0];
       imgDiv.appendChild(img).className = "grid-image grid-image" + i
       school.appendChild(imgDiv);
     }
@@ -131,6 +137,7 @@ function makeRows(rows, cols) {
     let name = document.createElement("div");
     name.innerText = geojson[i].properties.name;
     name.className = "grid-title"
+    name.id = i;
     school.appendChild(name);
   };
 
@@ -160,8 +167,7 @@ function makeRows(rows, cols) {
     };
 
     let marker = L.marker(markerLocation, {
-      icon: L.BeautifyIcon.icon(options),
-      myCustomID: "marker" + k,
+      icon: L.BeautifyIcon.icon(options)
     });
 
     /// Create popup of school name on hover, if want popups to be shown on click, add .bindPopup after let marker...
@@ -172,12 +178,27 @@ function makeRows(rows, cols) {
     marker.on("mouseout", function() {
       this.closePopup();
     })
+    marker.on("click", function(){
+      console.log("clicked", name)
+      goToByScroll(name);
+    })
 
     /// Convert markers into cluster
     cluster.addLayer(marker);
   }
   mymap.addLayer(cluster)
 };
+
+function goToByScroll(id){
+  console.log("here", id)
+  let element = document.getElementById(id);
+
+  element.scrollIntoView({
+    // behavior: "smooth",
+    // block: "start",
+    // inline: "nearest"
+  })
+}
 
 /// Display all cases of one school
 function displayCases(thisID) {

@@ -17,6 +17,7 @@
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
      integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
      crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.9.1/leaflet-providers.min.js"></script>
 
      <!-- Leaflet plugins: Zoom Button, Markers -->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
@@ -33,20 +34,44 @@
   </head>
 
   <body>
+    <header>
+      <nav class="navbar">
+        <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+                <i class="fa fa-bars"></i>
+        </label>
+        <a href="#" class="logo"><span id="title-bold">2020 Top US Colleges</span> By Open Title IX Investigations</a>
+        <input type="checkbox" id="chkToggle"></input>
+        <ul class="main-nav" id="js-menu">
+          <li>
+            <a href="#" class="nav-links">Current Data</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">About Title IX</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">Resources</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">Survey & Methods</a>
+          </li>
+        </ul>
+    </nav>
+    </header>
 
-    <div id="container">
-      <div class="row" id="map-container">
-        <!-- <article id="map"></article> -->
-          <!-- <button type="button" id="zoom-button">Reset Zoom</button> -->
-          <div id="map"></div>
+    <main>
+      <div id="container">
+        <div class="row" id="map-container">
+          <!-- <article id="map"></article> -->
+            <!-- <button type="button" id="zoom-button">Reset Zoom</button> -->
+            <div id="map"></div>
+        </div>
+
+        <div class="row" id="table-container">
+          <div id="popup"></div>
+          <div id="grid"></div>
+        </div>
       </div>
-
-      <div class="row" id="table-container">
-        <div id="popup"></div>
-        <div id="grid"></div>
-      </div>
-    </div>
-
+    </main>
   </body>
 </html>
 <script src="map.js"></script>
