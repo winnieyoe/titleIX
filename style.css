@@ -3,14 +3,23 @@ body {
   padding: 0;
 }
 
+main {
+  margin-top: 5%;
+}
+
+h2{
+  font-size: 1.25em;
+}
+
 #container{
   display: flex;
   flex-direction: row;
 }
 
 #map-container{
+  padding-right: 3px;
   position: relative;
-  border-right: 3px solid #000;
+  border-right: 2px solid #000;
 }
 
 .row{
@@ -18,19 +27,13 @@ body {
 }
 
 /* Navbar */
-.sticky{
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 102px;
-}
-
 .navbar {
   border-bottom: 2px solid #000;
   background-color: #c2c2c2;
+  position: fixed;
+  z-index: 999;
+  width: 100vw;
+  top: 0;
 }
 
 .main-nav {
@@ -45,13 +48,13 @@ body {
 }
 
 .main-nav li {
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   text-align: center;
 }
 
 .logo {
   display: inline-block;
-  font-size: 1.3750rem;
+  font-size: 1.25rem;
   /* margin-top: 10px; */
   margin-left: 5%;
 }
@@ -82,7 +85,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
-    height: 70px;
+    height: 4rem;
     align-items: center;
   }
 
@@ -156,8 +159,9 @@ body {
 } */
 
 #grid {
+  padding: 0% 5% 5% 5%;
   display: grid;
-  grid-gap: 1em;
+  grid-gap: 2em;
   grid-template-columns: auto auto;
   /* grid-template-columns: 200px 200px; */
     /* grid-template-rows: repeat(var(--grid-rows), 1fr);
@@ -165,13 +169,13 @@ body {
 }
 
 #table-container{
-  padding: 2%;
+
 }
 
 .grid-item {
   position: relative;
-  padding: 1em;
   border: 2px solid #000;
+  text-align: center;
 }
 
 .overlay{
@@ -183,6 +187,33 @@ body {
 
 .grid-item:hover .overlay {
   opacity: 1;
+}
+
+.grid-title{
+  background-color: #fff;
+  border-top-style: solid;
+  border-width: 2px;
+  z-index: 3;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#table-title{
+  display: flex;
+  flex-direction: row;
+  margin: auto 5%;
+  justify-content: space-between;
+}
+
+#popup{
+  display: none;
+  padding: 5%;
+}
+
+#schools{
+  display: block;
 }
 
 .count{

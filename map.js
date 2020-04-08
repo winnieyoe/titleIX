@@ -61,6 +61,7 @@ $(document).ready(function() {
     displayCases(thisID);
     clickZoom(thisID);
     $(this).addClass("overlay");
+    // $("#schools").hide()
   })
 })
 
@@ -180,7 +181,7 @@ function makeRows(rows, cols) {
       this.closePopup();
     })
     marker.on("click", function(){
-      console.log("clicked", name)
+      // console.log("clicked", name)
       goToByScroll(name);
     })
 
