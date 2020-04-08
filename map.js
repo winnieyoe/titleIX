@@ -105,7 +105,8 @@ function makeRows(rows, cols) {
 
     /// Creating div for images
     let imgDiv = document.createElement("div");
-
+    let containerS = document.createElement("div");
+    let sliders = document.createElement("div");
     let sliderL = document.createElement("button");
     let iconL = document.createElement("i")
     let sliderR = document.createElement("button");
@@ -119,16 +120,20 @@ function makeRows(rows, cols) {
       let img = document.createElement("img");
       img.src = geojson[i].properties.urls[0];
       imgDiv.appendChild(img).className = "grid-image grid-image" + i
-      school.appendChild(imgDiv);
+      school.appendChild(imgDiv).className = "images";
     }
 
-      // Create Slider Buttons with Custom Icon, append them the main box
-      iconL.className = "fas fa-caret-left"
-      iconR.className = "fas fa-caret-right"
+      /// Create Slider Buttons with Custom Icon, append them the main box
+      iconL.className = "fas fa-angle-left"
+      iconR.className = "fas fa-angle-right"
       sliderL.appendChild(iconL);
       sliderR.appendChild(iconR);
-      school.appendChild(sliderL).className = "sliderL";
-      school.appendChild(sliderR).className = "sliderR";
+      sliders.appendChild(sliderL).className = "slider-button sliderL";
+      sliders.appendChild(sliderR).className = "slider-button sliderR";
+      containerS.appendChild(sliders).className = "sliders";
+      school.appendChild(containerS).className = "slider-container"
+      // school.appendChild(sliderL).className = "sliderL";
+      // school.appendChild(sliderR).className = "sliderR";
 
       /// Add functions for image sliders to button, need to wrap in function(){}
       sliderL.onclick = function(){plusDivs(-1, i)};
