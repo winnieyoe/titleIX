@@ -61,7 +61,6 @@ TweetJs.Search("TitleIX", function (data) {
     // }
     // tweets_text.innerHTML = tweetList;
     // console.log(tweetList)
-
     for (let i=0; i<uniqueTweets.length; i++){
       let a = document.createElement("a")
       a.href = uniqueTweets[i].url ;
@@ -73,7 +72,7 @@ TweetJs.Search("TitleIX", function (data) {
 
     $('.marquee').marquee({
     	//duration in milliseconds of the marquee
-    	duration: 50000,
+    	duration: 70000,
     	//gap in pixels between the tickers
     	gap: 0,
     	//time in milliseconds before the marquee will start animating
