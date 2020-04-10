@@ -310,70 +310,27 @@ hr {
 
 /* /// 2. About Title IX Page /// */
 #twitter-container {
-  height: 5vh;
+  height: 7vh;
   width: 100%;
   border-bottom: 2px solid #000;
-}
-
-.scroll-left {
-  height: 100%;
-  overflow: visible;
-  position: relative;
+  background-color: #eee;
   display: flex;
   align-items: center;
 }
 
-#tweets {
-  /* width: 100%;
-  height: 100%; */
-  /* Starting position */
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  /* Apply animation to this element */
-  -moz-animation: scroll-left 80s linear infinite;
-  -webkit-animation: scroll-left 80s linear infinite;
-  animation: scroll-left 80s linear infinite;
-  white-space:nowrap;
+.marquee {
+  border: none;
+  overflow: visible;
+  white-space: nowrap;
+  border:1px solid #ccc;
 }
 
-/* Move it (define the animation) */
-@-moz-keyframes scroll-left {
-  0% {
-    -moz-transform: translateX(100%);
-  }
-
-  100% {
-    -moz-transform: translateX(-100%);
-  }
+.js-marquee-wrapper{
+  transform: translateX(0px)!important;
 }
 
-@-webkit-keyframes scroll-left {
-  0% {
-    -webkit-transform: translateX(100%);
-  }
-
-  100% {
-    -webkit-transform: translateX(-100%);
-  }
-}
-
-@keyframes scroll-left {
-  0% {
-    -moz-transform: translateX(20%);
-    /* Browser bug fix */
-    -webkit-transform: translateX(20%);
-    /* Browser bug fix */
-    transform: translateX(20%);
-  }
-
-  100% {
-    -moz-transform: translateX(-100%);
-    /* Browser bug fix */
-    -webkit-transform: translateX(-100%);
-    /* Browser bug fix */
-    transform: translateX(-100%);
-  }
+.one-tweet {
+  padding: 0% 0.5%;
 }
 
 #about-text-container {

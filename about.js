@@ -51,18 +51,55 @@ TweetJs.Search("TitleIX", function (data) {
     return map;
     }, new Map()).values()]
 
-    console.log(uniqueTweets)
 
     /// Display Tweets
-    let tweets_text = document.getElementById("tweets");
-    let tweetList = "";
-    // console.log(tweets[0].text)
+    let showTweets = document.getElementById("tweets");
+    // let tweetList = "";
+    //
+    // for (let i=0; i<uniqueTweets.length; i++){
+    //   tweetList += "<a class='one-tweet' href=" + uniqueTweets[i].url + "target='_blank'>" + uniqueTweets[i].text + "</a>";
+    // }
+    // tweets_text.innerHTML = tweetList;
+    // console.log(tweetList)
+
     for (let i=0; i<uniqueTweets.length; i++){
-      tweetList += i + "/ " + uniqueTweets[i].text + "       ";
-      // console.log(tweets[i].text)
-      // displayTweets += '"' + tweets[i].text + '"'
-      // console.log("tweets", displayTweets)
+      let a = document.createElement("a")
+      a.href = uniqueTweets[i].url ;
+      a.target = "_blank";
+      a.innerHTML = uniqueTweets[i].text;
+      showTweets.appendChild(a).className = "one-tweet";
     }
-    console.log(tweetList)
-    tweets_text.innerHTML = tweetList;
+    console.log(uniqueTweets)
+
+    $('.marquee').marquee({
+    	//duration in milliseconds of the marquee
+    	duration: 50000,
+    	//gap in pixels between the tickers
+    	gap: 0,
+    	//time in milliseconds before the marquee will start animating
+    	delayBeforeStart: 0,
+    	//'left' or 'right'
+    	direction: 'left',
+    	//true or false - should the marquee be duplicated to show an effect of continues flow
+    	duplicated: false
+    });
 });
+
+// polyfill
+// window.requestAnimationFrame = (function(){
+//   return  window.requestAnimationFrame       ||
+//           window.webkitRequestAnimationFrame ||
+//           window.mozRequestAnimationFrame    ||
+//           function( callback ){
+//             window.setTimeout(callback, 1000 / 60);
+//           };
+// })();
+//
+// var speed = 5000;
+// (function currencySlide(){
+//     var currencyPairWidth = $('.one-tweet:first-child').outerWidth();
+//     $("#tweets").animate({marginLeft:-currencyPairWidth},speed, 'linear', function(){
+//                 $(this).css({marginLeft:0}).find("a:last").after($(this).find("a:first"));
+//         });
+//         requestAnimationFrame(currencySlide);
+// })();
