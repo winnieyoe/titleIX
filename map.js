@@ -37,7 +37,10 @@ zoomBar.addTo(mymap);
 
 /// data component
 let grid = document.getElementById("grid");
-let caseListPopup = document.getElementById("popup");
+let grid_container = document.getElementById("schools");
+let case_details = document.getElementById("case-details");
+let case_container = document.getElementById("popup");
+
 var slideIndex = [];
 var slideId = [];
 
@@ -57,11 +60,19 @@ $(document).ready(function() {
   $("#grid").on("click", ".grid-title", function() {
     /// Get the id of the clicked school
     thisID = $(this).attr("id");
-    /// Pass selected school's id, show case list, zoom to school location
+
+    case_container.style.display = "block";
+    grid_container.style.display = "none";
     displayCases(thisID);
+
+    /// Pass selected school's id, show case list, zoom to school location
     clickZoom(thisID);
     $(this).addClass("overlay");
-    // $("#schools").hide()
+  })
+
+  $("#close").on("click", function(){
+    case_container.style.display = "none";
+    grid_container.style.display = "block";
   })
 })
 
@@ -200,7 +211,6 @@ function makeRows(rows, cols) {
 };
 
 function goToByScroll(id){
-  console.log("here", id)
   let element = document.getElementById(id);
 
   element.scrollIntoView({
@@ -214,9 +224,10 @@ function goToByScroll(id){
 function displayCases(thisID) {
   let caseList = "";
   for (let j = 0; j < geojson[thisID].properties.incidents.length; j++) {
-    caseList += "<div class='one-case'>" + geojson[thisID].properties.incidents[j].date + " " + geojson[thisID].properties.incidents[j].complaint + "</div>";
+    caseList += "<div class='one-case'>" + "<div class='case-date'>" + geojson[thisID].properties.incidents[j].date + "</div>" + "<div class='case-type'>" + geojson[thisID].properties.incidents[j].complaint + "</div>" + "</div>" + "<hr>";
   }
-  caseListPopup.innerHTML = caseList;
+  cases_num.innerHTML = geojson[thisID].properties.incidents.length;
+  case_details.innerHTML = caseList;
 }
 
 /// Click on school grid, zoom to selected school

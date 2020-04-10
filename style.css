@@ -4,10 +4,10 @@ body {
 }
 
 main {
-  margin-top: 5%;
+  margin-top: 4rem;
 }
 
-h2{
+h2 {
   font-size: 1.25em;
 }
 
@@ -15,23 +15,23 @@ h2{
   display: none;
 }
 
-#container{
+#container {
   display: flex;
   flex-direction: row;
 }
 
-#map-container{
+#map-container {
   padding-right: 3px;
   position: relative;
-  border-right: 2px solid #000;
+  /* border-right: 2px solid #000; */
 }
 
-#table-container{
-
+#table-container {
+  border-left: 2px solid #000;
 }
 
-.row{
-  flex:1;
+.row {
+  flex: 1;
 }
 
 /* Navbar */
@@ -67,7 +67,7 @@ h2{
   margin-left: 5%;
 }
 
-#title-bold{
+#title-bold {
   font-weight: bold;
 }
 
@@ -84,7 +84,7 @@ h2{
   display: none;
 }
 
-#chkToggle:checked + ul.main-nav {
+#chkToggle:checked+ul.main-nav {
   display: block;
 }
 
@@ -97,7 +97,7 @@ h2{
     align-items: center;
   }
 
-  #chkToggle:checked + ul.main-nav {
+  #chkToggle:checked+ul.main-nav {
     display: flex;
   }
 
@@ -130,8 +130,7 @@ h2{
   }
 }
 
-
-/* Map */
+/* /// 1. Current Data Page /// */
 #map {
   width: 50%;
   /* height: 1200px; */
@@ -140,25 +139,25 @@ h2{
 }
 
 .leaflet-popup-close-button {
-   display: none;
+  display: none;
 }
 
 .leaflet-tooltip-pane .text {
   color: #FFF;
   background: transparent;
-  border:0;
+  border: 0;
   box-shadow: none;
 }
 
-.marker-cluster div{
+.marker-cluster div {
   border-radius: 0px;
 }
 
-.leaflet-left{
+.leaflet-left {
   margin-left: 90%;
 }
 
-.leaflet-top{
+.leaflet-top {
   margin-top: 2%;
 }
 
@@ -169,7 +168,39 @@ h2{
 } */
 #popup {
   display: none;
+}
+
+#popup-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#case-details {
+  display: block;
   padding: 5%;
+}
+
+#popup-title {
+  margin: 5% 5% 0% 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fa-window-close {
+  font-size: 1.25rem;
+  margin: auto 0;
+}
+
+.one-case {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+hr {
+  border: 1px solid #000;
+  margin: 3% auto;
 }
 
 #schools {
@@ -182,7 +213,7 @@ h2{
   grid-gap: 2em;
   grid-template-columns: repeat(2, 1fr);
   /* grid-template-columns: 200px 200px; */
-    /* grid-template-rows: repeat(var(--grid-rows), 1fr);
+  /* grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr); */
 }
 
@@ -218,11 +249,11 @@ h2{
 #table-title {
   display: flex;
   flex-direction: row;
-  margin:4% 5% 2% 5%;
+  margin: 4% 5% 2% 5%;
   justify-content: space-between;
 }
 
-.images{
+.images {
   z-index: 0;
   height: 200px;
   overflow: hidden;
@@ -256,9 +287,7 @@ h2{
   position: relative;
 }
 
-.sliders {
-
-}
+.sliders {}
 
 .slider-button {
   background: none;
@@ -277,4 +306,139 @@ h2{
   position: absolute;
   top: 40%;
   right: 0;
+}
+
+/* /// 2. About Title IX Page /// */
+#twitter-container {
+  height: 5vh;
+  width: 100%;
+  border-bottom: 2px solid #000;
+}
+
+.scroll-left {
+  height: 100%;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#tweets {
+  /* width: 100%;
+  height: 100%; */
+  /* Starting position */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-left 80s linear infinite;
+  -webkit-animation: scroll-left 80s linear infinite;
+  animation: scroll-left 80s linear infinite;
+  white-space:nowrap;
+}
+
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+  0% {
+    -moz-transform: translateX(100%);
+  }
+
+  100% {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes scroll-left {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    -moz-transform: translateX(20%);
+    /* Browser bug fix */
+    -webkit-transform: translateX(20%);
+    /* Browser bug fix */
+    transform: translateX(20%);
+  }
+
+  100% {
+    -moz-transform: translateX(-100%);
+    /* Browser bug fix */
+    -webkit-transform: translateX(-100%);
+    /* Browser bug fix */
+    transform: translateX(-100%);
+  }
+}
+
+#about-text-container {
+  border-left: 2px solid #000;
+}
+
+.about-text {
+  margin: 5% 10%;
+}
+
+/* /// 3. Resources Page /// */
+#text-container {
+  height: 100vh;
+  background-color: #eee;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 5%10%;
+  width: 100%;
+  border-bottom: 2px solid #000;
+  text-align: left;
+  outline: none;
+  font-size: 1.25em;
+  ;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.process-text {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+#process-graph-container {
+  border-left: 2px solid #000;
+}
+
+#process-graph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#process-img {
+  width: 70%;
 }

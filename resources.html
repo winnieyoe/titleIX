@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" charset="utf-8"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Spectral:400,800&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+     <!-- Leaflet plugins: Zoom Button, Markers -->
+     <script src="https://kit.fontawesome.com/a4129aa4ae.js" crossorigin="anonymous"></script>
+     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css"> -->
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+                <i class="fa fa-bars"></i>
+        </label>
+        <a href="#" class="logo"><span id="title-bold">2020 Top US Colleges</span> By Open Title IX Investigations</a>
+        <input type="checkbox" id="chkToggle"></input>
+        <ul class="main-nav" id="js-menu">
+          <li>
+            <a href="#" class="nav-links">Current Data</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">About Title IX</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">Resources</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">Survey & Methods</a>
+          </li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+      <div class="content" id="container">
+        <div class="row" id="text-container">
+            <button class="accordion">1. Who, When, How to File a Complaint?</button>
+            <div class="process-text">
+              <h3>Who<h3>
+              <p>Anyone can file a Title IX complaint, whether you’re associated with the instituion or not.
+                You do not need to be the victim of the alleged discrimination. You can do this process on your own,
+                you do not need a lawyer.</p>
+
+              <h3>When<h3>
+              <p>Within 180 days of the ocurrance of the reported incident.</p>
+
+              <h3>How<h3>
+              <p>You can file an internal complaint at your institution, you can also file an Office of Civil Rights
+                complaint directly to the Department of Education. You are not required to have gone through the
+                internal process to file a OCR complaint.
+              </p>
+            </div>
+
+            <button class="accordion">2. Filing Process</button>
+            <div class="process-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <button class="accordion">3. Common Mishandling/Issues</button>
+            <div class="process-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+
+        <div class="row" id="process-graph-container">
+          <div id="process-graph">
+            <img id="process-img" src="assets/images/process.svg"></img>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+<script src="resources.js"></script>
