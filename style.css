@@ -310,12 +310,12 @@ hr {
 
 /* /// 2. About Title IX Page /// */
 #twitter-container {
-  height: 7vh;
+  display: flex;
+  align-items: center;
+  height: 6vh;
   width: 100%;
   border-top: 2px solid #000;
   background-color: #eee;
-  display: flex;
-  align-items: center;
   position: fixed;
   bottom: 0;
 }
