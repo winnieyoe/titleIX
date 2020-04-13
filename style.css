@@ -20,6 +20,11 @@ h2 {
   flex-direction: row;
 }
 
+#column-container {
+  display: flex;
+  flex-direction: column;
+}
+
 #map-container {
   padding-right: 3px;
   position: relative;
@@ -56,7 +61,7 @@ h2 {
 }
 
 .main-nav li {
-  font-size: 1.0625rem;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -113,7 +118,7 @@ h2 {
   }
 
   .nav-links {
-    margin-left: 40px;
+    margin-left: 30px;
   }
 
   .logo {
@@ -325,7 +330,7 @@ hr {
   align-items: center;
   margin: 0;
   height: 6vh;
-  padding: 0 10% 0 5%;
+  padding: 0 9% 0 2%;
   background-color: #eee;
   border-right: 2px solid #000;
   overflow: hidden;
@@ -371,7 +376,6 @@ hr {
   text-align: left;
   outline: none;
   font-size: 1.25em;
-  ;
   transition: 0.4s;
 }
 
@@ -412,4 +416,29 @@ hr {
 
 #process-img {
   width: 70%;
+}
+
+/* /// 4. Survey Page /// */
+#start-survey-container {
+   height: 100vh;
+   border-left: 2px solid #000;
+}
+
+.selected {
+  color: red;
+}
+
+/* /// 5. Methods Page /// */
+.section {
+  padding: 0 5%;
+}
+
+#methods-1{
+  border-bottom: 2px solid #000;
+}
+
+.section2{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid #000;
 }
