@@ -419,13 +419,72 @@ hr {
 }
 
 /* /// 4. Survey Page /// */
+#aau-container{
+  height: 100vh;
+}
+
 #start-survey-container {
    height: 100vh;
    border-left: 2px solid #000;
 }
 
+.text-content{
+  padding: 5% 10% 5% 10%;
+}
+
+.stat-image{
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+/* Survey Components */
+
+.survey {
+  padding: 2% 5% 5% 5%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid #000;
+}
+
+.question-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.question {
+  width: 50vw;
+  margin-right: 10vw;
+}
+
+.survey-buttons {
+
+}
+
 .selected {
   color: red;
+}
+
+#submit {
+  margin: 5%;
+  width: 20vw;
+}
+
+.result {
+  display: flex;
+  flex-direction: row;
+}
+
+.label {
+  width: 50px;
+}
+
+.rect {
+  width: 100px;
+  height: 30px;
+  margin: 5% 0;
+  left: 0;
+  background-color: #333;
 }
 
 /* /// 5. Methods Page /// */

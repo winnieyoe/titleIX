@@ -48,67 +48,171 @@
     <main>
       <div class="content" id="container">
         <div class="row" id="aau-container">
-          <h2>Missing Data (which you can help fill) vs. AAU Campus Climate Survey</h2>
-          <p>In 2015 and 2019, the Association of American Universities (AAU) and its 27 and 33 member schools respectively conducted a survey “to examine the prevalence of, and assess the campus climate regarding, sexual assault and misconduct at colleges and universities”.</p>
-          <img src="assets/images/aau.svg"></img>
-          <h3>Missing Data: General Approval vs Lived Experiences</h3>
-          <p>The 66% reflects an approval rate among all interviewees, regardless if they have experienced campus assault or if they have filed a report with the institution. What are the actual experiences of those who have experience campus sexual harassment or sexual assault?</p>
+          <div class = "text-content">
+            <h2>Missing Data (which you can help fill) vs. AAU Campus Climate Survey</h2>
+            <p>In 2015 and 2019, the Association of American Universities (AAU) and its 27 and 33 member schools respectively conducted a survey “to examine the prevalence of, and assess the campus climate regarding, sexual assault and misconduct at colleges and universities”.</p>
+            <img class="stat-image" src="assets/images/aau.svg"></img>
+            <h3>Missing Data: General Approval vs Lived Experiences</h3>
+            <p>The 66% reflects an approval rate among all interviewees, regardless if they have experienced campus assault or if they have filed a report with the institution. What are the actual experiences of those who have experience campus sexual harassment or sexual assault?</p>
 
-          <p id="footnote">*The survey broke reports on sexual assault and reports on nonconsensual sexual contact by force or inability to consent as two different categories.<p>
+            <p id="footnote">*The survey broke reports on sexual assault and reports on nonconsensual sexual contact by force or inability to consent as two different categories.<p>
+          </div>
         </div>
 
         <div class="row" id="start-survey-container">
-          <p>Missing Data*</p>
-          <h2>Have you encountered sexual harassment, sexual violence, or any gender-based discrimination on college campus in the US?</h2>
+          <div class = "text-content">
+            <p>Missing Data*</p>
+            <h2>Have you encountered sexual harassment, sexual violence, or any gender-based discrimination on college campus in the US?</h2>
 
-          <div class="survey-buttons">
-            <button class="q0-button">Yes</button>
-            <button class="q0-button">No</button>
+            <div class="survey-buttons">
+              <button class="q0-button">Yes</button>
+              <button class="q0-button">No</button>
+            </div>
+
+            <p>*Your response is completely annonymous</p>
           </div>
-
-          <p>*Your response is completely annonymous</p>
         </div>
       </div>
 
 
       <div class="content" id="column-container">
-        <div class="row" id="survey-q1-container">
-          <p>Question 1</p>
-          <h2>Have you encountered sexual harassment, sexual violence, or any gender-based discrimination on college campus in the US?</h2>
-
-          <div class="survey-buttons">
-            <button class="q1-button">Yes</button>
-            <button class="q1-button">No</button>
-          </div>
+        <div class="survey" id="survey-q1-container">
+            <div class="question-content">
+              <div class="question">
+                <p>Question 1</p>
+                <h2>Have you encountered sexual harassment, sexual violence, or any gender-based discrimination on college campus in the US?</h2>
+              </div>
+              <div class="survey-buttons">
+                <button class="q1-button">Yes</button>
+                <button class="q1-button">No</button>
+              </div>
+            </div>
         </div>
 
-        <div class="row" id="survey-q2-container">
-          <p>Question 2</p>
-          <h2>Did you file a case with the Title IX office?</h2>
-
-          <div class="survey-buttons">
-            <button class="q2-button">Yes</button>
-            <button class="q2-button">No</button>
-          </div>
+        <div class="survey" id="survey-q2-container">
+            <div class="question-content">
+              <div class="question">
+                <p>Question 2</p>
+                <h2>Did you file a case with the Title IX office?</h2>
+              </div>
+              <div class="survey-buttons">
+                <button class="q2-button">Yes</button>
+                <button class="q2-button">No</button>
+              </div>
+            </div>
         </div>
 
-        <div class="row" id="survey-q3-container">
-          <p>Question 3</p>
-          <h2>Were you satisfied with how the institution respond to/handle your report?</h2>
-
-          <div class="survey-buttons">
-            <button class="q3-button">Yes</button>
-            <button class="q3-button">Quite</button>
-            <button class="q3-button">It's ok</button>
-            <button class="q3-button">Ugh</button>
-            <button class="q3-button">Hell No</button>
-          </div>
-
-          <button id="submit">Submit</button>
+        <div class="survey" id="survey-q3-container">
+            <div class="question-content">
+              <div class="question">
+                <p>Question 3</p>
+                <h2>Were you satisfied with how the institution respond to/handle your report?</h2>
+              </div>
+              <div class="survey-buttons">
+                <button class="q3-button">Yes</button>
+                <button class="q3-button">Quite</button>
+                <button class="q3-button">It's ok</button>
+                <button class="q3-button">Ugh</button>
+                <button class="q3-button">Hell No</button>
+              </div>
+            </div>
         </div>
+
+        <button id="submit">Submit</button>
       </div>
 
-      <div >
+      <div class="content" id="column-container">
+        <div class="survey">
+            <div class="question-content">
+              <div class="question">
+                <p>Question 0</p>
+                <h2>Have you encountered sexual harassment, sexual violence, or any gender-based discrimination on college campus in the US?</h2>
+              </div>
+
+              <div id="result" class="result-container">
+                <div class="result">
+                  <span class="label" id="yes-0L">Yes</span>
+                  <div class="rect" id="yes-0Rect"></div>
+                </div>
+                <div class="result">
+                  <span class="label" id="no-0L">No</span>
+                  <div class="rect" id="no-0Rect"></div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="survey">
+            <div class="question-content">
+              <div class="question">
+                <p>Question 1</p>
+                <h2>Have you encountered sexual harassment, sexual violence, or any gender-based discrimination on college campus in the US?</h2>
+              </div>
+
+              <div id="result" class="result-container">
+                <div class="result">
+                  <span class="label" id="yes-1L">Yes</span>
+                  <div class="rect" id="yes-1Rect"></div>
+                </div>
+                <div class="result">
+                  <span class="label" id="no-1L">No</span>
+                  <div class="rect" id="no-1Rect"></div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="survey">
+            <div class="question-content">
+              <div class="question">
+                <p>Question 2</p>
+                <h2>Did you file a case with the Title IX office?</h2>
+              </div>
+
+              <div id="result" class="result-container">
+                <div class="result">
+                  <span class="label" id="yes-2L">Yes</span>
+                  <div class="rect" id="yes-2Rect"></div>
+                </div>
+                <div class="result">
+                  <span class="label" id="no-2L">No</span>
+                  <div class="rect" id="no-2Rect"></div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="survey" id="survey-q3-container">
+            <div class="question-content">
+              <div class="question">
+                <p>Question 3</p>
+                <h2>Were you satisfied with how the institution respond to/handle your report?</h2>
+              </div>
+
+              <div id="result" class="result-container">
+                <div class="result">
+                  <span class="label" id="yes-3L">Yes</span>
+                  <div class="rect" id="yes-3Rect"></div>
+                </div>
+                <div class="result">
+                  <span class="label" id="quite-3L">Quite</span>
+                  <div class="rect" id="quite-3Rect"></div>
+                </div>
+                <div class="result">
+                  <span class="label" id="ok-3L">It's ok</span>
+                  <div class="rect" id="ok-3Rect"></div>
+                </div>
+                <div class="result">
+                  <span class="label" id="ugh-3L">Ugh</span>
+                  <div class="rect" id="ugh-3Rect"></div>
+                </div>
+                <div class="result">
+                  <span class="label" id="hell-3L">Hell No</span>
+                  <div class="rect" id="hell-3Rect"></div>
+                </div>
+              </div>
+            </div>
+        </div>
       </div>
     </main>
   </body>
