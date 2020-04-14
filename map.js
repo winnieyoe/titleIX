@@ -129,7 +129,7 @@ function makeRows(rows, cols) {
 
     for(let u=0; u < geojson[i].properties.urls.length; u++){
       let img = document.createElement("div");
-      img.style = "background-image:url(" + geojson[i].properties.urls[u] + ")";
+      img.style = "background-image:url(" + geojson[i].properties.urls[0] + ")";
 
       // let img = document.createElement("img");
       // img.src = geojson[i].properties.urls[0];
