@@ -129,7 +129,7 @@ function makeRows(rows, cols) {
 
     for(let u=0; u < geojson[i].properties.urls.length; u++){
       let img = document.createElement("div");
-      img.style = "background-image:url(" + geojson[i].properties.urls[u] + ")";
+      img.style = "background-image:url(" + geojson[i].properties.urls[0] + ")";
 
       // let img = document.createElement("img");
       // img.src = geojson[i].properties.urls[0];
@@ -165,7 +165,7 @@ function makeRows(rows, cols) {
   /// Add custom cluster markers to map, this was originally placed on the very top of codes
   let cluster = L.markerClusterGroup({
     chunkedLoading: true,
-    spiderfyOnMaxZoom: false
+    spiderfyOnMaxZoom: false,
   });
 
   /// Add individual markers
@@ -178,13 +178,14 @@ function makeRows(rows, cols) {
     let name = geojson[k].properties.name;
     let spanID = "count" + k;
 
-    /// Styling options from MarkerCluster.js
+    /// Styling options from L.BeautifyIcon, Styles individual markers
     var options = {
       isAlphaNumericIcon: true,
       text: document.getElementById(spanID).innerHTML,
-      borderColor: '#000',
-      textColor: '#000',
-      iconSize: [30, 30],
+      borderColor: '#71131B',
+			backgroundColor:"#71131B",
+      textColor: '#fff',
+      iconSize: [26,26]
     };
 
     let marker = L.marker(markerLocation, {
