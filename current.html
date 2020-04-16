@@ -56,24 +56,28 @@
       </nav>
     </header>
 
-    <div id="project-name">
+    <div class="current" id="name-wrapper">
       <a href="index.html" class="nav-links project-name">2020 Top US Colleges<span id="project-sub">&nbsp;By Open Title IX Investigations</span></a>
     </div>
 
-    <main id="current-main">
+    <main class="current" id="current-wrapper">
       <div class="content" id="container">
-        <div class="row" id="map-container">
-          <div class="title">
-              <h1 id="test">View Individual School Markers (Square) and Clusters (Circle)</h1>
-          </div>
+        <div class="row">
+          <h4>Map View</h4>
           <div id="map"></div>
         </div>
+        <!-- <div class="row" id="map-container">
+          <div class="title">
+              <h4 class="section-title">View Individual School Markers (Square) and Clusters (Circle)</h4>
+          </div>
+
+        </div> -->
 
         <div class="row" id="table-container">
           <div id="popup">
             <div id="popup-container">
               <div id="popup-title">
-                <h1 class="section-title">Case Details (Count: <span id="cases_num"></span>)</h1>
+                <h4 class="section-title">Case Details (Count: <span id="cases_num"></span>)</h4>
                 <i class="fas fa-window-close" id="close"></i>
               </div>
               <div id="case-details"></div>
@@ -82,8 +86,8 @@
 
           <div id="schools">
             <div id="table-title">
-              <h1 class="section-title">Ranking by Open Cases</h1>
-              <h1 class="section-title">Sort: All Categories</h1>
+              <h4 class="section-title">Ranking by Open Cases</h4>
+              <h4 class="section-title">Sort: All Categories</h4>
             </div>
             <div id="grid"></div>
           </div>

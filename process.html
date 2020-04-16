@@ -18,33 +18,32 @@
 
   <body>
     <header>
-      <nav class="navbar">
-        <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
-                <i class="fa fa-bars"></i>
-        </label>
-        <a href="index.html" class="logo"><span id="title-bold">2020 Top US Colleges</span> By Open Title IX Investigations</a>
-        <input type="checkbox" id="chkToggle"></input>
-        <ul class="main-nav" id="js-menu">
-          <li>
-            <a href="current.html" class="nav-links">Current Data</a>
-          </li>
-          <li>
-            <a href="about.html" class="nav-links">About Title IX</a>
-          </li>
-          <li>
-            <a href="process.html" class="nav-links">Resources</a>
-          </li>
-          <li>
-            <a href="survey.html" class="nav-links">Survey</a>
-          </li>
-          <li>
-            <a href="methods.html" class="nav-links">Methodology</a>
-          </li>
-        </ul>
-    </nav>
+      <nav class="main-nav">
+          <ul class="nav">
+            <li id="current-nav">
+              <a href="current.html" class="nav-links">Current Data</a>
+            </li>
+            <li id="about-nav">
+              <a href="about.html" class="nav-links">About Title IX</a>
+            </li>
+            <li id="process-nav">
+              <a href="process.html" class="nav-links">Process</a>
+            </li>
+            <li id="survey-nav">
+              <a href="survey.html" class="nav-links">Survey</a>
+            </li>
+            <li id="method-nav">
+              <a href="methods.html" class="nav-links">Methodology</a>
+            </li>
+          </ul>
+      </nav>
     </header>
 
-    <main>
+    <div class="process" id="name-wrapper">
+      <a href="index.html" class="nav-links project-name">2020 Top US Colleges<span id="project-sub">&nbsp;By Open Title IX Investigations</span></a>
+    </div>
+
+    <main class="process" id="process-wrapper">
       <div class="content" id="container">
         <div class="row" id="text-container">
             <button class="accordion">1. Who, When, How to File a Complaint?</button>

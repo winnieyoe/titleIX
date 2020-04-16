@@ -20,27 +20,44 @@
 }
 
 html, body {
-  min-height:100%;
-  max-height:100%;
   height:100%;
+  width: 100%;
   padding: 0;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
+main {
+  width: 97vw;
+  float: right;
+}
+
+h3 {
   font-family: "BasisGrotesquePro-Bold";
   color: #fff;
-  font-size: 0.85rem;
-  margin: 5px 2px 8px 3px;
+  font-size: 1.1875rem;
+  margin-bottom: 5%;
+}
+
+h4 {
+  font-family: "BasisGrotesquePro-Bold";
+  color: #fff;
+  font-size: 0.875rem;
+  margin: 5px 2px 6px 3px;
+}
+
+h5 {
+  font-family: "ArnoPro-BoldCaption";
+  color: #fff;
+  font-size: 1.1875rem;
 }
 
 p {
   font-family: "ArnoPro-Caption";
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   color: #ffffff;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 #defaultCanvas0 {
@@ -66,16 +83,13 @@ p {
 .content {
   display: flex;
   flex-direction: row;
-  padding: 0 4vw 0 8vw;
+  height: 100%;
+  margin: auto 4%;
 }
 
 #column-container {
   display: flex;
   flex-direction: column;
-}
-
-#map-container {
-  position: relative;
 }
 
 .row {
@@ -92,7 +106,7 @@ ul {
 }
 
 .main-nav {
-    height:4vw;
+    height:3vw;
     position:fixed;
     -webkit-transform-origin: left top;
     -webkit-transform:rotate(-90deg) translateX(-100%);
@@ -101,7 +115,6 @@ ul {
 
 ul.nav {
     width:100vh;
-    margin:0 auto;
 }
 
 ul.nav li {
@@ -123,7 +136,7 @@ ul.nav li a:hover {
 
 .nav-links {
     font-family: "BasisGrotesquePro-Bold";
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     text-decoration: none;
 }
 
@@ -131,7 +144,15 @@ ul.nav li a:hover {
   background-color: #71131B;
 }
 
+.current {
+  background-color: #71131B;
+}
+
 #about-nav {
+  background-color: #82540F;
+}
+
+.about {
   background-color: #82540F;
 }
 
@@ -139,11 +160,23 @@ ul.nav li a:hover {
   background-color: #12312B;
 }
 
+.process {
+  background-color: #12312B;
+}
+
 #survey-nav {
   background-color: #133075;
 }
 
+.survey {
+  background-color: #133075;
+}
+
 #method-nav {
+  background-color: #0033A0;
+}
+
+.method {
   background-color: #0033A0;
 }
 
@@ -152,15 +185,19 @@ ul.nav li a:hover {
   flex-direction: column;
 }
 
-
-.project-name {
+#name-wrapper {
+  width: 97vw;
+  height: 12vh;
+  float: right;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.project-name {
   color: #F5C532;
   font-family: "ArnoPro-BoldCaption";
-  font-size: 1.625rem;
-  padding: 3% 0% 2.5% 4%;
-  background-color:
+  font-size: 1.5rem;
 }
 
 #project-sub {
@@ -174,13 +211,16 @@ ul.nav li a:hover {
 
 /* /// 0. Intro Page /// */
 #intro-container {
-  padding-left: 10%;
   display: flex;
 }
 
 #intro-text {
-  margin-top: 25%;
-  width:97%;
+  width: 85%;
+  margin: 20% 5% 5% 5%;
+}
+
+#intro-para {
+  font-size: 1.1875rem;
 }
 
 .marker-cluster div{
@@ -233,15 +273,18 @@ ul.nav li a:hover {
 
 /* /// 1. Current Data Page /// */
 #map {
-  width: 44%;
-  /* height: 1200px; */
-  min-height: 85%;
+  width: 95%;
+  min-height: 81vh;
   border: 2px solid #000;
-  position: fixed;
+  position: relative;
 }
 
-#current-main {
-  background-color: #71131B;
+#current-wrapper {
+  height: 88vh;
+}
+
+#table-conatiner {
+  height: 100%;
 }
 
 .leaflet-popup-close-button {
@@ -273,10 +316,6 @@ ul.nav li a:hover {
 }
 
 /* List of Schools */
-/* :root {
-  --grid-cols: 1;
-  --grid-rows: 1;
-} */
 #popup {
   display: none;
 }
@@ -316,16 +355,15 @@ hr {
 
 #schools {
   display: block;
+  height: 88vh;
 }
 
 #grid {
-  padding: 0% 0% 5% 5%;
   display: grid;
   grid-gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-template-columns: 200px 200px; */
-  /* grid-template-rows: repeat(var(--grid-rows), 1fr);
-    grid-template-columns: repeat(var(--grid-cols), 1fr); */
+  overflow: scroll;
+  height: 84.3vh;
 }
 
 .grid-item {
@@ -361,7 +399,6 @@ hr {
 #table-title {
   display: flex;
   flex-direction: row;
-  margin: 0% 0% 0% 5%;
   justify-content: space-between;
 }
 
@@ -425,9 +462,10 @@ hr {
   display: flex;
   align-items: center;
   height: 6vh;
-  width: 100%;
+  width: 97vw;
+  right: 0;
   border-top: 2px solid #000;
-  background-color: #eee;
+  background-color: #82540F;
   position: fixed;
   bottom: 0;
 }
@@ -435,11 +473,10 @@ hr {
 #latest-tweets {
   display: flex;
   align-items: center;
-  margin: 0;
   height: 6vh;
-  padding: 0 9% 0 2%;
-  background-color: #eee;
-  border-right: 2px solid #000;
+  width: 10vw;
+  padding: 0 10% 0 2%;
+  background-color: #82540F;
   overflow: hidden;
   white-space: nowrap;
   z-index: 3;
@@ -451,6 +488,20 @@ hr {
   border: none;
 }
 
+div#tweets a:link{
+  font-family: "BasisGrotesquePro-Bold";
+  font-size: 0.8125rem;
+  color: #fff;
+}
+
+div#tweets a:hover{
+  color: #000;
+}
+
+div#tweets a:visited{
+  color: #000;
+}
+
 .js-marquee-wrapper{
   transform: translateX(100px)!important;
 }
@@ -459,12 +510,8 @@ hr {
   padding: 0% 0.5%;
 }
 
-#about-text-container {
-  border-left: 2px solid #000;
-}
-
 .about-text {
-  margin: 5% 10%;
+  width: 96%;
 }
 
 /* /// 3. Resources Page /// */
@@ -595,16 +642,45 @@ hr {
 }
 
 /* /// 5. Methods Page /// */
+#methods-1 {
+  width: 46%;
+}
+
 .section {
-  padding: 0 5%;
+  margin-bottom: 2%;
 }
 
-#methods-1{
-  border-bottom: 2px solid #000;
-}
-
-.section2{
+.section2 {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  border-top: 2px solid #000;
+}
+
+.section2-para {
+  width: 46%;
+  margin-top: 2%;
+}
+
+#methods-3 {
   border-bottom: 2px solid #000;
+  margin-bottom: 2%;
+}
+
+#methods-4{
+  margin-bottom: 5%;
+}
+
+.hyperlink{
+  border-bottom: 1px dashed #fff;
+  text-decoration: none;
+}
+
+.hyperlink:hover{
+  color: #000;
+  border-bottom: 1px dashed #000;
+}
+
+.hyperlink:visited{
+  color: #fff;
 }

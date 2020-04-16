@@ -53,46 +53,34 @@
               <a href="methods.html" class="nav-links">Methodology</a>
             </li>
           </ul>
-        </nav>
+      </nav>
     </header>
 
-    <div class="current-all">
-      <div id="title">
-        <a href="index.html" class="nav-links project-name">2020 Top US Colleges<span id="project-sub">&nbsp;By Open Title IX Investigations</span></a>
-      </div>
-
-      <div id="current-main">
-        <div class="content" id="container">
-          <div class="row" id="map-container">
-            <h1>View Individual School Markers (Square) and Clusters (Circle)</h1>
-            <div id="map"></div>
-          </div>
-
-          <!-- <div class="row" id="table-container">
-            <div id="popup">
-              <div id="popup-container">
-                <div id="popup-title">
-                  <h2 class="section-title">Case Details (Count: <span id="cases_num"></span>)</h2>
-                  <i class="fas fa-window-close" id="close"></i>
-                </div>
-                <div id="case-details"></div>
-              </div>
-            </div> -->
-
-            <div class="row" id="intro-container">
-              <div id="intro-text">
-                <p>In the States, one in 5 women and one in 16 men are sexually assaulted while in college.<br><br>
-                  Title IX, a federal civil rights law originally enacted in 1972 to provide equal academic
-                  and athletics opportunities for women and men, has been commonly applied in campus sexual misconduct cases.
-                  In February 2020, Secretary of Education Betsy DeVos introduced new guidelines on the regulation of Title IX,
-                  rolling back many of the strict interpretations from the Obama administration.</p>
-                <button class="button" onclick="location.href='current.html';">Explore Open Cases</button>
-              </div>
-              <div id="grid" style="display: none"></div>
-            </div>
-          </div>
-      </div>
+    <div class="current" id="name-wrapper">
+      <a href="index.html" class="nav-links project-name">2020 Top US Colleges<span id="project-sub">&nbsp;By Open Title IX Investigations</span></a>
     </div>
+
+    <main class="current" id="current-wrapper">
+      <div class="content" id="container">
+        <div class="row" id="map-container">
+          <h4>Map View</h4>
+          <div id="map"></div>
+        </div>
+
+          <div class="row" id="intro-container">
+            <div id="intro-text">
+              <p id="intro-para">In the States, one in 5 women and one in 16 men are sexually assaulted while in college.<br><br>
+                Title IX, a federal civil rights law originally enacted in 1972 to provide equal academic
+                and athletics opportunities for women and men, has been commonly applied in campus sexual misconduct cases.
+                In February 2020, Secretary of Education Betsy DeVos introduced new guidelines on the regulation of Title IX,
+                rolling back many of the strict interpretations from the Obama administration.</p>
+              <button class="button" onclick="location.href='current.html';">Explore Open Cases</button>
+            </div>
+            <div id="grid" style="display: none"></div>
+          </div>
+        </div>
+    </main>
+
   </body>
 </html>
 <script src="map.js"></script>
