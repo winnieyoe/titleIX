@@ -19,48 +19,47 @@
 
   <body>
     <header>
-      <nav class="navbar">
-        <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
-                <i class="fa fa-bars"></i>
-        </label>
-        <a href="index.html" class="logo"><span id="title-bold">2020 Top US Colleges</span> By Open Title IX Investigations</a>
-        <input type="checkbox" id="chkToggle"></input>
-        <ul class="main-nav" id="js-menu">
-          <li>
-            <a href="current.html" class="nav-links">Current Data</a>
-          </li>
-          <li>
-            <a href="about.html" class="nav-links">About Title IX</a>
-          </li>
-          <li>
-            <a href="process.html" class="nav-links">Resources</a>
-          </li>
-          <li>
-            <a href="survey.html" class="nav-links">Survey</a>
-          </li>
-          <li>
-            <a href="methods.html" class="nav-links">Methodology</a>
-          </li>
-        </ul>
-    </nav>
+      <nav class="main-nav">
+          <ul class="nav">
+            <li id="current-nav">
+              <a href="current.html" class="nav-links">Current Data</a>
+            </li>
+            <li id="about-nav">
+              <a href="about.html" class="nav-links">About Title IX</a>
+            </li>
+            <li id="process-nav">
+              <a href="process.html" class="nav-links">Process</a>
+            </li>
+            <li id="survey-nav">
+              <a href="survey.html" class="nav-links">Survey</a>
+            </li>
+            <li id="method-nav">
+              <a href="methods.html" class="nav-links">Methodology</a>
+            </li>
+          </ul>
+      </nav>
     </header>
 
-    <main>
-      <div class="content" id="container">
-        <div class="row" id="aau-container">
+    <div class="survey" id="name-wrapper">
+      <a href="index.html" class="nav-links project-name">2020 Top US Colleges<span id="project-sub">&nbsp;By Open Title IX Investigations</span></a>
+    </div>
+
+    <main class="survey">
+      <div class="content">
+        <div class="row">
           <div class = "text-content">
-            <h2>Missing Data (which you can help fill) vs. AAU Campus Climate Survey</h2>
+            <h3>Missing Data (which you can help fill) vs. AAU Campus Climate Survey</h3>
             <p>In 2015 and 2019, the Association of American Universities (AAU) and its 27 and 33 member schools respectively conducted a survey “to examine the prevalence of, and assess the campus climate regarding, sexual assault and misconduct at colleges and universities”.</p>
             <img class="stat-image" src="assets/images/aau.svg"></img>
-            <h3>Missing Data: General Approval vs Lived Experiences</h3>
+            <h3>Problem: General Approval vs Lived Experiences</h3>
             <p>The 66% reflects an approval rate among all interviewees, regardless if they have experienced campus assault or if they have filed a report with the institution. What are the actual experiences of those who have experience campus sexual harassment or sexual assault?</p>
 
             <p id="footnote">*The survey broke reports on sexual assault and reports on nonconsensual sexual contact by force or inability to consent as two different categories.<p>
           </div>
         </div>
 
-        <div class="row" id="start-survey-container">
-          <div class = "text-content">
+        <div class="row" id="survey-box">
+          <div class="text-content">
             <p>Missing Data*</p>
             <h2>Have you encountered sexual harassment, sexual violence, or any gender-based discrimination on college campus in the US?</h2>
 

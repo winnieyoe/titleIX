@@ -436,8 +436,6 @@ hr {
   position: relative;
 }
 
-.sliders {}
-
 .slider-button {
   background: none;
   border: none;
@@ -516,30 +514,30 @@ div#tweets a:visited{
 
 /* /// 3. Resources Page /// */
 #text-container {
-  height: 100vh;
-  background-color: #eee;
+  /* height: 88vh; */
 }
 
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #12312B;
+  font-family: "BasisGrotesquePro-Bold";
+  font-size: 1rem;
+  color: #fff;
   cursor: pointer;
-  padding: 5%10%;
-  width: 100%;
-  border-bottom: 2px solid #000;
+  padding: 5% 0%;
+  width: 90%;
+  border: none;
   text-align: left;
   outline: none;
-  font-size: 1.25em;
   transition: 0.4s;
 }
 
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #12312B;
 }
 
 .accordion:after {
   content: '\002B';
-  color: #777;
+  color: #fff;
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -550,11 +548,12 @@ div#tweets a:visited{
 }
 
 .process-text {
-  padding: 0 18px;
-  background-color: white;
+  background-color: #12312B;
+  padding-right:12%;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  border-bottom: 2px solid #000;
 }
 
 #process-graph-container {
@@ -573,17 +572,18 @@ div#tweets a:visited{
 }
 
 /* /// 4. Survey Page /// */
-#aau-container{
+/* #aau-container{
   height: 100vh;
 }
 
 #start-survey-container {
-   height: 100vh;
-   border-left: 2px solid #000;
-}
+   /* height: 100vh; */
+   /* border-left: 2px solid #000; */
+/* } */
+
 
 .text-content{
-  padding: 5% 10% 5% 10%;
+  width: 90%;
 }
 
 .stat-image{
@@ -592,14 +592,6 @@ div#tweets a:visited{
 }
 
 /* Survey Components */
-
-.survey {
-  padding: 2% 5% 5% 5%;
-  display: flex;
-  flex-direction: row;
-  border-bottom: 2px solid #000;
-}
-
 .question-content {
   display: flex;
   flex-direction: row;
