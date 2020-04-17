@@ -97,25 +97,6 @@ function makeRows(rows, cols) {
     grid.appendChild(school).className = "grid-item";
     grid.appendChild(school).id = geojson[i].properties.name;;
 
-    /// Creating the ranking number
-    let count = document.createElement("span");
-    if (i + 1 < geojson.length) {
-      if (geojson[i + 1].properties.incidents.length == geojson[i].properties.incidents.length) {
-        count.innerText = ranking;
-      } else {
-        count.innerText = ranking++;
-      }
-    }
-    if (i == geojson.length - 1) {
-      if (geojson[i].properties.incidents.length == geojson[i - 1].properties.incidents.length) {
-        count.innerText = ranking;
-      } else {
-        count.innerText = ranking++;
-      }
-    }
-    school.appendChild(count).id = "count" + i;
-    count.className = "count"
-
     /// Creating div for images
     let imgDiv = document.createElement("div");
     let containerS = document.createElement("div");
@@ -131,7 +112,7 @@ function makeRows(rows, cols) {
 
     for(let u=0; u < geojson[i].properties.urls.length; u++){
       let img = document.createElement("div");
-      img.style = "background-image:url(" + geojson[i].properties.urls[0] + ")";
+      img.style = "background-image:url(" + geojson[i].properties.urls[u] + ")";
 
       // let img = document.createElement("img");
       // img.src = geojson[i].properties.urls[0];
@@ -155,6 +136,37 @@ function makeRows(rows, cols) {
       sliderL.onclick = function(){plusDivs(-1, i)};
       sliderR.onclick = function(){plusDivs(1, i)};
       showDivs(1, i)
+			$(".slider-button").hover(
+				function() {
+					$("#grid").prop("onclick", null).off("click")
+				},
+				function(){
+					$("#grid").on("click", ".grid-item", function() {
+						/// Get the id of the clicked school
+						thisID = $(this).attr("id");
+						displayClickedMarkerCases(thisID);
+					})
+				}
+			)
+
+			/// Creating the ranking number
+			let count = document.createElement("span");
+			if (i + 1 < geojson.length) {
+				if (geojson[i + 1].properties.incidents.length == geojson[i].properties.incidents.length) {
+					count.innerText = ranking;
+				} else {
+					count.innerText = ranking++;
+				}
+			}
+			if (i == geojson.length - 1) {
+				if (geojson[i].properties.incidents.length == geojson[i - 1].properties.incidents.length) {
+					count.innerText = ranking;
+				} else {
+					count.innerText = ranking++;
+				}
+			}
+			school.appendChild(count).id = "count" + i;
+			count.className = "count"
 
     /// Creating div for school names
 		let label = document.createElement("div");

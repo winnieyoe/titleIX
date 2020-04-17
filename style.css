@@ -433,7 +433,7 @@ hr {
   grid-gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
   overflow: scroll;
-  height: 84.3vh;
+  height: 85vh;
 }
 
 .grid-item {
@@ -442,18 +442,18 @@ hr {
   text-align: center;
 }
 
-.images:hover ~ .grid-label{
+.images:hover ~ .grid-label, .images:hover ~ .count{
   background-color: #000;
   color: #fff;
   border-color: #000;
   cursor: pointer;
 }
-
+/*
 .images:hover ~ .count{
   background-color: #000;
   color: #fff;
   border-color: #000;
-}
+} */
 
 .grid-label {
   background-color: #fff;
@@ -461,8 +461,8 @@ hr {
   border-width: 2px;
   z-index: 3;
   height: 3.5rem;
-  font-size: 0.875rem;
-  padding: 5px 5px 0px 5px;
+  font-size: 0.9375rem;
+  padding: 8px 12px 0px 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -471,6 +471,7 @@ hr {
 
 .grid-title {
   font-family: "ArnoPro-BoldCaption";
+  line-height: 1rem;
 }
 
 .grid-cases{
