@@ -381,9 +381,23 @@ ul.nav li a:hover {
   flex-direction: column;
 }
 
+.info {
+  font-family: "ArnoPro-BoldCaption";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #F5C532;
+  margin-bottom: 5%;
+  font-size: 1.125rem;
+}
+
 #case-details {
+  height: 70vh;
+  overflow: scroll;
+  font-family: "ArnoPro-Caption";
+  color: #fff;
   display: block;
-  padding: 5%;
+  padding: 3% 5% 5% 5%;
 }
 
 #popup-title {
@@ -428,28 +442,39 @@ hr {
   text-align: center;
 }
 
-.overlay {
-  top: 0;
-  left: 0;
-  opacity: 1;
-  background-color: #666;
+.images:hover ~ .grid-label{
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+  cursor: pointer;
 }
 
-.grid-item:hover .overlay {
-  opacity: 1;
+.images:hover ~ .count{
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
 }
 
-.grid-title {
-  font-size: 0.875rem;
+.grid-label {
   background-color: #fff;
   border-top-style: solid;
   border-width: 2px;
   z-index: 3;
-  height: 2.5rem;
+  height: 3.5rem;
+  font-size: 0.875rem;
+  padding: 5px 5px 0px 5px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2% 5% 2% 5%;
+}
+
+.grid-title {
+  font-family: "ArnoPro-BoldCaption";
+}
+
+.grid-cases{
+  font-family: "ArnoPro-Caption";
 }
 
 #table-title {

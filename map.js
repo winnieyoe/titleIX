@@ -57,17 +57,19 @@ function setup() {
 }
 
 $(document).ready(function() {
-  $("#grid").on("click", ".grid-title", function() {
+  $("#grid").on("click", ".grid-item", function() {
     /// Get the id of the clicked school
-    thisID = $(this).attr("id");
-
-    case_container.style.display = "block";
-    grid_container.style.display = "none";
-    displayCases(thisID);
+		thisID = $(this).attr("id");
+		displayClickedMarkerCases(thisID);
+    // thisID = $(this).attr("id");
+		//
+    // case_container.style.display = "block";
+    // grid_container.style.display = "none";
+    // displayCases(thisID);
 
     /// Pass selected school's id, show case list, zoom to school location
-    clickZoom(thisID);
-    $(this).addClass("overlay");
+		// console.log(thisID)
+    // clickZoom(thisID);
   })
 
   $("#close").on("click", function(){
@@ -155,11 +157,19 @@ function makeRows(rows, cols) {
       showDivs(1, i)
 
     /// Creating div for school names
+		let label = document.createElement("div");
+		label.className = "grid-label"
     let name = document.createElement("div");
     name.innerText = geojson[i].properties.name;
-    name.className = "grid-title"
+    name.className = "grid-title";
     name.id = i;
-    school.appendChild(name);
+		let cases = document.createElement("div");
+		cases.className = "grid-cases";
+		cases.innerText = "Cases: " + geojson[i].properties.incidents.length;
+
+		label.appendChild(name);
+		label.appendChild(cases);
+    school.appendChild(label);
   };
 
   /// Add custom cluster markers to map, this was originally placed on the very top of codes
@@ -203,6 +213,10 @@ function makeRows(rows, cols) {
     marker.on("click", function(){
       // console.log("clicked", name)
       goToByScroll(name);
+			displayClickedMarkerCases(name);
+			// case_container.style.display = "block";
+	    // grid_container.style.display = "none";
+	    // displayCases(name);
     })
 
     /// Convert markers into cluster
@@ -210,6 +224,10 @@ function makeRows(rows, cols) {
   }
   mymap.addLayer(cluster)
 };
+
+// $(".grid-item").hover(function(){
+// 	console.log("HOVER")
+// })
 
 function goToByScroll(id){
   let element = document.getElementById(id);
@@ -221,14 +239,29 @@ function goToByScroll(id){
   })
 }
 
+function displayClickedMarkerCases(id){
+	let element = document.getElementById(id);
+	let thisID = element.querySelector(".grid-title").id;
+
+	case_container.style.display = "block";
+	grid_container.style.display = "none";
+	displayCases(thisID);
+	clickZoom(thisID);
+}
+
 /// Display all cases of one school
 function displayCases(thisID) {
+	// console.log(thisID)
   let caseList = "";
   for (let j = 0; j < geojson[thisID].properties.incidents.length; j++) {
     caseList += "<div class='one-case'>" + "<div class='case-date'>" + geojson[thisID].properties.incidents[j].date + "</div>" + "<div class='case-type'>" + geojson[thisID].properties.incidents[j].complaint + "</div>" + "</div>" + "<hr>";
   }
+
+	let nameDiv = "<div>" + geojson[thisID].properties.name + ", " + geojson[thisID].properties.state + "</div>";
+	let tuitionDiv = "<div>" + "Tuition: " + geojson[thisID].properties.tuition + "</div>";
+	let infoDiv = "<div class='info'>" + nameDiv + tuitionDiv + "</div>" + "<hr>";
   cases_num.innerHTML = geojson[thisID].properties.incidents.length;
-  case_details.innerHTML = caseList;
+  case_details.innerHTML = infoDiv + caseList;
 }
 
 /// Click on school grid, zoom to selected school
