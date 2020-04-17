@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: 'BasisGrotesque-Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/fonts/basis-grotesque-medium.otf');
+}
+
+@font-face {
   font-family: 'ArnoPro-BoldCaption';
   font-style: normal;
   font-weight: normal;
@@ -37,14 +44,33 @@ h3 {
   font-family: "BasisGrotesquePro-Bold";
   color: #fff;
   font-size: 1.1875rem;
-  margin-bottom: 5%;
+  margin: 0 0 5% 0;
 }
 
 h4 {
   font-family: "BasisGrotesquePro-Bold";
   color: #fff;
   font-size: 0.875rem;
-  margin: 5px 2px 6px 3px;
+}
+
+.section-title {
+  margin: 0 0 1.4% 0;
+}
+
+div.result-content h4 {
+  color: #F5C123;
+}
+
+div.question-wrapper h4 {
+  color: #F5C123;
+}
+
+div.question-wrapper-underline h4 {
+  color: #F5C123;
+}
+
+div.question-content h4 {
+  color: #F5C123;
 }
 
 h5 {
@@ -65,7 +91,7 @@ p {
 }
 
 .button {
-  margin-top: 5%;
+  margin: 0% 2%;
   font-family: "ArnoPro-Caption";
   border: 2px solid #ffffff;
   background-color: transparent;
@@ -73,9 +99,39 @@ p {
   padding: 14px 20px 12px 20px;
   cursor: pointer;
   font-size: 1rem;
+  width: 140px;
 }
 
-.button:hover{
+.explore-button {
+  font-family: "ArnoPro-Caption";
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 14px 20px 12px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: auto;
+  margin-top: 5%;
+}
+
+button:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+/* button {
+  margin: 5% 2%;
+  font-family: "ArnoPro-Caption";
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: #fff;
+  width: 140px;
+  padding: 14px 20px 12px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+} */
+
+div.survey-buttons .button:hover {
   background-color: #fff;
   color: #000;
 }
@@ -484,10 +540,12 @@ hr {
   overflow: visible;
   white-space: nowrap;
   border: none;
+  width: 87vw;
+  float: right;
 }
 
 div#tweets a:link{
-  font-family: "BasisGrotesquePro-Bold";
+  font-family: "BasisGrotesque-Medium";
   font-size: 0.8125rem;
   color: #fff;
 }
@@ -505,7 +563,7 @@ div#tweets a:visited{
 }
 
 .one-tweet {
-  padding: 0% 0.5%;
+  padding: 0% 4vw;
 }
 
 .about-text {
@@ -572,66 +630,206 @@ div#tweets a:visited{
 }
 
 /* /// 4. Survey Page /// */
-/* #aau-container{
-  height: 100vh;
+.survey-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 82vh;
+  margin: auto 4%;
+  overflow: scroll;
 }
 
-#start-survey-container {
-   /* height: 100vh; */
-   /* border-left: 2px solid #000; */
-/* } */
-
+.highlight {
+  font-family: "BasisGrotesquePro-Bold";
+  color: #F5C123;
+  font-size: 1rem;
+}
 
 .text-content{
-  width: 90%;
+  width: 85%;
 }
 
 .stat-image{
-  width: 100%;
+  width: 90%;
   margin-bottom: 5%;
 }
 
-/* Survey Components */
-.question-content {
+.survey-intro {
   display: flex;
   flex-direction: row;
+  height: 100%;
+  margin: auto 4%;
+  justify-content: space-between;
+  overflow: scroll;
+  height: 82vh;
+}
+
+.footer {
+  margin-top: 8%;
+}
+
+.footnote {
+  font-family: "BasisGrotesque-Medium";
+  font-size: 0.75rem;
+}
+
+/* Survey Components */
+#survey-height{
+  height: 88vh;
+}
+#survey-box {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  background-color: #022C52;
+  padding: 8%;
+  text-align: center;
+}
+
+.question-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #022C52;
+  padding: 3%;
+  height: 70vh;
+}
+
+.question-wrapper-underline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #022C52;
+  padding: 4%;
+  padding: 3% 5%;
+  border-bottom: 2px solid #000;
+}
+
+.last-question {
+  width: 81vw;
 }
 
 .question {
-  width: 50vw;
-  margin-right: 10vw;
+  width: 70%;
+}
+
+.question-text {
+  font-family: "ArnoPro-BoldCaption";
+  color: #fff;
+  font-size: 1.375rem;
+  line-height: 1.5;
+}
+
+.eg {
+  font-family: "ArnoPro-Caption";
+  font-size: 1.125rem;
+  line-height: 1;
 }
 
 .survey-buttons {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .selected {
-  color: red;
+  background-color: #F5C123;
+  border-color: #F5C123;
+  color: #000;
+}
+
+.input {
+  width: 81vw;
+}
+
+#textbox {
+  height: 20vh;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff;
+  font-family: "BasisGrotesque-Medium";
+  font-size: 1rem;
+  padding: 1rem;
+  line-height: 1.5;
+  overflow: scroll;
 }
 
 #submit {
-  margin: 5%;
-  width: 20vw;
+  margin:0;
+  width: 200px;
 }
+
 
 .result {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .label {
-  width: 50px;
+  font-family: "ArnoPro-Caption";
+  font-size: 1.125rem;
+  margin-right: 10px;
+  color: #fff;
+  width: 40px;
+  text-align: left;
+}
+
+.label2 {
+  font-family: "ArnoPro-Caption";
+  font-size: 1.125rem;
+  margin-right: 10px;
+  color: #fff;
+  width: 60px;
+  text-align: left;
 }
 
 .rect {
-  width: 100px;
-  height: 30px;
-  margin: 5% 0;
+  width: 400px;
+  height: 40px;
   left: 0;
-  background-color: #333;
+  background-color: #F5C123;
 }
+
+.ans3 {
+  font-family: "BasisGrotesque-Medium";
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+#q3-results {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  height: 20vh;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2% 0 2% 0;
+  overflow: scroll;
+}
+
+/* Display & Hide Survey */
+#q1-container {
+  display: none;
+}
+
+#q2-container {
+  display: none;
+}
+
+#q3-container {
+  display: none;
+}
+
+#visualize {
+  display: none;
+}
+
 
 /* /// 5. Methods Page /// */
 #methods-1 {

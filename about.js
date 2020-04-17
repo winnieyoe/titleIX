@@ -72,7 +72,7 @@ TweetJs.Search("TitleIX", function (data) {
 
     $('.marquee').marquee({
     	//duration in milliseconds of the marquee
-    	duration: 95000,
+    	duration: 150000,
     	//gap in pixels between the tickers
     	gap: 0,
     	//time in milliseconds before the marquee will start animating

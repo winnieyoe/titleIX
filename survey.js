@@ -31,7 +31,7 @@ $('.q0-button').click(function() {
   $('.q0-button').removeClass('selected');
   $(this).addClass('selected');
   userData.q0 = ans;
-  console.log(ans)
+  console.log("0", ans)
 });
 
 $('.q1-button').click(function() {
@@ -39,7 +39,7 @@ $('.q1-button').click(function() {
   $('.q1-button').removeClass('selected');
   $(this).addClass('selected');
   userData.q1 = ans;
-  console.log(ans)
+  console.log("1", ans)
 });
 
 $('.q2-button').click(function() {
@@ -47,22 +47,54 @@ $('.q2-button').click(function() {
   $('.q2-button').removeClass('selected');
   $(this).addClass('selected');
   userData.q2 = ans;
-  console.log(ans)
+  console.log("2", ans)
 });
 
-$('.q3-button').click(function() {
-  ans = $(this).text();
-  $('.q3-button').removeClass('selected');
-  $(this).addClass('selected');
-  userData.q3 = ans;
-  console.log(ans)
-});
+/// Survey Hide and show
+$("#q0-next").click(function(){
+  $("#survey-intro").hide();
+  $("#q1-container").css('display', 'flex');
+})
 
-/// Submit all answers, send to Firebase
-$("#submit").click(function(){
+$("#q0-end").click(function(){
+  $("#survey-intro").hide();
+  $("#visualize").css('display', 'flex');
+  $("#all-questions").css('height', '0');
+
   ref = database.ref("result");
   ref.push(userData);
   ref.on("value", gotData, errData);
+})
+
+$("#q1-next").click(function(){
+  $("#q1-container").hide();
+  $("#q2-container").css('display', 'flex');
+})
+
+$("#q1-lastQ").click(function(){
+  $("#q1-container").hide();
+  $("#q3-container").css('display', 'flex');
+})
+
+$(".q2-button").click(function(){
+  $("#q2-container").hide();
+  $("#q3-container").css('display', 'flex');
+})
+
+/// Submit all answers, send to Firebase
+$("#submit").click(function(){
+  userData.q3 = $('#textbox').val();
+  $(this).addClass('selected');
+  console.log("3", userData.q3)
+  ref = database.ref("result");
+  ref.push(userData);
+  ref.on("value", gotData, errData);
+
+  $("#q1-container").hide();
+  $("#q2-container").hide();
+  $("#q3-container").hide();
+  $("#visualize").css('display', 'flex');
+  $("#all-questions").css('height', '0');
 })
 
 /// View and visualize database
@@ -75,13 +107,9 @@ function gotData(data) {
   let q1Yes = 0;
   let q1No = 0;
   let q2Yes = 0;
+  let q2Neutral = 0;
   let q2No = 0;
-  let q3Yes = 0;
-  let q3Quite = 0;
-  let q3Ok = 0;
-  let q3Ugh = 0;
-  let q3Hell = 0;
-
+  let ans3 = [];
 
   for (let i = 0; i < userID.length; i++) {
     let u = userID[i];
@@ -116,37 +144,20 @@ function gotData(data) {
       ++q2Yes;
       break;
 
+      case "Neutral":
+      ++q2Neutral;
+      break;
+
       case "No":
       ++q2No;
       break;
     }
-
-
-    switch(q3){
-      case "Yes":
-      ++q3Yes;
-      break;
-
-      case "Quite":
-      ++q3Quite;
-      break;
-
-      case "It's ok":
-      ++q3Ok;
-      break;
-
-      case  "Ugh":
-      ++q3Ugh;
-      break;
-
-      case  "Hell No":
-      ++q3Hell;
-      break;
-    }
+    ans3.push(q3);
   }
+  console.log("ans3", ans3)
 
   /// Visualize Rectangles
-  let maxWidth = 100;
+  let maxWidth = 600;
   let firebaseCount = userID.length;
   resultDiv = document.getElementsByClassName("result-container");
 
@@ -155,45 +166,38 @@ function gotData(data) {
   q0NoRect = document.getElementById("no-0Rect");
 
   q0YesRect.style.width = map_range(q0Yes, 0, firebaseCount, 0, maxWidth) + "px";
-  document.getElementById("yes-0L").innerHTML = "Yes: " + percent(q0Yes/firebaseCount) + "%"
+  document.getElementById("yes-0L").innerHTML = "Yes: " + "<br>" + percent(q0Yes/firebaseCount) + "%"
   q0NoRect.style.width = map_range(q0No, 0, firebaseCount, 0, maxWidth)+ "px";
-  document.getElementById("no-0L").innerHTML = "No: " + percent(q0No/firebaseCount) + "%"
+  document.getElementById("no-0L").innerHTML = "No: " + "<br>" + percent(q0No/firebaseCount) + "%"
 
   // Q1
   q1YesRect = document.getElementById("yes-1Rect");
   q1NoRect = document.getElementById("no-1Rect");
 
   q1YesRect.style.width = map_range(q1Yes, 0, firebaseCount, 0, maxWidth) + "px";
-  document.getElementById("yes-1L").innerHTML = "Yes: " + percent(q1Yes/firebaseCount) + "%"
+  document.getElementById("yes-1L").innerHTML = "Yes: " + "<br>" + percent(q1Yes/firebaseCount) + "%"
   q1NoRect.style.width = map_range(q1No, 0, firebaseCount, 0, maxWidth)+ "px";
-  document.getElementById("no-1L").innerHTML = "No: " + percent(q1No/firebaseCount) + "%"
+  document.getElementById("no-1L").innerHTML = "No: " + "<br>" + percent(q1No/firebaseCount) + "%"
 
   // Q2
   q2YesRect = document.getElementById("yes-2Rect");
+  q2NeutralRect = document.getElementById("ok-2Rect");
   q2NoRect = document.getElementById("no-2Rect");
 
   q2YesRect.style.width = map_range(q2Yes, 0, firebaseCount, 0, maxWidth) + "px";
-  document.getElementById("yes-2L").innerHTML = "Yes: " + percent(q2Yes/firebaseCount) + "%"
+  document.getElementById("yes-2L").innerHTML = "Yes: " + "<br>" + percent(q2Yes/firebaseCount) + "%"
+  q2YesRect.style.width = map_range(q2Neutral, 0, firebaseCount, 0, maxWidth) + "px";
+  document.getElementById("ok-2L").innerHTML = "Neutral: " + "<br>" + percent(q2Neutral/firebaseCount) + "%"
   q2NoRect.style.width = map_range(q2No, 0, firebaseCount, 0, maxWidth)+ "px";
-  document.getElementById("no-2L").innerHTML = "No: " + percent(q2No/firebaseCount) + "%"
+  document.getElementById("no-2L").innerHTML = "No: " + "<br>" + percent(q2No/firebaseCount) + "%"
 
   // Q3
-  q3YesRect = document.getElementById("yes-3Rect");
-  q3QuiteRect = document.getElementById("quite-3Rect");
-  q3OKRect = document.getElementById("ok-3Rect");
-  q3UghRect = document.getElementById("ugh-3Rect");
-  q3HellRect = document.getElementById("hell-3Rect");
-
-  q3YesRect.style.width = map_range(q3Yes, 0, firebaseCount, 0, maxWidth) + "px";
-  document.getElementById("yes-3L").innerHTML = "Yes: " + percent(q3Yes/firebaseCount) + "%"
-  q3QuiteRect.style.width = map_range(q3Quite, 0, firebaseCount, 0, maxWidth)+ "px";
-  document.getElementById("quite-3L").innerHTML = "No: " + percent(q3Quite/firebaseCount) + "%"
-  q3OKRect.style.width = map_range(q3Ok, 0, firebaseCount, 0, maxWidth) + "px";
-  document.getElementById("ok-3L").innerHTML = "Yes: " + percent(q3Ok/firebaseCount) + "%"
-  q3UghRect.style.width = map_range(q3Ugh, 0, firebaseCount, 0, maxWidth)+ "px";
-  document.getElementById("ugh-3L").innerHTML = "No: " + percent(q3Ugh/firebaseCount) + "%"
-  q3HellRect.style.width = map_range(q3Hell, 0, firebaseCount, 0, maxWidth)+ "px";
-  document.getElementById("hell-3L").innerHTML = "No: " + percent(q3Hell/firebaseCount) + "%"
+  q3Results = document.getElementById("q3-results");
+  let ansList = ""
+  for (let i=0; i<ans3.length; i++){
+    ansList += "<div class='ans3'>" + ans3[i] + "</div>"
+  }
+  q3Results.innerHTML = ansList;
 }
 
 function map_range(value, min1, max1, min2, max2){
