@@ -912,6 +912,7 @@ div#tweets a:visited{
 .hyperlink{
   border-bottom: 1px dashed #fff;
   text-decoration: none;
+  color: #fff;
 }
 
 .hyperlink:hover{
