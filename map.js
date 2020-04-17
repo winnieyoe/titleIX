@@ -177,7 +177,12 @@ function makeRows(rows, cols) {
     name.id = i;
 		let cases = document.createElement("div");
 		cases.className = "grid-cases";
-		cases.innerText = "Cases: " + geojson[i].properties.incidents.length;
+		if (geojson[i].properties.incidents.length > 1){
+			cases.innerText = "Cases: " + geojson[i].properties.incidents.length;
+		} else {
+			cases.innerText = "Case: " + geojson[i].properties.incidents.length;
+		}
+
 
 		label.appendChild(name);
 		label.appendChild(cases);
@@ -269,8 +274,8 @@ function displayCases(thisID) {
     caseList += "<div class='one-case'>" + "<div class='case-date'>" + geojson[thisID].properties.incidents[j].date + "</div>" + "<div class='case-type'>" + geojson[thisID].properties.incidents[j].complaint + "</div>" + "</div>" + "<hr>";
   }
 
-	let nameDiv = "<div>" + geojson[thisID].properties.name + ", " + geojson[thisID].properties.state + "</div>";
-	let tuitionDiv = "<div>" + "Tuition: " + geojson[thisID].properties.tuition + "</div>";
+	let nameDiv = "<div class='school_name'>" + geojson[thisID].properties.name + ", " + geojson[thisID].properties.state + "</div>";
+	let tuitionDiv = "<div class='tuition'>" + "Tuition: " + geojson[thisID].properties.tuition + "</div>";
 	let infoDiv = "<div class='info'>" + nameDiv + tuitionDiv + "</div>" + "<hr>";
   cases_num.innerHTML = geojson[thisID].properties.incidents.length;
   case_details.innerHTML = infoDiv + caseList;

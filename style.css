@@ -90,6 +90,10 @@ p {
   display: none;
 }
 
+:hover {
+  cursor: pointer;
+}
+
 .button {
   margin: 0% 2%;
   font-family: "ArnoPro-Caption";
@@ -388,7 +392,16 @@ ul.nav li a:hover {
   justify-content: space-between;
   color: #F5C532;
   margin-bottom: 5%;
-  font-size: 1.125rem;
+  font-size: 1rem;
+}
+
+.school_name {
+  width:50%;
+}
+
+.tuition {
+  width:45%;
+  text-align: right;
 }
 
 #case-details {
@@ -433,7 +446,7 @@ hr {
   grid-gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
   overflow: scroll;
-  height: 85vh;
+  height: 84vh;
 }
 
 .grid-item {
@@ -446,7 +459,6 @@ hr {
   background-color: #000;
   color: #fff;
   border-color: #000;
-  cursor: pointer;
 }
 /*
 .images:hover ~ .count{
@@ -535,6 +547,16 @@ hr {
   position: absolute;
   top: 40%;
   right: 0;
+}
+
+#close {
+  font-family: "BasisGrotesquePro-Bold";
+  color: #fff;
+  cursor: pointer;
+}
+
+#close:hover{
+  color: #000;
 }
 
 /* /// 2. About Title IX Page /// */
