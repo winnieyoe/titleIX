@@ -359,8 +359,8 @@ ul.nav li a:hover {
 }
 
 .leaflet-container {
-  font-family: "ArnoPro-Caption" !important;
-  font-size: 0.75rem !important;
+  font-family: "ArnoPro-BoldCaption" !important;
+  font-size: 0.875rem !important;
 }
 
 .leaflet-popup-content {
@@ -453,7 +453,7 @@ hr {
   grid-gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
   overflow: scroll;
-  height: 85vh;
+  height: 84.5vh;
 }
 
 .grid-item {
@@ -467,12 +467,6 @@ hr {
   color: #fff;
   border-color: #000;
 }
-/*
-.images:hover ~ .count{
-  background-color: #000;
-  color: #fff;
-  border-color: #000;
-} */
 
 .grid-label {
   background-color: #fff;
@@ -538,21 +532,33 @@ hr {
 }
 
 .slider-button {
-  background: none;
+  width: 1.5rem;
+  height:3rem;
+  background-color: rgba(255, 255, 255, 0.7);
   border: none;
-  font-size: 1.4rem;
-  color: #333;
+  color: #000;
+}
+
+.slider-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+
+.slider-icon {
+  font-family: "ArnoPro-BoldCaption";
+  font-size: 1rem;
 }
 
 .sliderL {
   position: absolute;
-  top: 40%;
+  top: 32%;
   left: 0;
 }
 
 .sliderR {
   position: absolute;
-  top: 40%;
+  top: 32%;
   right: 0;
 }
 

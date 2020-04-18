@@ -102,9 +102,11 @@ function makeRows(rows, cols) {
     let containerS = document.createElement("div");
     let sliders = document.createElement("div");
     let sliderL = document.createElement("button");
-    let iconL = document.createElement("i")
+    // let iconL = document.createElement("i")
+		let iconL = document.createElement("span");
     let sliderR = document.createElement("button");
-    let iconR = document.createElement("i");
+		let iconR = document.createElement("span")
+    // let iconR = document.createElement("i");
 
     /// Generate arrays that are needed for the image slideshows
     slideId.push("grid-image" + i);
@@ -121,8 +123,12 @@ function makeRows(rows, cols) {
     }
 
       /// Create Slider Buttons with Custom Icon, append them the main box
-      iconL.className = "fas fa-angle-left"
-      iconR.className = "fas fa-angle-right"
+      // iconL.className = "fas fa-angle-left"
+			iconL.innerHTML = "<";
+			iconL.className = "slider-icon";
+			iconR.innerHTML = ">";
+			iconR.className = "slider-icon";
+      // iconR.className = "fas fa-angle-right"
       sliderL.appendChild(iconL);
       sliderR.appendChild(iconR);
       sliders.appendChild(sliderL).className = "slider-button sliderL";
@@ -206,7 +212,11 @@ function makeRows(rows, cols) {
     let spanID = "count" + k;
 
     /// Styling options from L.BeautifyIcon, Styles individual markers
-    var options = {
+    let marker = L.marker(markerLocation, {
+      icon: L.BeautifyIcon.icon(options)
+    });
+
+		var options = {
       isAlphaNumericIcon: true,
       text: document.getElementById(spanID).innerHTML,
       borderColor: '#71131B',
@@ -214,10 +224,6 @@ function makeRows(rows, cols) {
       textColor: '#fff',
       iconSize: [26,26]
     };
-
-    let marker = L.marker(markerLocation, {
-      icon: L.BeautifyIcon.icon(options)
-    });
 
     /// Create popup of school name on hover, if want popups to be shown on click, add .bindPopup after let marker...
     marker.bindPopup(geojson[k].properties.name)
@@ -231,8 +237,6 @@ function makeRows(rows, cols) {
       // console.log("clicked", name)
       goToByScroll(name);
 			displayClickedMarkerCases(name);
-			// case_container.style.display = "block";
-	    // grid_container.style.display = "none";
 	    // displayCases(name);
     })
 
@@ -242,9 +246,6 @@ function makeRows(rows, cols) {
   mymap.addLayer(cluster)
 };
 
-// $(".grid-item").hover(function(){
-// 	console.log("HOVER")
-// })
 
 function goToByScroll(id){
   let element = document.getElementById(id);
