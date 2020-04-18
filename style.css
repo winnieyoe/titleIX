@@ -144,13 +144,19 @@ div.survey-buttons .button:hover {
   display: flex;
   flex-direction: row;
   height: 100%;
-  margin: auto 4%;
+  margin: auto 8%;
 }
 
-#column-container {
+.column-content {
   display: flex;
   flex-direction: column;
+  margin: auto 8%;
 }
+
+/* #column-container {
+  display: flex;
+  flex-direction: column;
+} */
 
 .row {
   flex: 1;
@@ -252,6 +258,7 @@ ul.nav li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 3vh;
 }
 
 .project-name {
@@ -275,12 +282,12 @@ ul.nav li a:hover {
 }
 
 #intro-text {
-  width: 85%;
-  margin: 20% 5% 5% 5%;
+  width: 82%;
+  margin: 2% 1%;
 }
 
 #intro-para {
-  font-size: 1.1875rem;
+  font-size: 1.125rem;
 }
 
 .marker-cluster div{
@@ -334,7 +341,7 @@ ul.nav li a:hover {
 /* /// 1. Current Data Page /// */
 #map {
   width: 95%;
-  min-height: 81vh;
+  min-height: 75vh;
   border: 2px solid #000;
   position: relative;
 }
@@ -405,7 +412,7 @@ ul.nav li a:hover {
 }
 
 #case-details {
-  height: 70vh;
+  height: 65vh;
   overflow: scroll;
   font-family: "ArnoPro-Caption";
   color: #fff;
@@ -446,7 +453,7 @@ hr {
   grid-gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
   overflow: scroll;
-  height: 84vh;
+  height: 85vh;
 }
 
 .grid-item {
@@ -682,8 +689,8 @@ div#tweets a:visited{
   display: flex;
   flex-direction: column;
   height: 82vh;
-  margin: auto 4%;
-  overflow: scroll;
+  overflow-x: scroll;
+  width:100%;
 }
 
 .highlight {
@@ -693,7 +700,7 @@ div#tweets a:visited{
 }
 
 .text-content{
-  width: 85%;
+  width: 90%;
 }
 
 .stat-image{
@@ -704,11 +711,9 @@ div#tweets a:visited{
 .survey-intro {
   display: flex;
   flex-direction: row;
-  height: 100%;
-  margin: auto 4%;
+  height: 80vh;
   justify-content: space-between;
   overflow: scroll;
-  height: 82vh;
 }
 
 .footer {
@@ -724,13 +729,21 @@ div#tweets a:visited{
 #survey-height{
   height: 88vh;
 }
+
 #survey-box {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #022C52;
-  padding: 8%;
   text-align: center;
+}
+
+.row2{
+  flex: 1;
+}
+
+.question-content{
+  width:80%;
 }
 
 .question-wrapper {
