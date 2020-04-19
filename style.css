@@ -660,6 +660,46 @@ div#tweets a:visited{
  margin-bottom: 15%;
 }
 
+/* .img-container {
+  width:90%;
+} */
+
+.img-container .footnote {
+  text-align: center;
+}
+
+.img {
+  width:100%;
+}
+
+#image-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-right: 5%;
+  grid-gap: 1rem;
+  height: 100%;
+}
+
+#image-wrapper div:nth-child(1) {
+   grid-column: 1/5;
+}
+
+#image-wrapper div:nth-child(2) {
+   grid-column: 2/6;
+}
+
+#image-wrapper div:nth-child(3) {
+   grid-column: 1/4;
+}
+
+#image-wrapper div:nth-child(4) {
+   grid-column: 3/6;
+}
+
+#image-wrapper div:nth-child(5) {
+   grid-column: 1/4;
+}
+
 /* /// 3. Resources Page /// */
 #text-container {
   /* height: 88vh; */
@@ -706,14 +746,6 @@ div#tweets a:visited{
 
 #process-graph-container {
   border-left: 2px solid #000;
-}
-
-#process-graph {
-  width:90%;
-}
-
-#process-img {
-  width:100%;
 }
 
 /* /// 4. Survey Page /// */
