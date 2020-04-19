@@ -581,8 +581,8 @@ hr {
   height: 6vh;
   width: 97vw;
   right: 0;
-  border-top: 2px solid #000;
-  background-color: #82540F;
+  border-top: 2px solid #fff;
+  background-color: #111;
   position: fixed;
   bottom: 0;
 }
@@ -592,8 +592,8 @@ hr {
   align-items: center;
   height: 6vh;
   width: 10vw;
-  padding: 0 10% 0 2%;
-  background-color: #82540F;
+  padding: 0 10% 0 4%;
+  background-color: #111;
   overflow: hidden;
   white-space: nowrap;
   z-index: 3;
@@ -614,11 +614,11 @@ div#tweets a:link{
 }
 
 div#tweets a:hover{
-  color: #000;
+  color: #F5C532;
 }
 
 div#tweets a:visited{
-  color: #000;
+  color: #fff;
 }
 
 .js-marquee-wrapper{
