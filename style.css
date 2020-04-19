@@ -698,7 +698,6 @@ div#tweets a:visited{
   display: flex;
   flex-direction: column;
   height: 76vh;
-  overflow-x: auto;
   width:100%;
 }
 
@@ -825,7 +824,7 @@ div#tweets a:visited{
   font-size: 1rem;
   padding: 1rem;
   line-height: 1.5;
-  overflow: scroll;
+  overflow: auto;
 }
 
 #submit {
