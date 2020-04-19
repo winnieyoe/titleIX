@@ -709,11 +709,11 @@ div#tweets a:visited{
 }
 
 #process-graph {
-
+  width:90%;
 }
 
 #process-img {
-  width:70%;
+  width:100%;
 }
 
 /* /// 4. Survey Page /// */
