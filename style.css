@@ -603,7 +603,7 @@ hr {
   height: 6vh;
   width: 97vw;
   right: 0;
-  border-top: 2px solid #fff;
+  border-top: 2px solid #111;
   background-color: #111;
   position: fixed;
   bottom: 0;
@@ -619,6 +619,10 @@ hr {
   overflow: hidden;
   white-space: nowrap;
   z-index: 3;
+}
+
+#latest-tweets h4 {
+  color: #F5C532;
 }
 
 .marquee {
