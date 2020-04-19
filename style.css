@@ -731,6 +731,7 @@ div#tweets a:visited{
 .footnote {
   font-family: "BasisGrotesque-Medium";
   font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 /* Survey Components */
