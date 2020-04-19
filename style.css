@@ -101,6 +101,28 @@ div.grid-item:hover {
   cursor: pointer;
 }
 
+div::-webkit-scrollbar {
+  width: 0.5em;
+  background: none;
+}
+
+div::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  height:50px;
+  border-radius: 6px;
+}
+
+div::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5);
+  height:50px;
+  border-radius: 6px;
+}
+
+div::-webkit-scrollbar-track-piece
+{
+   display:none;
+}
+
 .button {
   margin: 0% 2%;
   font-family: "ArnoPro-Caption";
