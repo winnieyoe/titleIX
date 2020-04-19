@@ -697,8 +697,8 @@ div#tweets a:visited{
 .survey-wrapper {
   display: flex;
   flex-direction: column;
-  height: 82vh;
-  /* overflow-x: scroll; */
+  height: 76vh;
+  overflow-x: auto;
   width:100%;
 }
 
@@ -736,7 +736,7 @@ div#tweets a:visited{
 
 /* Survey Components */
 #survey-height{
-  height: 100%;
+  height: 85vh;
 }
 
 #survey-box {
