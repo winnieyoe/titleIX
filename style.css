@@ -79,11 +79,18 @@ h5 {
   font-size: 1.1875rem;
 }
 
-p {
+p, blockquote {
   font-family: "ArnoPro-Caption";
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
   color: #ffffff;
-  line-height: 1.6;
+  line-height: 1.6rem;ß
+}
+
+blockquote {
+  border-left: 1px solid #fff;
+  margin: 10% 0 10% 0;
+  padding-left: 5%;
+  width: 85%;
 }
 
 #defaultCanvas0 {
@@ -153,11 +160,6 @@ div.survey-buttons .button:hover {
   margin: auto 8%;
 }
 
-/* #column-container {
-  display: flex;
-  flex-direction: column;
-} */
-
 .row {
   flex: 1;
 }
@@ -215,11 +217,11 @@ ul.nav li a:hover {
 }
 
 #about-nav {
-  background-color: #82540F;
+  background-color: #6E470C;
 }
 
 .about {
-  background-color: #82540F;
+  background-color: #6E470C;
 }
 
 #process-nav {
@@ -282,7 +284,7 @@ ul.nav li a:hover {
 }
 
 #intro-text {
-  width: 87%;
+  width: 85%;
   margin: 2% 1%;
 }
 
@@ -628,7 +630,8 @@ div#tweets a:visited{
 }
 
 .about-text {
-  width: 96%;
+ width: 92%;
+ margin-bottom: 15%;
 }
 
 /* /// 3. Resources Page /// */
@@ -695,7 +698,7 @@ div#tweets a:visited{
   display: flex;
   flex-direction: column;
   height: 82vh;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   width:100%;
 }
 
@@ -719,7 +722,6 @@ div#tweets a:visited{
   flex-direction: row;
   height: 80vh;
   justify-content: space-between;
-  overflow: scroll;
 }
 
 .footer {
@@ -733,7 +735,7 @@ div#tweets a:visited{
 
 /* Survey Components */
 #survey-height{
-  height: 88vh;
+  height: 100%;
 }
 
 #survey-box {
@@ -881,6 +883,9 @@ div#tweets a:visited{
 }
 
 /* Display & Hide Survey */
+#all-questions {
+  display: none;
+}
 #q1-container {
   display: none;
 }
@@ -922,7 +927,16 @@ div#tweets a:visited{
 #methods-3 {
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
-  padding: 2% 0 2% 0;
+  padding: 2% 0 2% 0%;
+}
+
+div.method-3-content p{
+  margin-left: 3rem;
+  text-indent: -3rem;
+}
+
+.method-3-content{
+  width: 90%;
 }
 
 #methods-4{

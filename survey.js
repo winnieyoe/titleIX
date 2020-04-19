@@ -53,6 +53,7 @@ $('.q2-button').click(function() {
 /// Survey Hide and show
 $("#q0-next").click(function(){
   $("#survey-intro").hide();
+  $("#all-questions").css('display', 'flex');
   $("#q1-container").css('display', 'flex');
 })
 
