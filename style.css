@@ -708,7 +708,7 @@ div#tweets a:visited{
 .accordion {
   background-color: #12312B;
   font-family: "BasisGrotesquePro-Bold";
-  font-size: 1rem;
+  font-size: 1.1875rem;
   color: #fff;
   cursor: pointer;
   padding: 5% 0%;
@@ -721,6 +721,7 @@ div#tweets a:visited{
 
 .active, .accordion:hover {
   background-color: #12312B;
+  color: #F5C532;
 }
 
 .accordion:after {
@@ -735,13 +736,23 @@ div#tweets a:visited{
   content: "\2212";
 }
 
+div.process-text h3{
+  color: #F5C532;
+}
+
 .process-text {
   background-color: #12312B;
-  padding-right:12%;
+  /* padding: 0 10% 0 4%; */
+  padding-right: 10%;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   border-bottom: 2px solid #000;
+}
+
+#process-graph{
+  width: 90%;
+  margin-left: 10%;
 }
 
 #process-graph-container {

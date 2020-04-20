@@ -95,7 +95,7 @@ function makeRows(rows, cols) {
     /// Creating containers for each school
     let school = document.createElement("div");
     grid.appendChild(school).className = "grid-item";
-    grid.appendChild(school).id = geojson[i].properties.name;;
+    grid.appendChild(school).id = geojson[i].properties.name;
 
     /// Creating div for images
     let imgDiv = document.createElement("div");
@@ -212,10 +212,6 @@ function makeRows(rows, cols) {
     let spanID = "count" + k;
 
     /// Styling options from L.BeautifyIcon, Styles individual markers
-    let marker = L.marker(markerLocation, {
-      icon: L.BeautifyIcon.icon(options)
-    });
-
 		var options = {
       isAlphaNumericIcon: true,
       text: document.getElementById(spanID).innerHTML,
@@ -224,6 +220,10 @@ function makeRows(rows, cols) {
       textColor: '#fff',
       iconSize: [26,26]
     };
+
+		let marker = L.marker(markerLocation, {
+      icon: L.BeautifyIcon.icon(options)
+    });
 
     /// Create popup of school name on hover, if want popups to be shown on click, add .bindPopup after let marker...
     marker.bindPopup(geojson[k].properties.name)
