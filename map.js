@@ -199,6 +199,9 @@ function makeRows(rows, cols) {
   let cluster = L.markerClusterGroup({
     chunkedLoading: true,
     spiderfyOnMaxZoom: false,
+		iconCreateFunction: function(cluster) {
+			return L.divIcon({ html: '<div class="clusterNum">' + cluster.getChildCount() + "<br >" + '<div style="font-size: 0.675rem">' + "cases" + "</div>" + '</div>' });
+		}
   });
 
   /// Add individual markers

@@ -152,18 +152,6 @@ button:hover{
   color: #000;
 }
 
-/* button {
-  margin: 5% 2%;
-  font-family: "ArnoPro-Caption";
-  border: 2px solid #ffffff;
-  background-color: transparent;
-  color: #fff;
-  width: 140px;
-  padding: 14px 20px 12px 20px;
-  cursor: pointer;
-  font-size: 1rem;
-} */
-
 div.survey-buttons .button:hover {
   background-color: #fff;
   color: #000;
@@ -314,7 +302,27 @@ ul.nav li a:hover {
   font-size: 1.125rem;
 }
 
-.marker-cluster div{
+.clusterNum {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  line-height: 0.8;
+  font-family: "ArnoPro-Caption" !important;
+  font-size: 0.875rem !important;
+  color: #fff;
+  background-color: #000;
+  width: 38px;
+  height: 38px;
+  border-radius: 30px;
+}
+
+.leaflet-marker-icon.leaflet-div-icon.leaflet-zoom-animated.leaflet-interactive{
+  border-style: hidden;
+  background-color: unset;
+}
+/* .marker-cluster div{
   font-family: "ArnoPro-Caption" !important;
   font-size: 0.875rem !important;
 }
@@ -348,7 +356,7 @@ ul.nav li a:hover {
 .marker-cluster-large div{
   background-color: rgba(0,0,0,0.9) !important;
   color: #fff;
-}
+} */
 
 .beautify-marker.circle {
   border-radius: 0px !important;
