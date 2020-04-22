@@ -316,6 +316,8 @@ ul.nav li a:hover {
   width: 38px;
   height: 38px;
   border-radius: 30px;
+  margin-left: -15px;
+  margin-top: -15px;
 }
 
 .leaflet-marker-icon.leaflet-div-icon.leaflet-zoom-animated.leaflet-interactive{
