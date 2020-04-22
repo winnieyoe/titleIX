@@ -212,6 +212,7 @@ function makeRows(rows, cols) {
     let spanID = "count" + k;
 
     /// Styling options from L.BeautifyIcon, Styles individual markers
+		/// Options have to be placed first or else the style won't be applied to item 0
 		var options = {
       isAlphaNumericIcon: true,
       text: document.getElementById(spanID).innerHTML,

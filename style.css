@@ -478,6 +478,7 @@ hr {
   grid-template-columns: repeat(2, 1fr);
   overflow: scroll;
   height: 84.5vh;
+  width: calc(100% + 0.5em);
 }
 
 .grid-item {

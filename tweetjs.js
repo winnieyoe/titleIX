@@ -10,19 +10,24 @@ TweetJs = {
             },
         callback);
     },
-    Search: function (query, callback) {
+    Search: function (query, callback, errorCallback) {
         TweetJs._callApi({
             Action: "Search",
             Query: query
-        }, callback);
+        }, callback, errorCallback);
     },
-    _callApi: function (request, callback) {
+    _callApi: function (request, callback, errorCallback) {
         var xhr = new XMLHttpRequest();
         URL = "https://www.tweetjs.com/API.aspx";
         xhr.open("POST", URL);
         xhr.onreadystatechange = function () {
             if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
-                callback(JSON.parse(xhr.response));
+              //if(xhr.response.errors)
+                if (JSON.parse(xhr.response)) {
+                                callback(JSON.parse(xhr.response));
+                }else {
+                  errorCallback()
+                }
             }
         }
         xhr.send(JSON.stringify(request));
@@ -32,4 +37,6 @@ TweetJs = {
 TweetJs.Search("TitleIX",
 function (data) {
     console.log(data, data.statuses[0].text, data.statuses[0].id_str);
+}, function() {
+  console.log('something is wrong')
 });
