@@ -712,8 +712,16 @@ div#tweets a:visited{
 }
 
 /* /// 3. Resources Page /// */
-#text-container {
-  /* height: 88vh; */
+#text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 78vh;
+}
+#disclaimer {
+  color: #fff;
+  width: 90%;
+  line-height: 1.5;
 }
 
 .accordion {
@@ -724,7 +732,7 @@ div#tweets a:visited{
   cursor: pointer;
   padding: 5% 0%;
   width: 90%;
-  border: none;
+  border: unset;
   text-align: left;
   outline: none;
   transition: 0.4s;
@@ -753,12 +761,12 @@ div.process-text h3{
 
 .process-text {
   background-color: #12312B;
+  border-bottom: 2px solid #000;
   /* padding: 0 10% 0 4%; */
   padding-right: 10%;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  border-bottom: 2px solid #000;
 }
 
 #process-graph{
