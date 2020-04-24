@@ -716,12 +716,22 @@ div#tweets a:visited{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 78vh;
+  height: 80vh;
+  overflow: scroll;
 }
-#disclaimer {
+
+#disclaimer1 {
+  width: 100%;
+}
+#disclaimer2 {
+  margin-top: 10%;
   color: #fff;
   width: 90%;
   line-height: 1.5;
+}
+
+#ocr_img {
+  width:100%;
 }
 
 .accordion {
@@ -731,7 +741,7 @@ div#tweets a:visited{
   color: #fff;
   cursor: pointer;
   padding: 5% 0%;
-  width: 90%;
+  width: 95%;
   border: unset;
   text-align: left;
   outline: none;
@@ -763,10 +773,23 @@ div.process-text h3{
   background-color: #12312B;
   border-bottom: 2px solid #000;
   /* padding: 0 10% 0 4%; */
-  padding-right: 10%;
+  padding-right: 8%;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+.process-wrapper {
+  /* height: 150%; */
+}
+
+#ocr {
+  width: 98%;
+}
+
+#box1{
+  width:90%;
+  margin-right: 5%;
 }
 
 #process-graph{
