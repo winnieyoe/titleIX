@@ -332,8 +332,8 @@ ul.nav li a:hover {
 }
 
 #intro-text {
-  width: 92%;
-  margin: 2% 3%;
+  width: 80%;
+  margin: 0% 5% 5% 8%;
 }
 
 #intro-para {
@@ -421,6 +421,11 @@ ul.nav li a:hover {
 }
 
 /* /// 1. Current Data Page /// */
+#map-placeholder{
+  width:100%;
+  border: 1px solid #71131B;
+}
+
 #map {
   width: 95%;
   min-height: 75vh;
