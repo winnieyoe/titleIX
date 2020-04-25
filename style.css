@@ -57,13 +57,17 @@ p {
 }
 
 .headline {
+  width: 60%;
+  text-align: center;
+  margin: 1% auto 1% auto;
+}
+
+.headline-h {
   text-align: center;
   font-family: "ArnoPro-Caption";
-  width: 70%;
   margin: auto;
   font-size: 3.5rem;
   line-height: 1.2;
-  margin: 2% auto 3% auto;
   color: #71131B;
 }
 
