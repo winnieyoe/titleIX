@@ -856,10 +856,10 @@ div.process-text h3{
 }
 
 .process-wrapper {
-  /* height: 150%; */
+  fill: #333;
 }
 
-#ocr {
+.ocr {
   width: 98%;
 }
 
