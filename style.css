@@ -48,10 +48,6 @@ main {
   float: right;
 }
 
-p {
-  font-family: "BasisGrotesquePro-Bold";
-}
-
 .italic {
   font-family: "ArnoPro-BoldCaption";
 }
@@ -868,6 +864,14 @@ div#process-graph .footnote{
 
 .ocr {
   width: 98%;
+}
+
+.process-text li{
+  list-style: initial;
+  font-family: "ArnoPro-Caption";
+  font-size: 1.125rem;
+  color: #333;
+  margin-bottom: 3%;
 }
 
 #box1{
