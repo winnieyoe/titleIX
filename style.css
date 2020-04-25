@@ -826,12 +826,12 @@ div#tweets a:visited{
 
 .active, .accordion:hover {
   background-color: inherit;
-  color: #F5C532;
+  color: #E0AF00;
 }
 
 .accordion:after {
   content: '\002B';
-  color: #F5C532;
+  color: #E0AF00;
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -878,6 +878,10 @@ div.process-text h3{
 }
 
 /* /// 4. Survey Page /// */
+.hash{
+  font-size: 0.75rem;
+}
+
 .survey-wrapper {
   display: flex;
   flex-direction: column;
@@ -887,7 +891,8 @@ div.process-text h3{
 
 .highlight {
   font-family: "BasisGrotesquePro-Bold";
-  color: #ED9C35;
+  color: #E0AF00;
+  font-weight: bold;
   font-size: 1rem;
 }
 
@@ -902,15 +907,16 @@ div.process-text h3{
 }
 
 .stat-image{
-  width: 90%;
+  width: 95%;
   margin-bottom: 5%;
 }
 
 .survey-intro {
   display: flex;
   flex-direction: row;
-  height: 80vh;
+  /* height: 80vh; */
   justify-content: space-between;
+  margin-bottom: 5%;
 }
 
 .footer {
@@ -1134,15 +1140,16 @@ div.method-3-content p{
 }
 
 .all-methods .hyperlink {
+  font-weight: normal;
   border-bottom: 1px dashed #0033A0;
   text-decoration: none;
   color: #0033A0;
 }
 
 .all-methods .hyperlink:hover {
-  border-bottom: 1px dashed #F5C532;
+  border-bottom: 1px dashed #E0AF00;
   text-decoration: none;
-  color: #F5C532;
+  color: #E0AF00;
   cursor: grab;
 }
 
@@ -1153,16 +1160,17 @@ div.method-3-content p{
 }
 
 .hyperlink{
-  border-bottom: 1px dashed #ED9C35;
+  border-bottom: 1px dashed #F5C532;
   text-decoration: none;
-  color: #ED9C35;
+  color: #F5C532;
+  font-weight: bold;
 }
 
 .hyperlink:hover{
-  color: #ED9C35;
+  color: #F5C532;
   border-bottom: 1px dashed #000;
 }
 
 .hyperlink:visited{
-  color: #ED9C35;
+  color: #E0AF00;
 }
