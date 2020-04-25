@@ -749,9 +749,6 @@ div#tweets a:visited{
  margin-bottom: 15%;
 }
 
-/* .img-container {
-  width:90%;
-} */
 
 .img-container .footnote {
   text-align: center;
@@ -767,6 +764,7 @@ div#tweets a:visited{
   margin-right: 5%;
   grid-gap: 1rem;
   height: 100%;
+  margin-bottom: 10%;
 }
 
 #image-wrapper div:nth-child(1) {
@@ -921,7 +919,7 @@ div.process-text h3{
 
 .footnote {
   font-family: "BasisGrotesque-Mono";
-  font-size: 0.625rem;
+  font-size: 0.725rem;
   line-height: 1rem;
 }
 
