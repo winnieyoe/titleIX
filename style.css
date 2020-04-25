@@ -845,6 +845,11 @@ div.process-text h3{
   color: #12312B;
   font-family: "ArnoPro-Caption";
   font-size: 1.125rem;
+  margin-bottom: 0;
+}
+
+div#process-graph .footnote{
+  margin: 1% auto 6% auto;
 }
 
 .process-text {
