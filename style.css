@@ -53,17 +53,16 @@ p {
 }
 
 .italic {
-  font-family: "ArnoPro-Caption";
-  font-size: 3.375rem;
+  font-family: "ArnoPro-BoldCaption";
 }
 
 .headline {
   text-align: center;
-  font-family: "BasisGrotesquePro-Bold";
-  width: 65%;
+  font-family: "ArnoPro-Caption";
+  width: 70%;
   margin: auto;
-  font-size: 3.25rem;
-  line-height: 1;
+  font-size: 3.5rem;
+  line-height: 1.2;
   margin: 2% auto 3% auto;
   color: #71131B;
 }
