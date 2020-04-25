@@ -124,9 +124,9 @@ function makeRows(rows, cols) {
 
       /// Create Slider Buttons with Custom Icon, append them the main box
       // iconL.className = "fas fa-angle-left"
-			iconL.innerHTML = "<";
+			iconL.innerHTML = "&lsaquo;"
 			iconL.className = "slider-icon";
-			iconR.innerHTML = ">";
+			iconR.innerHTML = "&rsaquo;";
 			iconR.className = "slider-icon";
       // iconR.className = "fas fa-angle-right"
       sliderL.appendChild(iconL);
