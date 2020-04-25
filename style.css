@@ -13,6 +13,13 @@
 }
 
 @font-face {
+  font-family: 'BasisGrotesque-Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/fonts/basis-grotesque-mono.otf');
+}
+
+@font-face {
   font-family: 'ArnoPro-BoldCaption';
   font-style: normal;
   font-weight: normal;
@@ -33,11 +40,32 @@ html, body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F8F6F3;
 }
 
 main {
   width: 97vw;
   float: right;
+}
+
+p {
+  font-family: "BasisGrotesquePro-Bold";
+}
+
+.italic {
+  font-family: "ArnoPro-Caption";
+  font-size: 3.375rem;
+}
+
+.headline {
+  text-align: center;
+  font-family: "BasisGrotesquePro-Bold";
+  width: 65%;
+  margin: auto;
+  font-size: 3.25rem;
+  line-height: 1;
+  margin: 2% auto 2% auto;
+  color: #71131B;
 }
 
 h3 {
@@ -79,15 +107,18 @@ h5 {
   font-size: 1.1875rem;
 }
 
-p, blockquote {
+p {
   font-family: "ArnoPro-Caption";
   font-size: 1.125rem;
-  color: #ffffff;
+  color: #333;
   line-height: 1.6rem;
 }
 
 blockquote {
-  border-left: 1px solid #fff;
+  font-family: "BasisGrotesque-Mono";
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  border-left: 1px solid #6E470C;
   margin: 10% 0 10% 8%;
   padding-left: 5%;
   width: 85%;
@@ -126,7 +157,7 @@ div::-webkit-scrollbar-track-piece
 .button {
   margin: 0% 2%;
   font-family: "ArnoPro-Caption";
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
   background-color: transparent;
   color: #ffffff;
   padding: 14px 20px 12px 20px;
@@ -137,19 +168,19 @@ div::-webkit-scrollbar-track-piece
 
 .explore-button {
   font-family: "ArnoPro-Caption";
-  border: 2px solid #ffffff;
+  border: 1px solid #71131B;
   background-color: transparent;
-  color: #ffffff;
+  color: #71131B;
   padding: 14px 20px 12px 20px;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.125rem;
   width: auto;
   margin-top: 5%;
 }
 
 button:hover{
-  background-color: #fff;
-  color: #000;
+  background-color: #71131B;
+  color: #fff;
 }
 
 div.survey-buttons .button:hover {
@@ -192,6 +223,8 @@ ul {
 }
 
 ul.nav {
+    font-family: "BasisGrotesquePro-Bold";
+    font-size: 0.875rem;
     width:100vh;
 }
 
@@ -212,9 +245,14 @@ ul.nav li a:hover {
     text-decoration: underline;
 }
 
+.active-nav {
+  font-family: "ArnoPro-BoldCaption";
+  font-size: 1rem;
+  text-decoration: underline;
+  background-color: inherit;
+}
+
 .nav-links {
-    font-family: "BasisGrotesquePro-Bold";
-    font-size: 0.875rem;
     text-decoration: none;
 }
 
@@ -242,16 +280,16 @@ ul.nav li a:hover {
   background-color: #12312B;
 }
 
-#survey-nav {
-  background-color: #133075;
+.survey-text {
+  color: #133075;
 }
 
 .survey {
   background-color: #133075;
 }
 
-#method-nav {
-  background-color: #0033A0;
+.method-text {
+  color: #0033A0;
 }
 
 .method {
@@ -274,8 +312,8 @@ ul.nav li a:hover {
 }
 
 .project-name {
-  color: #F5C532;
-  font-family: "ArnoPro-BoldCaption";
+  color: #222;
+  font-family: "ArnoPro-Caption";
   font-size: 1.5rem;
 }
 
@@ -294,12 +332,14 @@ ul.nav li a:hover {
 }
 
 #intro-text {
-  width: 85%;
-  margin: 2% 1%;
+  width: 92%;
+  margin: 2% 3%;
 }
 
 #intro-para {
-  font-size: 1.125rem;
+  font-family: "BasisGrotesque-Medium";
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .clusterNum {
@@ -318,6 +358,14 @@ ul.nav li a:hover {
   border-radius: 30px;
   margin-left: -15px;
   margin-top: -15px;
+}
+
+.leaflet-container .leaflet-control-attribution, .leaflet-container .leaflet-control-scale{
+  color: #71131B;
+}
+
+.leaflet-container a{
+  color: #71131B !important;
 }
 
 .leaflet-marker-icon.leaflet-div-icon.leaflet-zoom-animated.leaflet-interactive{
@@ -376,7 +424,7 @@ ul.nav li a:hover {
 #map {
   width: 95%;
   min-height: 75vh;
-  border: 2px solid #000;
+  border: 1px solid #71131B;
   position: relative;
 }
 
@@ -416,6 +464,9 @@ ul.nav li a:hover {
   margin-top: 2%;
 }
 
+.easy-button-button .button-state{
+  color: #71131B;
+}
 /* List of Schools */
 #popup {
   display: none;
@@ -449,9 +500,15 @@ ul.nav li a:hover {
   height: 65vh;
   overflow: scroll;
   font-family: "ArnoPro-Caption";
-  color: #fff;
+  color: #333;
   display: block;
   padding: 3% 5% 5% 5%;
+}
+
+#case-details hr {
+  border: unset;
+  border-bottom: 1px solid #71131B;
+  margin: 3% auto;
 }
 
 #popup-title {
@@ -472,14 +529,14 @@ ul.nav li a:hover {
   justify-content: space-between;
 }
 
-hr {
-  border: 1px solid #000;
-  margin: 3% auto;
-}
-
 #schools {
   display: block;
   height: 88vh;
+}
+
+
+#current-wrapper h4 {
+  color: #71131B;
 }
 
 #grid {
@@ -489,24 +546,25 @@ hr {
   overflow: scroll;
   height: 84.5vh;
   width: calc(100% + 0.5em);
+  color: #71131B;
 }
 
 .grid-item {
   position: relative;
-  border: 2px solid #000;
+  border: 1px solid #71131B;
   text-align: center;
 }
 
 .images:hover ~ .grid-label, .images:hover ~ .count{
-  background-color: #000;
+  background-color: #71131B;
   color: #fff;
-  border-color: #000;
+  border-color: #71131B;
 }
 
 .grid-label {
   background-color: #fff;
   border-top-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   z-index: 3;
   height: 3.5rem;
   font-size: 0.9375rem;
@@ -515,6 +573,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #333;
 }
 
 .grid-title {
@@ -524,6 +583,7 @@ hr {
 
 .grid-cases{
   font-family: "ArnoPro-Caption";
+  /* color: #333; */
 }
 
 #table-title {
@@ -556,10 +616,12 @@ hr {
   left: 0;
   width: calc(2.25rem - 2px);
   height: calc(2.25rem - 2px);
-  border-width: 2px;
+  border-width: 1px;
+  border-color: #71131B;
   border-right-style: solid;
   border-bottom-style: solid;
   background-color: #fff;
+  color: #333;
 }
 
 .slider-contianer {
@@ -575,7 +637,7 @@ hr {
 }
 
 .slider-button:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #71131B;
   color: #fff;
 }
 
@@ -599,22 +661,29 @@ hr {
 
 #close {
   font-family: "BasisGrotesquePro-Bold";
-  color: #fff;
+  color: #71131B;
   cursor: pointer;
 }
 
 #close:hover{
-  color: #000;
+  color: #333;
 }
 
 /* /// 2. About Title IX Page /// */
+div.img-container p{
+  color: #6E470C;
+}
+
+.about-text h3{
+  color: #6E470C;
+}
 #twitter-container {
   display: flex;
   align-items: center;
   height: 6vh;
   width: 97vw;
   right: 0;
-  border-top: 2px solid #111;
+  border-top: 1px solid #111;
   background-color: #111;
   position: fixed;
   bottom: 0;
@@ -645,7 +714,7 @@ hr {
 }
 
 div#tweets a:link{
-  font-family: "BasisGrotesque-Medium";
+  font-family: "BasisGrotesque-Mono";
   font-size: 0.8125rem;
   color: #fff;
 }
@@ -725,7 +794,7 @@ div#tweets a:visited{
 }
 #disclaimer2 {
   margin-top: 10%;
-  color: #fff;
+  color: #333;
   width: 90%;
   line-height: 1.5;
 }
@@ -735,10 +804,10 @@ div#tweets a:visited{
 }
 
 .accordion {
-  background-color: #12312B;
+  background-color: inherit;
   font-family: "BasisGrotesquePro-Bold";
   font-size: 1.1875rem;
-  color: #fff;
+  color: #12312B;
   cursor: pointer;
   padding: 5% 0%;
   width: 95%;
@@ -749,13 +818,13 @@ div#tweets a:visited{
 }
 
 .active, .accordion:hover {
-  background-color: #12312B;
+  background-color: inherit;
   color: #F5C532;
 }
 
 .accordion:after {
   content: '\002B';
-  color: #fff;
+  color: #F5C532;
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -766,12 +835,12 @@ div#tweets a:visited{
 }
 
 div.process-text h3{
-  color: #F5C532;
+  color: #12312B;
 }
 
 .process-text {
-  background-color: #12312B;
-  border-bottom: 2px solid #000;
+  background: none;
+  border-bottom: 1px solid #12312B;
   /* padding: 0 10% 0 4%; */
   padding-right: 8%;
   max-height: 0;
@@ -798,7 +867,7 @@ div.process-text h3{
 }
 
 #process-graph-container {
-  border-left: 2px solid #000;
+  border-left: 1px solid #12312B;
 }
 
 /* /// 4. Survey Page /// */
@@ -811,12 +880,18 @@ div.process-text h3{
 
 .highlight {
   font-family: "BasisGrotesquePro-Bold";
-  color: #F5C123;
+  color: #ED9C35;
   font-size: 1rem;
 }
 
 .text-content{
   width: 90%;
+}
+
+.text-content hr{
+  border: unset;
+  border-bottom: 1px solid #133075;
+  margin: 3% auto;
 }
 
 .stat-image{
@@ -836,8 +911,8 @@ div.process-text h3{
 }
 
 .footnote {
-  font-family: "BasisGrotesque-Medium";
-  font-size: 0.75rem;
+  font-family: "BasisGrotesque-Mono";
+  font-size: 0.625rem;
   line-height: 1rem;
 }
 
@@ -850,7 +925,7 @@ div.process-text h3{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #022C52;
+  background-color: #133075;
   text-align: center;
 }
 
@@ -868,7 +943,7 @@ div.process-text h3{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #022C52;
+  background-color: #133075;
   padding: 3%;
   height: 70vh;
 }
@@ -879,10 +954,10 @@ div.process-text h3{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #022C52;
+  background-color: #133075;
   padding: 4%;
   padding: 3% 5%;
-  border-bottom: 2px solid #000;
+  border-bottom: 1px solid #fff;
 }
 
 .last-question {
@@ -1024,7 +1099,7 @@ div.process-text h3{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-top: 2px solid #000;
+  border-top: 1px solid #0033A0;
 }
 
 .section2-para {
@@ -1033,8 +1108,8 @@ div.process-text h3{
 }
 
 #methods-3 {
-  border-top: 2px solid #000;
-  border-bottom: 2px solid #000;
+  border-top: 1px solid #0033A0;
+  border-bottom: 1px solid #0033A0;
   padding: 2% 0 2% 0%;
 }
 
@@ -1051,17 +1126,36 @@ div.method-3-content p{
   margin-bottom: 5%;
 }
 
-.hyperlink{
-  border-bottom: 1px dashed #fff;
+.all-methods .hyperlink {
+  border-bottom: 1px dashed #0033A0;
   text-decoration: none;
-  color: #fff;
+  color: #0033A0;
+}
+
+.all-methods .hyperlink:hover {
+  border-bottom: 1px dashed #F5C532;
+  text-decoration: none;
+  color: #F5C532;
+  cursor: grab;
+}
+
+.all-methods .hyperlink:visited {
+  border-bottom: 1px dashed #0033A0;
+  text-decoration: none;
+  color: #0033A0;
+}
+
+.hyperlink{
+  border-bottom: 1px dashed #ED9C35;
+  text-decoration: none;
+  color: #ED9C35;
 }
 
 .hyperlink:hover{
-  color: #000;
+  color: #ED9C35;
   border-bottom: 1px dashed #000;
 }
 
 .hyperlink:visited{
-  color: #fff;
+  color: #ED9C35;
 }

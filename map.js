@@ -16,7 +16,7 @@ var mymap = L.map('map', {zoomControl: false}).setView([int_lat, int_lng], zoom)
 // }).addTo(mymap)
 L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
 	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-	minZoom: 0,
+	minZoom: 3,
 	maxZoom: 18,
 	ext: 'png',
 }).addTo(mymap);
