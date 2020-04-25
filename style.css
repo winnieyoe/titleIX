@@ -276,10 +276,6 @@ ul.nav li a:hover {
   background-color: #6E470C;
 }
 
-#process-nav {
-  background-color: #12312B;
-}
-
 .process {
   background-color: #12312B;
 }
@@ -845,6 +841,12 @@ div.process-text h3{
   color: #12312B;
 }
 
+.thought-header{
+  color: #12312B;
+  font-family: "ArnoPro-Caption";
+  font-size: 1.125rem;
+}
+
 .process-text {
   background: none;
   border-bottom: 1px solid #12312B;
@@ -869,8 +871,13 @@ div.process-text h3{
 }
 
 #process-graph{
-  width: 90%;
-  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 0% 8% 10%;
+}
+
+#process-img {
+  width: 100%;
 }
 
 #process-graph-container {
