@@ -190,14 +190,19 @@ div::-webkit-scrollbar-track-piece
   margin-bottom: 4%;
 }
 
-button:hover{
+.explore-button:hover {
   background-color: #71131B;
   color: #fff;
 }
 
+button:hover{
+  background-color: #fff;
+  color: #121212;
+}
+
 div.survey-buttons .button:hover {
   background-color: #fff;
-  color: #000;
+  color: #121212;
 }
 
 .content {
@@ -360,7 +365,7 @@ ul.nav li a:hover {
   font-family: "ArnoPro-Caption" !important;
   font-size: 0.875rem !important;
   color: #fff;
-  background-color: #000;
+  background-color: #121212;
   width: 38px;
   height: 38px;
   border-radius: 30px;
@@ -646,7 +651,7 @@ ul.nav li a:hover {
   height:3rem;
   background-color: rgba(255, 255, 255, 0.7);
   border: none;
-  color: #000;
+  color: #121212;
 }
 
 .slider-button:hover {
@@ -1039,7 +1044,7 @@ div#process-graph .footnote{
 .selected {
   background-color: #F5C123;
   border-color: #F5C123;
-  color: #000;
+  color: #121212;
 }
 
 .input {
@@ -1204,7 +1209,7 @@ div.method-3-content p{
 
 .hyperlink:hover{
   color: #F5C532;
-  border-bottom: 1px dashed #000;
+  border-bottom: 1px dashed #121212;
 }
 
 .hyperlink:visited{
