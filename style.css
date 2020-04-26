@@ -120,7 +120,7 @@ h5 {
 p {
   font-family: "ArnoPro-Caption";
   font-size: 1.125rem;
-  color: #333;
+  color: #121212;
   line-height: 1.6rem;
 }
 
@@ -495,7 +495,7 @@ ul.nav li a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: #333;
+  color: #121212;
   margin-bottom: 5%;
   font-size: 1rem;
 }
@@ -513,7 +513,7 @@ ul.nav li a:hover {
   height: 65vh;
   overflow: scroll;
   font-family: "ArnoPro-Caption";
-  color: #333;
+  color: #121212;
   display: block;
   padding: 3% 5% 5% 5%;
 }
@@ -586,7 +586,7 @@ ul.nav li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #333;
+  color: #121212;
 }
 
 .grid-title {
@@ -596,7 +596,7 @@ ul.nav li a:hover {
 
 .grid-cases{
   font-family: "ArnoPro-Caption";
-  /* color: #333; */
+  /* color: #121212; */
 }
 
 #table-title {
@@ -634,7 +634,7 @@ ul.nav li a:hover {
   border-right-style: solid;
   border-bottom-style: solid;
   background-color: #fff;
-  color: #333;
+  color: #121212;
 }
 
 .slider-contianer {
@@ -680,7 +680,7 @@ ul.nav li a:hover {
 }
 
 #close:hover{
-  color: #333;
+  color: #121212;
 }
 
 /* /// 2. About Title IX Page /// */
@@ -806,7 +806,7 @@ div#tweets a:visited{
 }
 #disclaimer2 {
   margin-top: 10%;
-  color: #333;
+  color: #121212;
   width: 90%;
   line-height: 1.5;
 }
@@ -872,7 +872,7 @@ div#process-graph .footnote{
 }
 
 .process-wrapper {
-  fill: #333;
+  fill: #121212;
 }
 
 .ocr {
@@ -882,7 +882,7 @@ div#process-graph .footnote{
 .process-text li{
   font-family: "ArnoPro-Caption";
   font-size: 1.125rem;
-  color: #333;
+  color: #121212;
   margin-bottom: 3%;
 }
 
