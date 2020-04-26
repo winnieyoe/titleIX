@@ -1103,20 +1103,22 @@ div#process-graph .footnote{
 }
 
 .ans3 {
-  font-family: "BasisGrotesque-Medium";
-  font-size: 1rem;
+  font-family: "BasisGrotesque-Mono";
+  font-size: 0.8rem;
   line-height: 1.5;
   color: #fff;
+  text-align: left;
+  border-bottom: 5%;
 }
 
 #q3-results {
   display: flex;
   flex-direction: column;
   width: 65vw;
-  height: 20vh;
-  background-color: rgba(255, 255, 255, 0.1);
+  /* height: 20vh; */
+  /* background-color: rgba(255, 255, 255, 0.1); */
   padding: 2% 0 2% 0;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 /* Display & Hide Survey */

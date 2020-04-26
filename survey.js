@@ -187,7 +187,7 @@ function gotData(data) {
 
   q2YesRect.style.width = map_range(q2Yes, 0, firebaseCount, 0, maxWidth) + "px";
   document.getElementById("yes-2L").innerHTML = "Yes: " + "<br>" + percent(q2Yes/firebaseCount) + "%"
-  q2YesRect.style.width = map_range(q2Neutral, 0, firebaseCount, 0, maxWidth) + "px";
+  q2NeutralRect.style.width = map_range(q2Neutral, 0, firebaseCount, 0, maxWidth) + "px";
   document.getElementById("ok-2L").innerHTML = "Neutral: " + "<br>" + percent(q2Neutral/firebaseCount) + "%"
   q2NoRect.style.width = map_range(q2No, 0, firebaseCount, 0, maxWidth)+ "px";
   document.getElementById("no-2L").innerHTML = "No: " + "<br>" + percent(q2No/firebaseCount) + "%"
