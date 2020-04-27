@@ -4,7 +4,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" charset="utf-8"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery.marquee@1.5.0/jquery.marquee.min.js" type="text/javascript"></script>
 
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Spectral:400,800&display=swap" rel="stylesheet">
@@ -20,21 +19,21 @@
   <body>
     <header>
       <nav class="main-nav">
-          <ul class="nav" id="about-nav">
-            <li class="about">
-              <a href="current.html" class="nav-links">Current Data</a>
+          <ul class="nav">
+            <li class="method">
+              <a href="current.html" class="nav-links">Open Cases</a>
             </li>
-            <li class="about-nav active-nav">
-              <a href="about.html" class="nav-links">About Title IX</a>
+            <li class="method">
+              <a href="history.html" class="nav-links">History</a>
             </li>
-            <li class="about">
-              <a href="process.html" class="nav-links">Process</a>
+            <li class="method">
+              <a href="process.html" class="nav-links">Filing Process</a>
             </li>
-            <li class="about">
-              <a href="survey.html" class="nav-links">Survey</a>
+            <li class="method">
+              <a href="survey.html" class="nav-links">Lived Experiences</a>
             </li>
-            <li class="about">
-              <a href="methods.html" class="nav-links">Methodology</a>
+            <li class="method active-nav">
+              <a href="about.html" class="nav-links">About</a>
             </li>
           </ul>
       </nav>
@@ -44,109 +43,88 @@
       <a href="index.html" class="nav-links project-name">2020 Top US Colleges<span id="project-sub">&nbsp;By Open Title IX Investigations</span></a>
     </div>
 
-    <main class="">
-      <div class="content" id="container">
-        <div class="row" id="image-wrapper">
-          <div class="img-container">
-            <img class="img" src="assets/images/context/context1.jpg"></img>
-            <p class="footnote">“Title IX” of the Education Amendments of 1972, June 23, 1972. <i>Records of the United States Government, National Archives and Records Administration</i></p>
+    <main class="all-methods">
+      <div class="column-content">
+        <div class="section" id="methods-1">
+          <h3 class="method-text">Methods</h3>
+          <p>This website is created as part of my (Winnie Yoe's) thesis at New York University’s Interactive Telecommunications Program
+            to explore the use of creative medium and technology to build resilience and communities, especially in times
+            when conventional means of protest is not feasible or when traditional ideas of social justice could not heal.
+          </p>
+          <p>
+            I have been interested in ways I can take apart complex systems and situations through building and working with
+            datasets, and reinterpreting the information within in order to create new frames of reference. View more
+            of my work <a class="hyperlink" href="https://www.winnieyoe.com" target="_blank">here</a>.
+          </p>
+        </div>
+
+        <div class="section2">
+          <div class="section2-para">
+            <h5 class="method-text">Data-Collection & Web Scraping</h5>
+            <p>I first gathered the data on current open Title IX investigation from Office of Civil Rights’ “Pending Cases Currently
+              Under Investigation at Elementary-Secondary and Post-Secondary Schools” as of March 17, 2020 Search. <a class="hyperlink" href="https://www2.ed.gov/about/offices/list/ocr/docs/investigations/open-investigations/tix.html" target="_blank">The data</a> contains
+              the institution name, State, institution type (element-secondary or post-secondary), and open investigation date.
+            </p>
+            <p>
+              I wrote Javascript and Python scripts using Puppeteer.js and Selenium to scrape data related to the institution’s tuition,
+              institution type (private vs public), and physical coordinates, as well as Google Search images using the search terms
+              “<i>Instuitution Name</i> + students”. After processing and cleaning the data, I visualized it using <i>DataTables</i> and <i>Leaflet.js</i>.
+            </p>
+
+            <h5 class="method-text">Explore the Data</h5>
+            <p>Feel free to <a class="hyperlink" href="assets/allData.json" target="_blank">download</a> the data, in JSON format, that I compiled for this project.
           </div>
 
-          <div class="img-container">
-            <img class="img" src="assets/images/context/context3.jpg"></img>
-            <p class="footnote">"A Title IX Primer." Women's Sports Foundation. N.p., n.d. Web. 21 May 2013.</p>
-          </div>
-
-          <div class="img-container">
-            <img class="img" src="assets/images/context/context2.jpg"></img>
-            <p class="footnote">The June 26, 1978, cover of TIME. Cover Credit: Neil Leifer</p>
-          </div>
-
-          <div class="img-container">
-            <img class="img" src="assets/images/context/context4.jpg"></img>
-            <p class="footnote"></i>
-              Office for Civil Rights, U.S. Department of Education. Office of the Assistant Secretary, April 4, 2011.</p>
-          </div>
-
-          <div class="img-container">
-            <img class="img" src="assets/images/context/context5.jpg"></img>
-            <p class="footnote">Protesters gathered outside the site of Ms. Devos’s address at George Mason University in Arlington, Va.
-              Jacquelyn Martin/Associated Press</p>
+          <div class="section2-para">
+            <h5 class="method-text">Research & Interviews</h5>
+            <p>Much of my understanding on the subject comes from my personal experience filing a Title IX complaint both at my institution
+              and at the Department of Education. I revisited the reserach I did during that time, and also Kirby Dick’s documentary
+              <a class="hyperlink" href="https://www.youtube.com/watch?v=GBNHGi36nlM" target="_blank"><i>The Hunting Ground</i></a>, which examines sexual assault on college campuses in the United States and the reported
+              failure of college administrations to deal with it adequately.
+            </p>
+            <p>
+              I had also interviewed several others who have filed Title IX complaints regarding their experience, as well as consult them
+              on the design and implementation of this project.
+            </p>
           </div>
         </div>
 
-        <div class="row" id="about-text-container">
-          <div class="about-text">
-            <h3>I. Brief History of Title IX</h3>
-            <p>Title IX of the Education Amendment of 1972 (20 U.S.C. §1681 <i>et seq</i>.) was passed by the U.S. Congress
-               on June 23, 1972. The federal civil rights law prohibits discrimination on the basiss of sex by any
-               federally funded education programs or activities. This applies to most schools, covering approximately
-               16,500 local school districts, 7,000 postsecondary institutions, as well as charter schools, for-profit schools,
-               libraries, and museums.
-             </p>
-            <blockquote>“No person in the United States shall, on the basis of sex, be excluded from participation in,
-              be denied the benefits of, or be subject to discrimination under any education program or activity receiving
-              Federal financial assistance.” <br>—Title IX, Education Amendments of 1972
-            </blockquote>
-
-            <p>Schools are required to disseminate a notice of nondiscrimination, have a Title IX Coordinator, publish
-              a grievance procedure outlining the complaint, investigation, and disciplinary process for addressing
-              Title IX violations, and respond promptly to reports. </p>
-          </div>
-
-          <div class="about-text">
-            <h3>II. From Athletics to Sexual Assault and Sexual Harassment</h3>
-            <p>When Title IX was first added to the 1972 education reform bill, it was generally thought to affect hiring
-              and employment practices at federally funded schools. The real intent of Title IX was to ensure equal access and
-              opportunities for women in all facets of education. At that time, many universities either did not accept women
-              or imposed a quota to limit female enrollment. There was also a huge barrier to participation for female athletes
-              given little and uneven support from college athletic programs.
+        <div class="section" id="methods-3">
+          <div class="method-3-content">
+            <h5 class="method-text">Bibliography</h5>
+            <p>Dick, Kirby, Amy Ziering, Amy Herdy, Regina K. Scully, Paul Blavin, Thaddeus Wadleigh, Aaron Kopp, Doug Blush,
+              Derek Boonstra, Kim Roberts, and Miriam Cutler. <i>The Hunting Ground.</i> , 2015. Internet resource.
+            </p>
+            <p><i>Title IX: Tracking Sexual Assault Investigations.</i> The Chronicle of Higher Education.
+              <a class="hyperlink" href="https://projects.chronicle.com/titleix/" target="_blank"> https://www.projects.chronicle.com/titleix.</a>
+            </p>
+            <p><i>Know Your Title IX.</i> Advocates for Youth.
+              <a class="hyperlink" href="https://www.knowyourix.org/" target="_blank">https://www.knowyourix.org.</a>
+            </p>
+            <p>Cantor, David G. et al. <i>Report on the AAU Campus Climate Survey on Sexual Assault and Sexual Misconduct.</i> 2015.</p>
+            <p>Cantor, David G. et al. <i>Report on the AAU Campus Climate Survey on Sexual Assault and Sexual Misconduct.</i> 2019.</p>
+            <p>Simpson, Jake. <i>How Title IX Sneakily Revolutionized Women's Sports.</i> The Atlantic, 23 June 2017,
+              <a class="hyperlink" href="https://www.theatlantic.com/entertainment/archive/2012/06/how-title-ix-sneakily-revolutionized-womens-sports/258708/" target="_blank">www.theatlantic.com/entertainment/archive/2012/06/how-title-ix-sneakily-revolutionized-womens-sports/258708/</a>.</p>
+            <p>Russlynn Ali, Assistant Secretary for Civil Rights. <i>Dear Colleague Letter from Assistant Secretary for Civil Rights,</i> Office for Civil Rights, U.S. Department of Education. Office of the Assistant Secretary, April 4, 2011.
+              <a class="hyperlink" href="http://www2.ed.gov/about/offices/list/ocr/letters/colleague-201104.pdf" target="_blank">http://www2.ed.gov/about/offices/list/ocr/letters/colleague-201104.pdf</a>.
             </p>
 
-            <p>While Title IX is most frequently associated with its impact on intercollegiate sports, its coverage and
-              application has expanded over the last four decades. Alexander v. Yale, 631 F. 2d 178 (2d Cir. 1980) was the first
-              Title IX case to argue and subsequently established that sexual harassment is a form of sex discimination. In 1981,
-              the OCR explicitly added sexual harassment to Title IX prohibitions and 16 years later in 1997, the OCR distributed
-              its first guidance document to schools outlining Title IX compliance requirements around the issue.
-              The use of Title IX in addressing campus sexual assault and misconduct cases has become particularly significant
-              in recent years.
-            </p>
-          </div>
-
-          <div class="about-text">
-            <h3>III. "Dear Colleague" Letter</h3>
-            <p>On April 4, 2011, the Department of Education’s Office of Civil Rights (OCR) issued a "Dear Colleague" letter to
-              over 7,000 schools outlining the requirements a school needs to take to address campus sexual harassment, including
-              seuxal violence. The OCR also warned schools they could lose their federal funding if they did not take further
-              measures to to prevent sexual violence.
-            </p>
-            <p>In 2014, the DOE released a list of schools under investigation for possible violation of federal law related to
-              the handling of sexual violence and harassment complaints, naming 55 colleges and universities. There are currently
-              over 300 colleges and universities on the list (as of March, 2020).
-            </p>
-          </div>
-
-          <div class="about-text">
-            <h3>IV. Title IX Under Trump and DeVos</h3>
-            <p>The “Dear Colleague” letter was withdrawn in 2017 by current Secretary of Education Betsy DeVos. In February 2020,
-              DeVos introduced new guidelines on the regulation of Title IX, rolling back many of the strict interpretations from
-              the Obama administration. Many advocates of sexual assault survivors took issue with requirements that college administrators
-              hold live hearing to make a decision in a case and that parties or their representative can cross-examine each other.
-            </p>
-            <p>On March 27, 2020, 18 attorneys general urged DeVos to suspend the release of new Title IX regulations
-              during the COVID-19 pandemic as school resources and capacity to implement new policies are limited at this time.
-            </p>
             <br>
+            <h5 class="method-text">References</h5>
+            <p>Molnar, Luca. <a class="hyperlink" href="http://www.lucamolnarart.com/2020/1/15/6b9hnl4likfbbyhtorazfuqguu317d" target="_blank"><i>Clinic.</i></a> Digital video, 5:39 in length, 2019</p>
+            <p>LaRochelle, Lucas. <a class="hyperlink" href="https://www.queeringthemap.com/" target="_blank"><i>Queering the Map.</i></a> 2017-Present</p>
           </div>
         </div>
+
+        <div class="section" id="methods-4">
+          <h5 class="method-text">Credits</h5>
+          <p>This project would not be possible without the generous help and advice from Mimi Onuoha, Clay Shirky, Marina Zurkow,
+            Genevieve Hoffman, David Rios, Sejo Vega-Cebrián, Sukanya Aneja, Mark Lam, Vince Shao, Jaekook Han, Emily Lin,
+            Hayk Mikayelyan, and Louis Wheatley.
+          </p>
+        </div>
       </div>
-      <div id="twitter-container">
-          <div id="latest-tweets">
-            <h4>Latest #TitleIX</h4>
-          </div>
-          <div class="marquee" id="tweets"></div>
-      </div>
+
     </main>
   </body>
 </html>
-<script src="about.js"></script>

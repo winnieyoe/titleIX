@@ -23,19 +23,19 @@
     <nav class="main-nav">
       <ul class="nav">
         <li class="survey">
-          <a href="current.html" class="nav-links">Current Data</a>
+          <a href="current.html" class="nav-links">Open Cases</a>
         </li>
         <li class="survey">
-          <a href="about.html" class="nav-links">About Title IX</a>
+          <a href="history.html" class="nav-links">History</a>
         </li>
         <li class="survey">
-          <a href="process.html" class="nav-links">Process</a>
+          <a href="process.html" class="nav-links">Filing Process</a>
         </li>
         <li class="survey active-nav">
-          <a href="survey.html" class="nav-links">Survey</a>
+          <a href="survey.html" class="nav-links">Lived Experiences</a>
         </li>
         <li class="survey">
-          <a href="methods.html" class="nav-links">Methodology</a>
+          <a href="about.html" class="nav-links">About</a>
         </li>
       </ul>
     </nav>
@@ -67,20 +67,32 @@
 
       <div class="row2" id="survey-box">
         <div class="question-content">
-          <h4 class="yellow">Missing Data*</h4>
-          <p class="question-text">Have you encountered sexual harassment, sexual assault, or any other sex-based discrimination that falls under Title IX while on college campus in the US?</p>
-
-          <div class="survey-buttons">
-            <button class="button q0-button" id="q0-next">Yes</button>
-            <button class="button q0-button" id="q0-end">No</button>
+          <h3 class="survey-text">Lived Experiences</h3>
+          <div class="quotes">
+            <div>"It was a really stressful and confusing experience. While administrators at my institution knew about my situation,
+              I had to find out on my own that what I experienced falls under Title IX."</div><br>
+            <div>"I eventually filed a case with the Department of Education, they decided to investigate but the case has been on-going for 5 years."</div>
           </div>
-          <br><br>
-          <h4>*Your response is completely annonymous</h4>
+          <h4>Above are responses gathered from an anonymous Title IX survey. Feel free to add to the dataset:</h4>
+          <div class="survey-buttons">
+            <button class="button preQ-button" id="preQ">Share My Experience</button>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="survey-wrapper" id="all-questions">
+      <div class="question-wrapper" id="q0-container">
+        <div class="question">
+          <h4>Question 0</h4>
+          <p class="question-text">Have you encountered sex-based discrimination that falls under Title IX while on college campus in the US?</span></p>
+        </div>
+        <div class="survey-buttons">
+          <button class="button q0-button" id="q0-next">Yes</button>
+          <button class="button q0-button" id="q0-lastQ">No</button>
+        </div>
+      </div>
+
       <div class="question-wrapper" id="q1-container">
         <div class="question">
           <h4>Question 1</h4>

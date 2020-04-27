@@ -21,6 +21,7 @@ var userData = {
 };
 
 /// Survey Questions
+let begin;
 let ans0;
 let ans1;
 let ans2;
@@ -50,15 +51,21 @@ $('.q2-button').click(function() {
   console.log("2", ans)
 });
 
+$("#preQ").click(function(){
+  $("#survey-intro").hide();
+  $("#all-questions").css('display', 'flex');
+  $("#q0-container").css('display', 'flex');
+})
+
 /// Survey Hide and show
 $("#q0-next").click(function(){
-  $("#survey-intro").hide();
+  $("#q0-container").hide();
   $("#all-questions").css('display', 'flex');
   $("#q1-container").css('display', 'flex');
 })
 
-$("#q0-end").click(function(){
-  $("#survey-intro").hide();
+$("#q0-lastQ").click(function(){
+  $("#q0-container").hide();
   $("#visualize").css('display', 'flex');
   $("#all-questions").css('height', '0');
 
@@ -196,7 +203,11 @@ function gotData(data) {
   q3Results = document.getElementById("q3-results");
   let ansList = ""
   for (let i=0; i<ans3.length; i++){
-    ansList += "<div class='ans3'>" + ans3[i] + "</div>"
+    let ele = "<div class='ans3'>" + '"' + ans3[i] + '"' + "</div>" + "<br>";
+    if (ans3[i] != ""){
+      ansList += ele
+    }
+
   }
   q3Results.innerHTML = ansList;
 }

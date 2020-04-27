@@ -89,6 +89,7 @@ h4 {
   font-family: "BasisGrotesquePro-Bold";
   color: #fff;
   font-size: 0.875rem;
+  line-height: 1.5;
 }
 
 .section-title {
@@ -109,6 +110,8 @@ div.question-wrapper-underline h4 {
 
 div.question-content h4 {
   color: #F5C123;
+  margin: 40% 10% 5% 10%;
+  text-align: center;
 }
 
 h5 {
@@ -353,6 +356,22 @@ ul.nav li a:hover {
   font-family: "BasisGrotesque-Medium";
   font-size: 1rem;
   line-height: 1.5;
+}
+
+.current-data-intro {
+  display: flex;
+  margin: 0% 8% 2% 8%;
+}
+
+#current-intro {
+  margin-top: 0;
+}
+
+.current-link {
+  font-weight: normal;
+  color: #71131B;
+  border-bottom: 1px dashed #0033A0;
+  text-decoration: none;
 }
 
 .clusterNum {
@@ -939,6 +958,8 @@ div#process-graph .footnote{
 
 .text-content{
   width: 90%;
+  padding-right: 10%;
+  border-right: 1px solid #133075;
 }
 
 .text-content hr{
@@ -975,20 +996,44 @@ div#process-graph .footnote{
   height: 85vh;
 }
 
+#survey-text {
+  color: #fff;
+}
+
 #survey-box {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #133075;
-  text-align: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background: #133075;
+  /* text-align: center; */
 }
 
 .row2{
   flex: 1;
 }
 
-.question-content{
-  width:80%;
+.quotes{
+  /* display: grid;
+  grid-template-columns: repeat(6, 1fr); */
+  font-family: "BasisGrotesque-Mono";
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  grid-gap: 2rem;
+  color: #fff;
+  width: 80%;
+  margin: auto;
+}
+
+/* .question-content div:nth-child(1) {
+   grid-column: 1/6;
+}
+
+.question-content div:nth-child(2) {
+   grid-column: 3/8;
+} */
+
+#preQ{
+  width: 200px;
 }
 
 .question-wrapper {
