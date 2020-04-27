@@ -230,7 +230,7 @@ function makeRows(rows, cols) {
     });
 
     /// Create popup of school name on hover, if want popups to be shown on click, add .bindPopup after let marker...
-    marker.bindPopup(geojson[k].properties.name)
+    marker.bindPopup(geojson[k].properties.name + "<br>" + "Cases: " + geojson[k].properties.incidents.length)
     marker.on("mouseover", function() {
       this.openPopup();
     });

@@ -489,6 +489,7 @@ ul.nav li a:hover {
 
 .leaflet-popup-content {
   margin: 15px 20px 10px 20px !important;
+  text-align: center !important;
 }
 
 .leaflet-tooltip-pane .text {
