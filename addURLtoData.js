@@ -4,7 +4,7 @@ let allData;
 let mergedlinks;
 
 function preload(){
-  table = loadTable("assets/urls.csv", "csv", "header");
+  table = loadTable("assets/urls2.csv", "csv", "header");
   allData = loadJSON("assets/allData.json");
 }
 

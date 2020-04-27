@@ -7,7 +7,7 @@ let geojson = {
 
 function preload(){
   data = loadJSON("assets/coordinates.json")
-  schools = loadJSON("assets/allData_URLs.json")
+  schools = loadJSON("assets/allData_URLs_noOnePerson.json")
 }
 
 function setup(){

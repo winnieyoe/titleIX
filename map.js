@@ -45,7 +45,7 @@ var slideIndex = [];
 var slideId = [];
 
 function preload() {
-  geojson = loadJSON("assets/titleIX_L.geojson")
+  geojson = loadJSON("assets/titleIX_noOnePerson.geojson")
 }
 
 function setup() {
