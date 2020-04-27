@@ -370,8 +370,13 @@ ul.nav li a:hover {
 .current-link {
   font-weight: normal;
   color: #71131B;
-  border-bottom: 1px dashed #0033A0;
+  border-bottom: 1px dashed #71131B;
   text-decoration: none;
+}
+
+.current-link:hover {
+  color: #121212;
+  border-bottom: 1px dashed #121212;
 }
 
 .clusterNum {
