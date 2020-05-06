@@ -1272,3 +1272,28 @@ div.method-3-content p{
 .hyperlink:visited{
   color: #E0AF00;
 }
+
+.responsive {
+  display: none;
+}
+
+/* Media queries */
+@media (max-width: 1024px) {
+  body {
+  background-color: #F8F6F3;
+  }
+
+  main, nav, #name-wrapper {
+    display: none;
+  }
+
+  .responsive {
+    font-family: "ArnoPro-Caption";
+    font-size: 1.125rem;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+}
