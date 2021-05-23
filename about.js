@@ -110,3 +110,33 @@ TweetJs.Search("TitleIX", gotTweets, gotError);
     	duplicated: false
     });
   }
+
+//Load Background
+let scrollpos = window.scrollY + window.innerHeight * 4/5;
+
+let imgContainers = document.querySelectorAll(".img-container");
+for (let imgContainer of imgContainers){
+    imgContainer.style.backgroundColor = "#F8F6F3";
+    fadeInImage(imgContainer);
+}
+
+// Scroll to load image containers
+function fadeInImage(element){
+    if (scrollpos >= element.offsetTop) { 
+      element.classList.add("fade-in");
+      setTimeout(function(){
+        element.style.display = "inline";
+      },500)
+    }
+    else { 
+      element.classList.remove("fade-in");
+      element.style.display = "inline-block";
+    }
+}
+
+window.addEventListener('scroll', function() { 
+    scrollpos = window.scrollY + window.innerHeight * 4/5;
+    for (let imgContainer of imgContainers){
+        fadeInImage(imgContainer);
+    }
+})

@@ -793,8 +793,25 @@ div#tweets a:visited{
   text-align: center;
 }
 
-.img {
+.img-container {
+  position: relative;
+    width: 100%;
+    border:1px solid var(--green);
+    display:inline-block;
+}
+
+.img-container > img {
+  display:block;
   width:100%;
+  height:auto;
+  border:0px;
+  opacity:0;
+  transition:opacity 400ms;
+  transition-delay:300ms;
+}
+
+.img-container.fade-in > img {
+      opacity:1;
 }
 
 #image-wrapper {
