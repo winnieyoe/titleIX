@@ -807,7 +807,7 @@ div#tweets a:visited{
   border:0px;
   opacity:0;
   transition:opacity 400ms;
-  transition-delay:300ms;
+  transition-delay: 400ms;
 }
 
 .img-container.fade-in > img {
